@@ -1,5 +1,12 @@
 var NAVTREEINDEX3 =
 {
+"classalpaka_1_1core_1_1detail_1_1ITaskPkg.html#afba4bb23cab652a79d1b0f4e2120cd29":[2,0,0,4,1,8,2],
+"classalpaka_1_1core_1_1detail_1_1ScopeLogStdOut.html":[2,0,0,4,1,11],
+"classalpaka_1_1core_1_1detail_1_1ScopeLogStdOut.html#a4a56bfe414a77d0f840f6da1c49736f1":[2,0,0,4,1,11,2],
+"classalpaka_1_1core_1_1detail_1_1ScopeLogStdOut.html#a4d0ef25dcb48661ecfe10ed5ac695b3d":[2,0,0,4,1,11,3],
+"classalpaka_1_1core_1_1detail_1_1ScopeLogStdOut.html#a687282bd2177434d00f10aa71a4b4b36":[2,0,0,4,1,11,0],
+"classalpaka_1_1core_1_1detail_1_1ScopeLogStdOut.html#ac22379fd59ece45d58ea828bcd0a7fd1":[2,0,0,4,1,11,1],
+"classalpaka_1_1core_1_1detail_1_1ScopeLogStdOut.html#ae317369900766b2040f364de73c79876":[2,0,0,4,1,11,5],
 "classalpaka_1_1core_1_1detail_1_1ScopeLogStdOut.html#af73a98c4321d12f7725057965b10595b":[2,0,0,4,1,11,4],
 "classalpaka_1_1core_1_1detail_1_1TaskPkg.html":[2,0,0,4,1,12],
 "classalpaka_1_1core_1_1detail_1_1TaskPkg.html#a22efad2f8874363c677afb159a462948":[2,0,0,4,1,12,2],
@@ -242,12 +249,5 @@ var NAVTREEINDEX3 =
 "classalpaka_1_1math_1_1AtanStdLib.html":[2,0,0,15,9],
 "classalpaka_1_1math_1_1AtanUniformCudaHipBuiltIn.html":[2,0,0,15,10],
 "classalpaka_1_1math_1_1CbrtStdLib.html":[2,0,0,15,11],
-"classalpaka_1_1math_1_1CbrtUniformCudaHipBuiltIn.html":[2,0,0,15,12],
-"classalpaka_1_1math_1_1CeilStdLib.html":[2,0,0,15,13],
-"classalpaka_1_1math_1_1CeilUniformCudaHipBuiltIn.html":[2,0,0,15,14],
-"classalpaka_1_1math_1_1CosStdLib.html":[2,0,0,15,39],
-"classalpaka_1_1math_1_1CosUniformCudaHipBuiltIn.html":[2,0,0,15,40],
-"classalpaka_1_1math_1_1ErfStdLib.html":[2,0,0,15,41],
-"classalpaka_1_1math_1_1ErfUniformCudaHipBuiltIn.html":[2,0,0,15,42],
-"classalpaka_1_1math_1_1ExpStdLib.html":[2,0,0,15,43]
+"classalpaka_1_1math_1_1CbrtUniformCudaHipBuiltIn.html":[2,0,0,15,12]
 };
