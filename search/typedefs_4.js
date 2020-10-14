@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['elem',['Elem',['../structalpaka_1_1mem_1_1view_1_1cpu_1_1detail_1_1TaskCopyCpuBase.html#a827d773e7cd915bc17d90ccd9d3fce64',1,'alpaka::mem::view::cpu::detail::TaskCopyCpuBase::Elem()'],['../structalpaka_1_1mem_1_1view_1_1cpu_1_1detail_1_1TaskSetCpuBase.html#a8fdf102045bb0f4f3f32dd9f07190715',1,'alpaka::mem::view::cpu::detail::TaskSetCpuBase::Elem()'],['../namespacealpaka_1_1elem.html#a31b9eadbbf14a8f6da872f86218d070c',1,'alpaka::elem::Elem()']]],
+  ['elem',['Elem',['../structalpaka_1_1view_1_1detail_1_1TaskCopyCpuBase.html#aa7686abf8f0f949497183ce20c927b1e',1,'alpaka::view::detail::TaskCopyCpuBase::Elem()'],['../structalpaka_1_1view_1_1detail_1_1TaskSetCpuBase.html#a1693972088f6fb1ca4865fc72f94ee96',1,'alpaka::view::detail::TaskSetCpuBase::Elem()'],['../namespacealpaka.html#a1200cc5ec96e913adbd9832ed1bb9bf5',1,'alpaka::Elem()']]],
   ['error_5ft',['Error_t',['../namespacealpaka_1_1uniform__cuda__hip_1_1detail.html#a48180eda98f53c8391a17fa921d7b958',1,'alpaka::uniform_cuda_hip::detail']]],
-  ['event',['Event',['../namespacealpaka_1_1event.html#aa0db5bee69769f7c451b4b67f0bcedfa',1,'alpaka::event']]],
-  ['eventcpu',['EventCpu',['../namespacealpaka_1_1event.html#a82f93d50161ef13cbc5edc639a5848a7',1,'alpaka::event']]],
-  ['eventomp5',['EventOmp5',['../namespacealpaka_1_1event.html#a7aa7660182b5ed63a3bf3b6a6ddb50e8',1,'alpaka::event']]],
-  ['exampledefaultacc',['ExampleDefaultAcc',['../namespacealpaka_1_1example.html#a92ecdc3d61d421ba25420c4644be7c21',1,'alpaka::example']]],
-  ['extentsize',['ExtentSize',['../structalpaka_1_1mem_1_1view_1_1cpu_1_1detail_1_1TaskCopyCpuBase.html#afe755b487436ee3fdf7972c0c0c3dfbd',1,'alpaka::mem::view::cpu::detail::TaskCopyCpuBase::ExtentSize()'],['../structalpaka_1_1mem_1_1view_1_1cpu_1_1detail_1_1TaskSetCpuBase.html#a1bdbb79e1ec46f5ca27974096d2db18e',1,'alpaka::mem::view::cpu::detail::TaskSetCpuBase::ExtentSize()']]]
+  ['event',['Event',['../namespacealpaka.html#a65ba1bf072d0c072d49ad5597a4d2c24',1,'alpaka']]],
+  ['eventcpu',['EventCpu',['../namespacealpaka.html#acc8723b925f6ddf8b27631b71a7c22c6',1,'alpaka']]],
+  ['eventomp5',['EventOmp5',['../namespacealpaka.html#a0173206e98595f605bffe9a6198da754',1,'alpaka']]],
+  ['exampledefaultacc',['ExampleDefaultAcc',['../namespacealpaka.html#a523f99728e8595fab50c09883a2f13b1',1,'alpaka']]],
+  ['extentsize',['ExtentSize',['../structalpaka_1_1view_1_1detail_1_1TaskCopyCpuBase.html#a29f4794692b9cf59569176dc7716ee2b',1,'alpaka::view::detail::TaskCopyCpuBase::ExtentSize()'],['../structalpaka_1_1view_1_1detail_1_1TaskSetCpuBase.html#a11b10d789b746c0fd0c5c682cdc99b3a',1,'alpaka::view::detail::TaskSetCpuBase::ExtentSize()']]]
 ];
