@@ -41,7 +41,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Typedefs", "functions_type.html", "functions_type" ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
@@ -63,22 +63,22 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"ErfStdLib_8hpp.html",
-"SysInfo_8hpp.html#a46231469ec522b61a9df6f64f476cff5",
-"classalpaka_1_1AccGpuUniformCudaHipRt.html#a8232d0c6f9a7e75bbf1759d7a1e8cd0b",
-"classalpaka_1_1MemFenceOmp5.html#ab7a594ada0d2df6a2f8125931daa31db",
-"classalpaka_1_1bt_1_1IdxBtUniformCudaHipBuiltIn.html#a7be0064bd1ed105292078a4efce0d3eb",
-"classalpaka_1_1rand_1_1distribution_1_1cpu_1_1NormalReal.html#a5cdf128e21c2fde9f8e85c3268646656",
-"elem_2Traits_8hpp_source.html",
-"namespacealpaka_1_1core_1_1threads.html",
-"structalpaka_1_1core_1_1AlignedDelete.html#afe12d3079d65fb40ccc2f7664dd7cf91",
-"structalpaka_1_1math_1_1ConceptMathAbs.html",
-"structalpaka_1_1meta_1_1IntegralValuesInRange_3_01T_00_01Tmin_00_01Tmax_01_4.html#a8e63c09e55aab5be62d36127cbbaa1d5",
-"structalpaka_1_1traits_1_1AtomicOp_3_01AtomicAnd_00_01AtomicUniformCudaHipBuiltIn_00_01unsigned_585a7935052c3a8f8585c77568bea48f.html",
-"structalpaka_1_1traits_1_1DevType_3_01TDev_00_01typename_01std_1_1enable__if_3_01concepts_1_1Imp0c6b7dccfd8ed64b419ae05d2cb4cc6d.html",
-"structalpaka_1_1traits_1_1FreeSharedVars_3_01BlockSharedMemStUniformCudaHipBuiltIn_01_4.html",
-"structalpaka_1_1traits_1_1IdxType_3_01AccCpuOmp2Threads_3_01TDim_00_01TIdx_01_4_01_4.html",
-"structalpaka_1_1traits_1_1SyncBlockThreads_3_01BlockSyncUniformCudaHipBuiltIn_01_4.html"
+"DevOmp5_8hpp.html#abbef4249dfcd6989eff6088e26bb911f",
+"QueueUniformCudaHipRtBase_8hpp.html",
+"atomic_2Traits_8hpp.html",
+"classalpaka_1_1WorkDivMembers.html#aa3e64e490520aa521d8714c5b64c84f8",
+"classalpaka_1_1rand_1_1distribution_1_1cpu_1_1UniformReal.html#add408af7a1c2be773ab255d9fbab430f",
+"dir_8f34774912eadf553d3df47fd63fffd4.html",
+"mem_2buf_2Traits_8hpp.html#a25dff962c7a90b3ea42750c96af78edc",
+"rand_2Traits_8hpp.html#a3d2a8e74bda83320942609c09c227f46",
+"structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01DimInt_3_011_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a380bfdfb3791fbfb8b89dc08bd9383f5",
+"structalpaka_1_1math_1_1traits_1_1Log_3_01LogUniformCudaHipBuiltIn_00_01float_01_4.html#ad2d52b68467c380eabbc7bf76c25cd9e",
+"structalpaka_1_1omp_1_1Schedule.html#a8be4b9c281de164d2b135dffa55e474aad0bd9bc4f06fcaea08af1eae99853f75",
+"structalpaka_1_1traits_1_1AtomicOp_3_01AtomicMin_00_01AtomicUniformCudaHipBuiltIn_00_01unsigned_01int_00_01THierarchy_01_4.html",
+"structalpaka_1_1traits_1_1DimType_3_01AccOmp5_3_01TDim_00_01TIdx_01_4_01_4.html#a0403940b14c7935b7acb1edd7c98a475",
+"structalpaka_1_1traits_1_1GetAccName_3_01AccGpuUniformCudaHipRt_3_01TDim_00_01TIdx_01_4_01_4.html#a4aea7cae557543a66af48a1c5d2b553b",
+"structalpaka_1_1traits_1_1IdxType_3_01Vec_3_01TDim_00_01TVal_01_4_01_4.html#a11f9015a5997a4fb0156038b2ca5e5cf",
+"structalpaka_1_1traits_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtBlocking_00_01EventUniformCudaHipRt_01_4.html#afc091d1780d089126f8db0eca6127e02"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

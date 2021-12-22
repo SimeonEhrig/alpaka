@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['no_5fcpuid_4129',['NO_CPUID',['../namespacealpaka_1_1cpu_1_1detail.html#a00bbec37f6a4dd972e4c008f6c0dffff',1,'alpaka::cpu::detail']]]
+  ['isgpu_4252',['isGPU',['../namespacealpaka_1_1rand_1_1engine_1_1traits.html#ac59a1ba3c5d36f4487c76a74fb5fe50d',1,'alpaka::rand::engine::traits']]]
 ];

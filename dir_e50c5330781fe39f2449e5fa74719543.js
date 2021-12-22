@@ -12,6 +12,9 @@ var dir_e50c5330781fe39f2449e5fa74719543 =
     [ "exp", "dir_4b28a07460fa2c37b8425c789a617119.html", "dir_4b28a07460fa2c37b8425c789a617119" ],
     [ "floor", "dir_cb81ee58db3e712c22e42160ee07004a.html", "dir_cb81ee58db3e712c22e42160ee07004a" ],
     [ "fmod", "dir_0124df87ec65197e9bad4e88b9e857cd.html", "dir_0124df87ec65197e9bad4e88b9e857cd" ],
+    [ "isfinite", "dir_dd37ddaad0d6f295e791786b2d78c48a.html", "dir_dd37ddaad0d6f295e791786b2d78c48a" ],
+    [ "isinf", "dir_5fffcb1c5fb55c3017045ea438b1cf47.html", "dir_5fffcb1c5fb55c3017045ea438b1cf47" ],
+    [ "isnan", "dir_0d92b59770264d9587d08b98a355bca5.html", "dir_0d92b59770264d9587d08b98a355bca5" ],
     [ "log", "dir_bda8ed2023e85f4a942d62751ce2d9c8.html", "dir_bda8ed2023e85f4a942d62751ce2d9c8" ],
     [ "max", "dir_8f34774912eadf553d3df47fd63fffd4.html", "dir_8f34774912eadf553d3df47fd63fffd4" ],
     [ "min", "dir_6040d481ede9327b5bb8d12cdffd886b.html", "dir_6040d481ede9327b5bb8d12cdffd886b" ],
@@ -24,6 +27,7 @@ var dir_e50c5330781fe39f2449e5fa74719543 =
     [ "sqrt", "dir_570084d6dc638e0a415be1d37eff4e4b.html", "dir_570084d6dc638e0a415be1d37eff4e4b" ],
     [ "tan", "dir_f4d2571511c2d8ce67abfc9ea3cb850a.html", "dir_f4d2571511c2d8ce67abfc9ea3cb850a" ],
     [ "trunc", "dir_3eb74e514d413767a2782056cfb3c129.html", "dir_3eb74e514d413767a2782056cfb3c129" ],
+    [ "FloatEqualExact.hpp", "FloatEqualExact_8hpp.html", "FloatEqualExact_8hpp" ],
     [ "MathStdLib.hpp", "MathStdLib_8hpp.html", [
       [ "MathStdLib", "classalpaka_1_1math_1_1MathStdLib.html", null ]
     ] ],

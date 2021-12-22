@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 
 <h3><a id="index_m"></a>- m -</h3><ul>
 <li>m_args
-: <a class="el" href="classalpaka_1_1TaskKernelGpuUniformCudaHipRt.html#ab01bbd717eb56675e1fb796178c31e55">alpaka::TaskKernelGpuUniformCudaHipRt&lt; TAcc, TDim, TIdx, TKernelFnObj, TArgs &gt;</a>
+: <a class="el" href="classalpaka_1_1TaskKernelGpuUniformCudaHipRt.html#afb87ebbc43129443f3c8d7c184780a3c">alpaka::TaskKernelGpuUniformCudaHipRt&lt; TAcc, TDim, TIdx, TKernelFnObj, TArgs &gt;</a>
 </li>
 <li>m_barrier
 : <a class="el" href="classalpaka_1_1BlockSyncBarrierFiber.html#a482a88006015d485d30aa7e4cab83ae5">alpaka::BlockSyncBarrierFiber&lt; TIdx &gt;</a>
@@ -127,6 +127,9 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </li>
 <li>m_data
 : <a class="el" href="structalpaka_1_1test_1_1Array.html#a04628f2285009616a68d1498cfe7e9ec">alpaka::test::Array&lt; TType, TSize &gt;</a>
+</li>
+<li>m_deleter
+: <a class="el" href="classalpaka_1_1detail_1_1BufCpuImpl.html#a738e54991d1f8386f2282aad91940f49">alpaka::detail::BufCpuImpl&lt; TElem, TDim, TIdx &gt;</a>
 </li>
 <li>m_dev
 : <a class="el" href="classalpaka_1_1BufUniformCudaHipRt.html#a1c72f4c26b8b7d220425e20c63381461">alpaka::BufUniformCudaHipRt&lt; TElem, TDim, TIdx &gt;</a>
@@ -325,12 +328,6 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <li>m_srcWidth
 : <a class="el" href="structalpaka_1_1detail_1_1TaskCopyOmp5_3_01DimInt_3_011_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a3b6b409f2418bd60af609ecb2fc190b9">alpaka::detail::TaskCopyOmp5&lt; DimInt&lt; 1 &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
 </li>
-<li>m_State
-: <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1MersenneTwister.html#ab03258d5fbec24c9892371f5628144e5">alpaka::rand::engine::cpu::MersenneTwister</a>
-, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1RandomDevice.html#ad9db56c2c3098be9d942b614044a5e8b">alpaka::rand::engine::cpu::RandomDevice</a>
-, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1TinyMersenneTwister.html#acaf5247f87c43083436814bbf9991890">alpaka::rand::engine::cpu::TinyMersenneTwister</a>
-, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1uniform__cuda__hip_1_1Xor.html#a27e925902089f9ead59ae8fb75a4766c">alpaka::rand::engine::uniform_cuda_hip::Xor</a>
-</li>
 <li>m_syncFn
 : <a class="el" href="classalpaka_1_1BlockSharedMemStMemberMasterSync.html#a617a3306668cc4e508e578b8932648bf">alpaka::BlockSharedMemStMemberMasterSync&lt; TDataAlignBytes &gt;</a>
 </li>
@@ -394,7 +391,13 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 : <a class="el" href="structTINYMT32__T.html#a61fa5c5281f06dded617a3b6c5f1d082">TINYMT32_T</a>
 </li>
 <li>max()
-: <a class="el" href="structalpaka_1_1rand_1_1engine_1_1cpu_1_1TinyMTengine.html#a08a536d366d47c595730fa7e09332fe1">alpaka::rand::engine::cpu::TinyMTengine</a>
+: <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1MersenneTwister.html#abdd6746e913716ee52b6e93d3734590f">alpaka::rand::engine::cpu::MersenneTwister</a>
+, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1RandomDevice.html#a193c43bee9a1262382316d502924338d">alpaka::rand::engine::cpu::RandomDevice</a>
+, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1TinyMersenneTwister.html#a12ccdc07e0c611eca87f6ff99f32becd">alpaka::rand::engine::cpu::TinyMersenneTwister</a>
+, <a class="el" href="structalpaka_1_1rand_1_1engine_1_1cpu_1_1TinyMTengine.html#a08a536d366d47c595730fa7e09332fe1">alpaka::rand::engine::cpu::TinyMTengine</a>
+, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1uniform__cuda__hip_1_1Xor.html#a72c23054bb154c10369076a129e4a374">alpaka::rand::engine::uniform_cuda_hip::Xor</a>
+, <a class="el" href="classalpaka_1_1rand_1_1Philox4x32x10.html#a56dca955717c5dd6a68c93f9bfee7ad0">alpaka::rand::Philox4x32x10&lt; TAcc &gt;</a>
+, <a class="el" href="classalpaka_1_1rand_1_1Philox4x32x10Vector.html#ace0111e20ae06f2260e06ce72eaf1f5f">alpaka::rand::Philox4x32x10Vector&lt; TAcc &gt;</a>
 , <a class="el" href="classalpaka_1_1Vec.html#a99fad458ce1140a86e73e7e1b33fa5b2">alpaka::Vec&lt; TDim, TVal &gt;</a>
 </li>
 <li>maxElem()
@@ -402,6 +405,8 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 </li>
 <li>mem_fence()
 : <a class="el" href="structalpaka_1_1traits_1_1MemFence_3_01MemFenceCpu_00_01TMemScope_01_4.html#ada398dac934bdbefa1d5c0cac7945010">alpaka::traits::MemFence&lt; MemFenceCpu, TMemScope &gt;</a>
+, <a class="el" href="structalpaka_1_1traits_1_1MemFence_3_01MemFenceCpuSerial_00_01memory__scope_1_1Block_01_4.html#a24690cc943c3e6ca2c527aed43aec947">alpaka::traits::MemFence&lt; MemFenceCpuSerial, memory_scope::Block &gt;</a>
+, <a class="el" href="structalpaka_1_1traits_1_1MemFence_3_01MemFenceCpuSerial_00_01TMemScope_01_4.html#a45ede068f61a5f357f1dd309a6d308ba">alpaka::traits::MemFence&lt; MemFenceCpuSerial, TMemScope &gt;</a>
 , <a class="el" href="structalpaka_1_1traits_1_1MemFence_3_01MemFenceOmp2Blocks_00_01memory__scope_1_1Block_01_4.html#acae6785df185bd10afe0249c8284e485">alpaka::traits::MemFence&lt; MemFenceOmp2Blocks, memory_scope::Block &gt;</a>
 , <a class="el" href="structalpaka_1_1traits_1_1MemFence_3_01MemFenceOmp2Blocks_00_01memory__scope_1_1Device_01_4.html#a7065efeab63280032c8922e3982524c2">alpaka::traits::MemFence&lt; MemFenceOmp2Blocks, memory_scope::Device &gt;</a>
 , <a class="el" href="structalpaka_1_1traits_1_1MemFence_3_01MemFenceOmp2Threads_00_01TMemScope_01_4.html#aa4ad1a4a520b79ed5854985ccde26f2d">alpaka::traits::MemFence&lt; MemFenceOmp2Threads, TMemScope &gt;</a>
@@ -414,30 +419,27 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 , <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01DimInt_3_012_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#afc0619a370df2f88cda4c1874fef6dba">alpaka::detail::TaskCopyUniformCudaHip&lt; DimInt&lt; 2 &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
 , <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01DimInt_3_013_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a5053132856ecdd236a49030f2b34a49a">alpaka::detail::TaskCopyUniformCudaHip&lt; DimInt&lt; 3 &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
 </li>
-<li>MemFenceCpu()
-: <a class="el" href="classalpaka_1_1MemFenceCpu.html#a16cf25d1eb7b4606e7d0d1badd685746">alpaka::MemFenceCpu</a>
-</li>
-<li>MemFenceOmp2Blocks()
-: <a class="el" href="classalpaka_1_1MemFenceOmp2Blocks.html#a97220f9b69493a27a64afe6791cbf7b9">alpaka::MemFenceOmp2Blocks</a>
-</li>
-<li>MemFenceOmp2Threads()
-: <a class="el" href="classalpaka_1_1MemFenceOmp2Threads.html#a3a594aa0809f4a996a6facc19a455d11">alpaka::MemFenceOmp2Threads</a>
-</li>
-<li>MemFenceOmp5()
-: <a class="el" href="classalpaka_1_1MemFenceOmp5.html#afb1330ddc1f37295317030fb584ef95a">alpaka::MemFenceOmp5</a>
-</li>
-<li>MemFenceUniformCudaHipBuiltIn()
-: <a class="el" href="classalpaka_1_1MemFenceUniformCudaHipBuiltIn.html#a8ed3d2c9a36c7da5c97ea318cf12b806">alpaka::MemFenceUniformCudaHipBuiltIn</a>
-</li>
 <li>MersenneTwister()
-: <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1MersenneTwister.html#a0dc33bf6d09f39aeb87f1182a9f29154">alpaka::rand::engine::cpu::MersenneTwister</a>
+: <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1MersenneTwister.html#a63ec28b2d538588e9e619912552426d5">alpaka::rand::engine::cpu::MersenneTwister</a>
 </li>
 <li>min()
-: <a class="el" href="structalpaka_1_1rand_1_1engine_1_1cpu_1_1TinyMTengine.html#a2654b0110e331ab07380e9a38335633f">alpaka::rand::engine::cpu::TinyMTengine</a>
+: <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1MersenneTwister.html#a1e5c748627e99bc112f92d2f9c44df0c">alpaka::rand::engine::cpu::MersenneTwister</a>
+, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1RandomDevice.html#a59b32dd54c3281c685f23ade85b1b02f">alpaka::rand::engine::cpu::RandomDevice</a>
+, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1cpu_1_1TinyMersenneTwister.html#a1cda2038c4a6431d65a9b9384079aa3d">alpaka::rand::engine::cpu::TinyMersenneTwister</a>
+, <a class="el" href="structalpaka_1_1rand_1_1engine_1_1cpu_1_1TinyMTengine.html#a2654b0110e331ab07380e9a38335633f">alpaka::rand::engine::cpu::TinyMTengine</a>
+, <a class="el" href="classalpaka_1_1rand_1_1engine_1_1uniform__cuda__hip_1_1Xor.html#a93b9d75a323bbd68220a638ad19cb87d">alpaka::rand::engine::uniform_cuda_hip::Xor</a>
+, <a class="el" href="classalpaka_1_1rand_1_1Philox4x32x10.html#a73f8f1d8bb4194c0d30cda3ed14cfedd">alpaka::rand::Philox4x32x10&lt; TAcc &gt;</a>
+, <a class="el" href="classalpaka_1_1rand_1_1Philox4x32x10Vector.html#aba1719a49cc3f79280c231723d1765ff">alpaka::rand::Philox4x32x10Vector&lt; TAcc &gt;</a>
 , <a class="el" href="classalpaka_1_1Vec.html#a12d4017fe620a87aeaa2c5dbb6607d44">alpaka::Vec&lt; TDim, TVal &gt;</a>
 </li>
 <li>minElem()
 : <a class="el" href="classalpaka_1_1Vec.html#a374d1237d61fba704d419935a3fb42c7">alpaka::Vec&lt; TDim, TVal &gt;</a>
+</li>
+<li>MULTIPLITER_4x32_0
+: <a class="el" href="classalpaka_1_1rand_1_1engine_1_1PhiloxConstants.html#a8e047166a5722348ca588c07ef28503a">alpaka::rand::engine::PhiloxConstants&lt; TParams &gt;</a>
+</li>
+<li>MULTIPLITER_4x32_1
+: <a class="el" href="classalpaka_1_1rand_1_1engine_1_1PhiloxConstants.html#a54f484131917788f67e9d8385097e390">alpaka::rand::engine::PhiloxConstants&lt; TParams &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -445,7 +447,7 @@ $(document).ready(function(){initNavTree('functions_m.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Sep 21 2021 09:27:12 for alpaka by
+    <li class="footer">Generated on Wed Dec 22 2021 13:53:54 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
