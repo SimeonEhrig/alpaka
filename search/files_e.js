@@ -1,18 +1,17 @@
 var searchData=
 [
-  ['philoxbasecommon_2ehpp_3742',['PhiloxBaseCommon.hpp',['../PhiloxBaseCommon_8hpp.html',1,'']]],
-  ['philoxbasecudaarray_2ehpp_3743',['PhiloxBaseCudaArray.hpp',['../PhiloxBaseCudaArray_8hpp.html',1,'']]],
-  ['philoxbasestdarray_2ehpp_3744',['PhiloxBaseStdArray.hpp',['../PhiloxBaseStdArray_8hpp.html',1,'']]],
-  ['philoxbasetraits_2ehpp_3745',['PhiloxBaseTraits.hpp',['../PhiloxBaseTraits_8hpp.html',1,'']]],
-  ['philoxconstants_2ehpp_3746',['PhiloxConstants.hpp',['../PhiloxConstants_8hpp.html',1,'']]],
-  ['philoxsingle_2ehpp_3747',['PhiloxSingle.hpp',['../PhiloxSingle_8hpp.html',1,'']]],
-  ['philoxvector_2ehpp_3748',['PhiloxVector.hpp',['../PhiloxVector_8hpp.html',1,'']]],
-  ['pltfcpu_2ehpp_3749',['PltfCpu.hpp',['../PltfCpu_8hpp.html',1,'']]],
-  ['pltfoacc_2ehpp_3750',['PltfOacc.hpp',['../PltfOacc_8hpp.html',1,'']]],
-  ['pltfomp5_2ehpp_3751',['PltfOmp5.hpp',['../PltfOmp5_8hpp.html',1,'']]],
-  ['pltfuniformcudahiprt_2ehpp_3752',['PltfUniformCudaHipRt.hpp',['../PltfUniformCudaHipRt_8hpp.html',1,'']]],
-  ['positioning_2ehpp_3753',['Positioning.hpp',['../Positioning_8hpp.html',1,'']]],
-  ['powstdlib_2ehpp_3754',['PowStdLib.hpp',['../PowStdLib_8hpp.html',1,'']]],
-  ['powuniformcudahipbuiltin_2ehpp_3755',['PowUniformCudaHipBuiltIn.hpp',['../PowUniformCudaHipBuiltIn_8hpp.html',1,'']]],
-  ['properties_2ehpp_3756',['Properties.hpp',['../Properties_8hpp.html',1,'']]]
+  ['queue_2ehpp_3712',['Queue.hpp',['../Queue_8hpp.html',1,'']]],
+  ['queuecpublocking_2ehpp_3713',['QueueCpuBlocking.hpp',['../QueueCpuBlocking_8hpp.html',1,'']]],
+  ['queuecpunonblocking_2ehpp_3714',['QueueCpuNonBlocking.hpp',['../QueueCpuNonBlocking_8hpp.html',1,'']]],
+  ['queuecpuomp2collective_2ehpp_3715',['QueueCpuOmp2Collective.hpp',['../QueueCpuOmp2Collective_8hpp.html',1,'']]],
+  ['queuegenericthreadsblocking_2ehpp_3716',['QueueGenericThreadsBlocking.hpp',['../QueueGenericThreadsBlocking_8hpp.html',1,'']]],
+  ['queuegenericthreadsnonblocking_2ehpp_3717',['QueueGenericThreadsNonBlocking.hpp',['../QueueGenericThreadsNonBlocking_8hpp.html',1,'']]],
+  ['queueoaccblocking_2ehpp_3718',['QueueOaccBlocking.hpp',['../QueueOaccBlocking_8hpp.html',1,'']]],
+  ['queueoaccnonblocking_2ehpp_3719',['QueueOaccNonBlocking.hpp',['../QueueOaccNonBlocking_8hpp.html',1,'']]],
+  ['queueomp5blocking_2ehpp_3720',['QueueOmp5Blocking.hpp',['../QueueOmp5Blocking_8hpp.html',1,'']]],
+  ['queueomp5nonblocking_2ehpp_3721',['QueueOmp5NonBlocking.hpp',['../QueueOmp5NonBlocking_8hpp.html',1,'']]],
+  ['queuetestfixture_2ehpp_3722',['QueueTestFixture.hpp',['../QueueTestFixture_8hpp.html',1,'']]],
+  ['queueuniformcudahiprtbase_2ehpp_3723',['QueueUniformCudaHipRtBase.hpp',['../QueueUniformCudaHipRtBase_8hpp.html',1,'']]],
+  ['queueuniformcudahiprtblocking_2ehpp_3724',['QueueUniformCudaHipRtBlocking.hpp',['../QueueUniformCudaHipRtBlocking_8hpp.html',1,'']]],
+  ['queueuniformcudahiprtnonblocking_2ehpp_3725',['QueueUniformCudaHipRtNonBlocking.hpp',['../QueueUniformCudaHipRtNonBlocking_8hpp.html',1,'']]]
 ];
