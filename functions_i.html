@@ -86,18 +86,14 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_i"></a>- i -</h3><ul>
-<li>iDevice()
-: <a class="el" href="classalpaka_1_1DevOmp5.html#a5940331c04703ffd118d23c305e99735">alpaka::DevOmp5</a>
-, <a class="el" href="classalpaka_1_1omp5_1_1detail_1_1DevOmp5Impl.html#adc910942ec22da67360e5a507cc50e03">alpaka::omp5::detail::DevOmp5Impl</a>
-</li>
 <li>Idx
 : <a class="el" href="structalpaka_1_1detail_1_1TaskCopyOmp5.html#adc3dd99172acc67d92118ebfcd212910">alpaka::detail::TaskCopyOmp5&lt; TDim, TViewDst, TViewSrc, TExtent &gt;</a>
 , <a class="el" href="structalpaka_1_1detail_1_1TaskCopyOmp5_3_01DimInt_3_010u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a1e3c20dc58f64dd8cc4565df7007c8e2">alpaka::detail::TaskCopyOmp5&lt; DimInt&lt; 0u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
 , <a class="el" href="structalpaka_1_1detail_1_1TaskCopyOmp5_3_01DimInt_3_011u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a58ebafa2fbc573f076f17ca2dc518a7e">alpaka::detail::TaskCopyOmp5&lt; DimInt&lt; 1u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
-, <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01DimInt_3_010u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a03df2df6f0c5d37c6508cba427d53b20">alpaka::detail::TaskCopyUniformCudaHip&lt; DimInt&lt; 0u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
-, <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01DimInt_3_011u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a77c79a91c8f69c4ca9d9555db5d7c247">alpaka::detail::TaskCopyUniformCudaHip&lt; DimInt&lt; 1u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
-, <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01DimInt_3_012u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a985141dd55d0ca08b77bde881d639343">alpaka::detail::TaskCopyUniformCudaHip&lt; DimInt&lt; 2u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
-, <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01DimInt_3_013u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a0fefa3fa0b9fa03176dc0d5ffa804537">alpaka::detail::TaskCopyUniformCudaHip&lt; DimInt&lt; 3u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
+, <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_010u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a3b8affbe4335cbc5cf56aa8a8468ea4e">alpaka::detail::TaskCopyUniformCudaHip&lt; TApi, DimInt&lt; 0u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
+, <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_011u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#ab2ca93fa041a2eae3bf6585cfdfc337f">alpaka::detail::TaskCopyUniformCudaHip&lt; TApi, DimInt&lt; 1u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
+, <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_012u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#a9beeafbcd116c9328cf57ce932d195ca">alpaka::detail::TaskCopyUniformCudaHip&lt; TApi, DimInt&lt; 2u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
+, <a class="el" href="structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_013u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html#abc99081bed812afe5341de6fe4208e25">alpaka::detail::TaskCopyUniformCudaHip&lt; TApi, DimInt&lt; 3u &gt;, TViewDst, TViewSrc, TExtent &gt;</a>
 , <a class="el" href="classalpaka_1_1test_1_1KernelExecutionFixture.html#a3eb3a6e0568292a74bbe66f9f60f420a">alpaka::test::KernelExecutionFixture&lt; TAcc &gt;</a>
 </li>
 <li>IdxBtLinear()
@@ -115,13 +111,16 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <li>IdxGbRef()
 : <a class="el" href="classalpaka_1_1gb_1_1IdxGbRef.html#a00bc2c10f46eae71b10bff2b5dfe4484">alpaka::gb::IdxGbRef&lt; TDim, TIdx &gt;</a>
 </li>
+<li>imag()
+: <a class="el" href="classalpaka_1_1Complex.html#ac1c798706c93a380ed5f29433728e86f">alpaka::Complex&lt; T &gt;</a>
+</li>
 <li>ImplementationBase
-: <a class="el" href="structalpaka_1_1traits_1_1DevType_3_01TAcc_00_01typename_01std_1_1enable__if_3_01concepts_1_1Impae09fee5074ee45ddfea1cd68a1d41c2.html#a9de54c73182f14a5a260ddae9b075fb9">alpaka::traits::DevType&lt; TAcc, typename std::enable_if&lt; concepts::ImplementsConcept&lt; ConceptUniformCudaHip, TAcc &gt;::value &gt;::type &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1DimType_3_01TAcc_00_01typename_01std_1_1enable__if_3_01concepts_1_1Impb71be0be072a11f2f496ac1e8ea12c04.html#ae935905f9a4500ef8584cbfd7497e487">alpaka::traits::DimType&lt; TAcc, typename std::enable_if&lt; concepts::ImplementsConcept&lt; ConceptUniformCudaHip, TAcc &gt;::value &gt;::type &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1GetIdx_3_01TIdxBt_00_01origin_1_1Block_00_01unit_1_1Threads_01_4.html#ad49a3a71bf45a16aa385f552078afb7b">alpaka::traits::GetIdx&lt; TIdxBt, origin::Block, unit::Threads &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1GetIdx_3_01TIdxGb_00_01origin_1_1Grid_00_01unit_1_1Blocks_01_4.html#ac2778e085f4b2db2671818c96b041d37">alpaka::traits::GetIdx&lt; TIdxGb, origin::Grid, unit::Blocks &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1IdxType_3_01TAcc_00_01typename_01std_1_1enable__if_3_01concepts_1_1Impf677b3035ddb9dfd61a27567baf5a052.html#a0b83742eb750213be842536b70fe3d47">alpaka::traits::IdxType&lt; TAcc, typename std::enable_if&lt; concepts::ImplementsConcept&lt; ConceptUniformCudaHip, TAcc &gt;::value &gt;::type &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1PltfType_3_01TAcc_00_01typename_01std_1_1enable__if_3_01concepts_1_1Imaf362c7bc7e1ffc5cd74b8e7772d6131.html#abfe6096cb527455e6128d4cbdfeab569">alpaka::traits::PltfType&lt; TAcc, typename std::enable_if&lt; concepts::ImplementsConcept&lt; ConceptUniformCudaHip, TAcc &gt;::value &gt;::type &gt;</a>
+: <a class="el" href="structalpaka_1_1trait_1_1DevType_3_01TAcc_00_01std_1_1enable__if__t_3_01concepts_1_1ImplementsCoe5c67cb8d0381122b3fbd05c7a9d3ffc.html#a5595a935e9b676e3f47c6c82152a8c3f">alpaka::trait::DevType&lt; TAcc, std::enable_if_t&lt; concepts::ImplementsConcept&lt; ConceptUniformCudaHip, TAcc &gt;::value &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1DimType_3_01TAcc_00_01std_1_1enable__if__t_3_01concepts_1_1ImplementsCo54e9c07fe207e401b959c6c4aaacd25f.html#a8057a7c57b4735e939e041255fa01762">alpaka::trait::DimType&lt; TAcc, std::enable_if_t&lt; concepts::ImplementsConcept&lt; ConceptUniformCudaHip, TAcc &gt;::value &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1GetIdx_3_01TIdxBt_00_01origin_1_1Block_00_01unit_1_1Threads_01_4.html#a13e5889f1f8cf5c6beb48cd19a464668">alpaka::trait::GetIdx&lt; TIdxBt, origin::Block, unit::Threads &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1GetIdx_3_01TIdxGb_00_01origin_1_1Grid_00_01unit_1_1Blocks_01_4.html#a3b09a68490814dd4a4ae8e89c2349796">alpaka::trait::GetIdx&lt; TIdxGb, origin::Grid, unit::Blocks &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1IdxType_3_01TAcc_00_01std_1_1enable__if__t_3_01concepts_1_1ImplementsCo3d52525f6580635391044d594c20b577.html#ac14a2901ca256a77a1ac6be7d2b9f483">alpaka::trait::IdxType&lt; TAcc, std::enable_if_t&lt; concepts::ImplementsConcept&lt; ConceptUniformCudaHip, TAcc &gt;::value &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1PltfType_3_01TAcc_00_01std_1_1enable__if__t_3_01concepts_1_1ImplementsCf6d2a6d3d344ae7f4b8bdc0fcd2f20ee.html#a1665c8a075d955dbc55e6a3422e98139">alpaka::trait::PltfType&lt; TAcc, std::enable_if_t&lt; concepts::ImplementsConcept&lt; ConceptUniformCudaHip, TAcc &gt;::value &gt; &gt;</a>
 </li>
 <li>implementer()
 : <a class="el" href="structalpaka_1_1concepts_1_1detail_1_1ImplementationBaseType_3_01TConcept_00_01TDerived_00_01std686c4360b26b64ddd5bd70ecd2ee8374.html#a5b70f58ae2c30fe8144ab57a69d6e402">alpaka::concepts::detail::ImplementationBaseType&lt; TConcept, TDerived, std::enable_if_t&lt; ImplementsConcept&lt; TConcept, TDerived &gt;::value &gt; &gt;</a>
@@ -135,31 +134,31 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 , <a class="el" href="structalpaka_1_1BlockOr.html#ab11ca7ce0304229a874c679b46ea426fa4aea6f7d66a8bdc4a1640f65fcd0e4e9">alpaka::BlockOr</a>
 </li>
 <li>isComplete()
-: <a class="el" href="structalpaka_1_1traits_1_1IsComplete_3_01EventGenericThreads_3_01TDev_01_4_01_4.html#af1ed968032d44565f631e8f87015f3b2">alpaka::traits::IsComplete&lt; EventGenericThreads&lt; TDev &gt; &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1IsComplete_3_01EventUniformCudaHipRt_01_4.html#af9f4a886150448503543b05a6997b00f">alpaka::traits::IsComplete&lt; EventUniformCudaHipRt &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1IsComplete_3_01test_1_1EventHostManualTriggerCpu_3_01TDev_01_4_01_4.html#ad2f9ada608738bde84f701557b2c01eb">alpaka::traits::IsComplete&lt; test::EventHostManualTriggerCpu&lt; TDev &gt; &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1IsComplete_3_01test_1_1EventHostManualTriggerCuda_01_4.html#ac42a467f6722ee943ee1602a926e1e08">alpaka::traits::IsComplete&lt; test::EventHostManualTriggerCuda &gt;</a>
+: <a class="el" href="structalpaka_1_1trait_1_1IsComplete_3_01EventGenericThreads_3_01TDev_01_4_01_4.html#a1965a575bdf4a7c2fb60510f932d2f55">alpaka::trait::IsComplete&lt; EventGenericThreads&lt; TDev &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1IsComplete_3_01EventUniformCudaHipRt_3_01TApi_01_4_01_4.html#a4f5bf863235298650c3c85b09ddf77d2">alpaka::trait::IsComplete&lt; EventUniformCudaHipRt&lt; TApi &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1IsComplete_3_01test_1_1EventHostManualTriggerCpu_3_01TDev_01_4_01_4.html#af4e4f2e03fc1f659d39e3fad2fcfb4d9">alpaka::trait::IsComplete&lt; test::EventHostManualTriggerCpu&lt; TDev &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1IsComplete_3_01test_1_1EventHostManualTriggerCuda_01_4.html#aeb1f0fd9cac817fad01903aca034c744">alpaka::trait::IsComplete&lt; test::EventHostManualTriggerCuda &gt;</a>
 </li>
 <li>isIdle()
 : <a class="el" href="classalpaka_1_1core_1_1detail_1_1ConcurrentExecPool.html#a3569557a259487b5136e46d4aee5585c">alpaka::core::detail::ConcurrentExecPool&lt; TIdx, TConcurrentExec, TPromise, TYield, TMutex, TCondVar, TisYielding &gt;</a>
 , <a class="el" href="classalpaka_1_1core_1_1detail_1_1ConcurrentExecPool_3_01TIdx_00_01TConcurrentExec_00_01TPromise_9cccb122f69aea7cc89b9bcbdb078b48.html#ac58d49b2614e9067ab2dd8cfa28c8963">alpaka::core::detail::ConcurrentExecPool&lt; TIdx, TConcurrentExec, TPromise, TYield, TMutex, TCondVar, false &gt;</a>
 </li>
 <li>isPinned()
-: <a class="el" href="structalpaka_1_1traits_1_1IsPinned_3_01alpaka_1_1detail_1_1BufCpuImpl_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a0914504fe985d06bc23550ee7d04f246">alpaka::traits::IsPinned&lt; alpaka::detail::BufCpuImpl&lt; TElem, TDim, TIdx &gt; &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1IsPinned_3_01BufCpu_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a63234087c1038621ea3be1c167bfa775">alpaka::traits::IsPinned&lt; BufCpu&lt; TElem, TDim, TIdx &gt; &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1IsPinned_3_01BufOmp5_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a98075adeec0d60155b6be1a4ade76c69">alpaka::traits::IsPinned&lt; BufOmp5&lt; TElem, TDim, TIdx &gt; &gt;</a>
-, <a class="el" href="structalpaka_1_1traits_1_1IsPinned_3_01BufUniformCudaHipRt_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a864443a17acdcf0db2e5777a22eba8e3">alpaka::traits::IsPinned&lt; BufUniformCudaHipRt&lt; TElem, TDim, TIdx &gt; &gt;</a>
+: <a class="el" href="structalpaka_1_1trait_1_1IsPinned_3_01alpaka_1_1detail_1_1BufCpuImpl_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a367c1339e18aa8cc156f9304207b21c0">alpaka::trait::IsPinned&lt; alpaka::detail::BufCpuImpl&lt; TElem, TDim, TIdx &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1IsPinned_3_01BufCpu_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a4a144b05fcb37e6edd11eb7c86c99822">alpaka::trait::IsPinned&lt; BufCpu&lt; TElem, TDim, TIdx &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1IsPinned_3_01BufOmp5_3_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a2a6e00828f6f2e5e8a3a2db7075c0eaa">alpaka::trait::IsPinned&lt; BufOmp5&lt; TElem, TDim, TIdx &gt; &gt;</a>
+, <a class="el" href="structalpaka_1_1trait_1_1IsPinned_3_01BufUniformCudaHipRt_3_01TApi_00_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html#a8fef131eb25ee21f4aa053281e000162">alpaka::trait::IsPinned&lt; BufUniformCudaHipRt&lt; TApi, TElem, TDim, TIdx &gt; &gt;</a>
 </li>
 <li>isReady()
 : <a class="el" href="classalpaka_1_1generic_1_1detail_1_1EventGenericThreadsImpl.html#a1a699b73bc9e354d9ca983484d647e9d">alpaka::generic::detail::EventGenericThreadsImpl&lt; TDev &gt;</a>
 </li>
 <li>isSupported()
-: <a class="el" href="structalpaka_1_1test_1_1traits_1_1IsEventHostManualTriggerSupported_3_01alpaka_1_1DevCpu_01_4.html#a3f2de08741f96ebe4a1990f64c9d741d">alpaka::test::traits::IsEventHostManualTriggerSupported&lt; alpaka::DevCpu &gt;</a>
-, <a class="el" href="structalpaka_1_1test_1_1traits_1_1IsEventHostManualTriggerSupported_3_01alpaka_1_1DevOmp5_01_4.html#ada45318cefa0debaecf5724b2998284a">alpaka::test::traits::IsEventHostManualTriggerSupported&lt; alpaka::DevOmp5 &gt;</a>
-, <a class="el" href="structalpaka_1_1test_1_1traits_1_1IsEventHostManualTriggerSupported_3_01alpaka_1_1DevUniformCudaHipRt_01_4.html#a43a04eb8a7192471c85e0aedf9b67705">alpaka::test::traits::IsEventHostManualTriggerSupported&lt; alpaka::DevUniformCudaHipRt &gt;</a>
+: <a class="el" href="structalpaka_1_1test_1_1trait_1_1IsEventHostManualTriggerSupported_3_01DevCpu_01_4.html#a242ec7e175b2a222e903c184f1e8254d">alpaka::test::trait::IsEventHostManualTriggerSupported&lt; DevCpu &gt;</a>
+, <a class="el" href="structalpaka_1_1test_1_1trait_1_1IsEventHostManualTriggerSupported_3_01DevCudaRt_01_4.html#a2d5caacc6d512fb3ad7663524be71689">alpaka::test::trait::IsEventHostManualTriggerSupported&lt; DevCudaRt &gt;</a>
+, <a class="el" href="structalpaka_1_1test_1_1trait_1_1IsEventHostManualTriggerSupported_3_01DevOmp5_01_4.html#afe0cc75114555c5f436e4f5e3bd97249">alpaka::test::trait::IsEventHostManualTriggerSupported&lt; DevOmp5 &gt;</a>
 </li>
 <li>IteratorView()
-: <a class="el" href="classalpaka_1_1test_1_1traits_1_1IteratorView.html#a2b625813e9186dd61196d4aa362e9be3">alpaka::test::traits::IteratorView&lt; TView, TSfinae &gt;</a>
+: <a class="el" href="classalpaka_1_1test_1_1trait_1_1IteratorView.html#a689e0cc9436204d0eb76e79e2648ed38">alpaka::test::trait::IteratorView&lt; TView, TSfinae &gt;</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -167,7 +166,7 @@ $(document).ready(function(){initNavTree('functions_i.html',''); initResizable()
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Feb 7 2022 14:59:02 for alpaka by
+    <li class="footer">Generated on Wed Apr 20 2022 09:50:07 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

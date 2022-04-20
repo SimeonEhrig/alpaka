@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['no_5fcpuid_4267',['NO_CPUID',['../namespacealpaka_1_1cpu_1_1detail.html#a00bbec37f6a4dd972e4c008f6c0dffff',1,'alpaka::cpu::detail']]]
+  ['limitmallocheapsize_4598',['limitMallocHeapSize',['../structalpaka_1_1ApiCudaRt.html#a53e97caaa4aed473e25616a06a812dfe',1,'alpaka::ApiCudaRt']]],
+  ['limitprintffifosize_4599',['limitPrintfFifoSize',['../structalpaka_1_1ApiCudaRt.html#a6872c94c0c6195c0c04b3fe800811ead',1,'alpaka::ApiCudaRt']]]
 ];

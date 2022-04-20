@@ -1,11 +1,9 @@
 var searchData=
 [
-  ['queue_4371',['Queue',['../structalpaka_1_1test_1_1QueueTestFixture.html#ab985951be3fd8592432a205192614ff5',1,'alpaka::test::QueueTestFixture::Queue()'],['../namespacealpaka.html#aff6c69ef2f19b01caf21fdde471e9424',1,'alpaka::Queue()']]],
-  ['queueacc_4372',['QueueAcc',['../classalpaka_1_1test_1_1KernelExecutionFixture.html#a51c9267422b436c6c33130fcbf73a9c0',1,'alpaka::test::KernelExecutionFixture']]],
-  ['queuecpublocking_4373',['QueueCpuBlocking',['../namespacealpaka.html#a5b74cbab627401664d95c8a91c859a42',1,'alpaka']]],
-  ['queuecpunonblocking_4374',['QueueCpuNonBlocking',['../namespacealpaka.html#a8a11334697bff8a6fb14559535908633',1,'alpaka']]],
-  ['queuecudartblocking_4375',['QueueCudaRtBlocking',['../namespacealpaka.html#a311549e8bc3033e0f1387da53b6f4618',1,'alpaka']]],
-  ['queuecudartnonblocking_4376',['QueueCudaRtNonBlocking',['../namespacealpaka.html#aebad4c35c3d61402485ed3c4524298db',1,'alpaka']]],
-  ['queueomp5blocking_4377',['QueueOmp5Blocking',['../namespacealpaka.html#abbef4249dfcd6989eff6088e26bb911f',1,'alpaka']]],
-  ['queueomp5nonblocking_4378',['QueueOmp5NonBlocking',['../namespacealpaka.html#a1994bcdaa7cefe3ae066eb3033530826',1,'alpaka']]]
+  ['philoxresultcontainer_4800',['PhiloxResultContainer',['../namespacealpaka_1_1rand_1_1engine_1_1trait.html#aa2ed5f699aeba42d8a115eccc9072505',1,'alpaka::rand::engine::trait']]],
+  ['pitchedptr_5ft_4801',['PitchedPtr_t',['../structalpaka_1_1ApiCudaRt.html#a422a3fdd0aabb02eae6e856d32121a73',1,'alpaka::ApiCudaRt']]],
+  ['pltf_4802',['Pltf',['../structalpaka_1_1test_1_1QueueTestFixture.html#a31498dfa654e0b1798e8c371c1ff3f31',1,'alpaka::test::QueueTestFixture::Pltf()'],['../namespacealpaka.html#a6b83bc07c7ca78824c9b5026f951cff4',1,'alpaka::Pltf()']]],
+  ['pltfacc_4803',['PltfAcc',['../classalpaka_1_1test_1_1KernelExecutionFixture.html#a9c757d80118c1c78819ecd255eb65df4',1,'alpaka::test::KernelExecutionFixture']]],
+  ['pltfcudart_4804',['PltfCudaRt',['../namespacealpaka.html#a2da3c226528d12baea2581aaa6fb9cd5',1,'alpaka']]],
+  ['pos_5ft_4805',['Pos_t',['../structalpaka_1_1ApiCudaRt.html#a7d5a8c5fe6ac24ca7bcdecc99a63340e',1,'alpaka::ApiCudaRt']]]
 ];

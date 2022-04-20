@@ -1,12 +1,19 @@
 var searchData=
 [
-  ['engine_2ehpp_3643',['Engine.hpp',['../Engine_8hpp.html',1,'']]],
-  ['eventcpu_2ehpp_3644',['EventCpu.hpp',['../EventCpu_8hpp.html',1,'']]],
-  ['eventgenericthreads_2ehpp_3645',['EventGenericThreads.hpp',['../EventGenericThreads_8hpp.html',1,'']]],
-  ['eventhostmanualtrigger_2ehpp_3646',['EventHostManualTrigger.hpp',['../EventHostManualTrigger_8hpp.html',1,'']]],
-  ['eventoacc_2ehpp_3647',['EventOacc.hpp',['../EventOacc_8hpp.html',1,'']]],
-  ['eventomp5_2ehpp_3648',['EventOmp5.hpp',['../EventOmp5_8hpp.html',1,'']]],
-  ['eventuniformcudahiprt_2ehpp_3649',['EventUniformCudaHipRt.hpp',['../EventUniformCudaHipRt_8hpp.html',1,'']]],
-  ['exampledefaultacc_2ehpp_3650',['ExampleDefaultAcc.hpp',['../ExampleDefaultAcc_8hpp.html',1,'']]],
-  ['extent_2ehpp_3651',['Extent.hpp',['../Extent_8hpp.html',1,'']]]
+  ['engine_2ehpp_3917',['Engine.hpp',['../Engine_8hpp.html',1,'']]],
+  ['eventcpu_2ehpp_3918',['EventCpu.hpp',['../EventCpu_8hpp.html',1,'']]],
+  ['eventcpusyclintel_2ehpp_3919',['EventCpuSyclIntel.hpp',['../EventCpuSyclIntel_8hpp.html',1,'']]],
+  ['eventcudart_2ehpp_3920',['EventCudaRt.hpp',['../EventCudaRt_8hpp.html',1,'']]],
+  ['eventfpgasyclintel_2ehpp_3921',['EventFpgaSyclIntel.hpp',['../EventFpgaSyclIntel_8hpp.html',1,'']]],
+  ['eventfpgasyclxilinx_2ehpp_3922',['EventFpgaSyclXilinx.hpp',['../EventFpgaSyclXilinx_8hpp.html',1,'']]],
+  ['eventgenericsycl_2ehpp_3923',['EventGenericSycl.hpp',['../EventGenericSycl_8hpp.html',1,'']]],
+  ['eventgenericthreads_2ehpp_3924',['EventGenericThreads.hpp',['../EventGenericThreads_8hpp.html',1,'']]],
+  ['eventgpusyclintel_2ehpp_3925',['EventGpuSyclIntel.hpp',['../EventGpuSyclIntel_8hpp.html',1,'']]],
+  ['eventhiprt_2ehpp_3926',['EventHipRt.hpp',['../EventHipRt_8hpp.html',1,'']]],
+  ['eventhostmanualtrigger_2ehpp_3927',['EventHostManualTrigger.hpp',['../EventHostManualTrigger_8hpp.html',1,'']]],
+  ['eventoacc_2ehpp_3928',['EventOacc.hpp',['../EventOacc_8hpp.html',1,'']]],
+  ['eventomp5_2ehpp_3929',['EventOmp5.hpp',['../EventOmp5_8hpp.html',1,'']]],
+  ['eventuniformcudahiprt_2ehpp_3930',['EventUniformCudaHipRt.hpp',['../EventUniformCudaHipRt_8hpp.html',1,'']]],
+  ['exampledefaultacc_2ehpp_3931',['ExampleDefaultAcc.hpp',['../ExampleDefaultAcc_8hpp.html',1,'']]],
+  ['extent_2ehpp_3932',['Extent.hpp',['../Extent_8hpp.html',1,'']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['result_4272',['result',['../structalpaka_1_1rand_1_1engine_1_1PhiloxStateSingle.html#a1179f0fcbd156538f1c4508a65a3eccf',1,'alpaka::rand::engine::PhiloxStateSingle']]],
-  ['rounds_4273',['rounds',['../structalpaka_1_1rand_1_1engine_1_1PhiloxParams.html#a8608e41699cf4983e594d2c5d8d4f1ad',1,'alpaka::rand::engine::PhiloxParams']]]
+  ['name_4679',['name',['../structalpaka_1_1ApiCudaRt.html#a4027d293a3ec5f86ab0ea3e3acbaf478',1,'alpaka::ApiCudaRt']]],
+  ['no_5fcpuid_4680',['NO_CPUID',['../namespacealpaka_1_1cpu_1_1detail.html#a00bbec37f6a4dd972e4c008f6c0dffff',1,'alpaka::cpu::detail']]]
 ];

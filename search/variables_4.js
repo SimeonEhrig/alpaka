@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['hasasyncbufsupport_4185',['hasAsyncBufSupport',['../namespacealpaka.html#a8a8e81d9d160079842607c98825b67ce',1,'alpaka']]],
-  ['head_4186',['head',['../structutility_1_1tuple_1_1Tuple_3_01T_00_01Ts_8_8_8_01_4.html#a188f6eb67eafad3ac61ba2f1e555dc72',1,'utility::tuple::Tuple&lt; T, Ts... &gt;']]]
+  ['func_5f_4584',['func_',['../structalpaka_1_1ApiCudaRt_1_1HostFnAdaptor.html#a9a8f21cd85a36562ed0c79f41db908ce',1,'alpaka::ApiCudaRt::HostFnAdaptor']]]
 ];

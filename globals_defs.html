@@ -95,11 +95,11 @@ $(document).ready(function(){initNavTree('globals_defs.html',''); initResizable(
 <li>ALPAKA_ACC_GPU_HIP_ENABLED
 : <a class="el" href="GpuHipRt_8hpp.html#a58e5ae79cc50973891fb1e18aba44468">GpuHipRt.hpp</a>
 </li>
-<li>ALPAKA_API_PREFIX
-: <a class="el" href="Cuda_8hpp.html#a221d7f397ce9c41696e7fcf3dbcfd95b">Cuda.hpp</a>
+<li>ALPAKA_ACC_SYCL_ENABLED
+: <a class="el" href="GenericSycl_8hpp.html#ac866fe66bfffebbd57710000c8fd1532">GenericSycl.hpp</a>
 </li>
 <li>ALPAKA_ASSERT
-: <a class="el" href="Assert_8hpp.html#a328f757c64444f381ff6575f5caa54e8">Assert.hpp</a>
+: <a class="el" href="Assert_8hpp.html#a73eef5bdf73d2c61db1fced592d0ca16">Assert.hpp</a>
 </li>
 <li>ALPAKA_ASSERT_OFFLOAD
 : <a class="el" href="Assert_8hpp.html#acf9112f00b5f6352f9c046236fb9255e">Assert.hpp</a>
@@ -138,25 +138,28 @@ $(document).ready(function(){initNavTree('globals_defs.html',''); initResizable(
 : <a class="el" href="Decay_8hpp.html#afba6dfdddd358c0ee5a1c6406afd2c11">Decay.hpp</a>
 </li>
 <li>ALPAKA_DEVICE_VOLATILE
-: <a class="el" href="Common_8hpp.html#aed43b384334a6dcf0f0132e8a55339f6">Common.hpp</a>
+: <a class="el" href="core_2Common_8hpp.html#aed43b384334a6dcf0f0132e8a55339f6">Common.hpp</a>
 </li>
 <li>ALPAKA_DISABLE_ATOMIC_ATOMICREF
 : <a class="el" href="AtomicCpu_8hpp.html#aee56292192a1faa6f6ad0666aa3cfac0">AtomicCpu.hpp</a>
 </li>
 <li>ALPAKA_FN_ACC
-: <a class="el" href="Common_8hpp.html#a1bfb3a7f88316271e795e20d2810755a">Common.hpp</a>
+: <a class="el" href="core_2Common_8hpp.html#a1bfb3a7f88316271e795e20d2810755a">Common.hpp</a>
+</li>
+<li>ALPAKA_FN_EXTERN
+: <a class="el" href="core_2Common_8hpp.html#abff118d1e26a571defc17f70d045e775">Common.hpp</a>
 </li>
 <li>ALPAKA_FN_HOST
-: <a class="el" href="Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">Common.hpp</a>
+: <a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">Common.hpp</a>
 </li>
 <li>ALPAKA_FN_HOST_ACC
-: <a class="el" href="Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">Common.hpp</a>
+: <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">Common.hpp</a>
 </li>
 <li>ALPAKA_FN_INLINE
-: <a class="el" href="Common_8hpp.html#abecbcba04c4231d227406ebb0020330b">Common.hpp</a>
+: <a class="el" href="core_2Common_8hpp.html#abecbcba04c4231d227406ebb0020330b">Common.hpp</a>
 </li>
 <li>ALPAKA_NO_HOST_ACC_WARNING
-: <a class="el" href="Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">Common.hpp</a>
+: <a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">Common.hpp</a>
 </li>
 <li>ALPAKA_OMP5_CHECK
 : <a class="el" href="Omp5_8hpp.html#ab181927481ae66c009a90750f0884b2b">Omp5.hpp</a>
@@ -164,23 +167,42 @@ $(document).ready(function(){initNavTree('globals_defs.html',''); initResizable(
 <li>ALPAKA_OPTIMAL_ALIGNMENT
 : <a class="el" href="Align_8hpp.html#aa32712c717c4b16951a245ffaa20b7e1">Align.hpp</a>
 </li>
-<li>ALPAKA_PP_CONCAT
-: <a class="el" href="Cuda_8hpp.html#a78d586f3481be4a74b086709cb9b0ea2">Cuda.hpp</a>
-</li>
-<li>ALPAKA_PP_CONCAT_DO
-: <a class="el" href="Cuda_8hpp.html#a0378eb218e791111a37318efa75aeb05">Cuda.hpp</a>
-</li>
 <li>ALPAKA_STATIC_ACC_MEM_CONSTANT
-: <a class="el" href="Common_8hpp.html#a9d25bd4d9704008351191d42e112af2a">Common.hpp</a>
+: <a class="el" href="core_2Common_8hpp.html#a9d25bd4d9704008351191d42e112af2a">Common.hpp</a>
 </li>
 <li>ALPAKA_STATIC_ACC_MEM_GLOBAL
-: <a class="el" href="Common_8hpp.html#a95bebbbf9aab1a18a278359a85a41125">Common.hpp</a>
+: <a class="el" href="core_2Common_8hpp.html#a95bebbbf9aab1a18a278359a85a41125">Common.hpp</a>
+</li>
+<li>ALPAKA_SYCL_ONEAPI_CPU
+: <a class="el" href="CpuSyclIntel_8hpp.html#a2ee3c939647ff7e43593b83765c77aa5">CpuSyclIntel.hpp</a>
+</li>
+<li>ALPAKA_SYCL_ONEAPI_FPGA
+: <a class="el" href="FpgaSyclIntel_8hpp.html#a4eda7c615d8df85f3dd812707b72c3f1">FpgaSyclIntel.hpp</a>
+</li>
+<li>ALPAKA_SYCL_ONEAPI_GPU
+: <a class="el" href="GpuSyclIntel_8hpp.html#a072572d7eb8d3aa2cc291ef7ee66fe38">GpuSyclIntel.hpp</a>
+</li>
+<li>ALPAKA_SYCL_TARGET_CPU
+: <a class="el" href="CpuSyclIntel_8hpp.html#ac36612a48f63161cc19600d85c6eefe5">CpuSyclIntel.hpp</a>
+</li>
+<li>ALPAKA_SYCL_TARGET_FPGA
+: <a class="el" href="FpgaSyclIntel_8hpp.html#aad6f7f079420dc2381f7c1328dbf3360">FpgaSyclIntel.hpp</a>
+, <a class="el" href="FpgaSyclXilinx_8hpp.html#aad6f7f079420dc2381f7c1328dbf3360">FpgaSyclXilinx.hpp</a>
+</li>
+<li>ALPAKA_SYCL_TARGET_GPU
+: <a class="el" href="GpuSyclIntel_8hpp.html#af62e2e3566a37f895c4959dea50352c2">GpuSyclIntel.hpp</a>
 </li>
 <li>ALPAKA_UNIFORM_CUDA_HIP_RT_CHECK
 : <a class="el" href="UniformCudaHip_8hpp.html#aad1e1de5a82a5f770453aed02324a99f">UniformCudaHip.hpp</a>
 </li>
 <li>ALPAKA_UNIFORM_CUDA_HIP_RT_CHECK_IGNORE
 : <a class="el" href="UniformCudaHip_8hpp.html#a3543744ca91201d363b4c4008f9bc589">UniformCudaHip.hpp</a>
+</li>
+<li>ALPAKA_UNIFORM_CUDA_HIP_RT_CHECK_IGNORE_NOEXCEPT
+: <a class="el" href="UniformCudaHip_8hpp.html#a945307717858a91dc304bc7a18757a0b">UniformCudaHip.hpp</a>
+</li>
+<li>ALPAKA_UNIFORM_CUDA_HIP_RT_CHECK_NOEXCEPT
+: <a class="el" href="UniformCudaHip_8hpp.html#a22859ac71d0dd3e9e1f743a8f70ec323">UniformCudaHip.hpp</a>
 </li>
 <li>ALPAKA_UNREACHABLE
 : <a class="el" href="Unreachable_8hpp.html#ae11d52dff9103cac2bdd047bcf218e19">Unreachable.hpp</a>
@@ -207,26 +229,14 @@ $(document).ready(function(){initNavTree('globals_defs.html',''); initResizable(
 <li>BOOST_ARCH_HSA
 : <a class="el" href="BoostPredef_8hpp.html#a7e93a087093094c222b8bb936f9a2e4f">BoostPredef.hpp</a>
 </li>
-<li>BOOST_ARCH_PTX
-: <a class="el" href="BoostPredef_8hpp.html#af8cf9ff27e1121d666ffc6d964c5a685">BoostPredef.hpp</a>
-</li>
 <li>BOOST_COMP_CLANG_CUDA
 : <a class="el" href="BoostPredef_8hpp.html#ad345fa3025032124d8928ff3264b054a">BoostPredef.hpp</a>
 </li>
 <li>BOOST_COMP_HIP
 : <a class="el" href="BoostPredef_8hpp.html#ab70c551604ece3554c82bf8539b9ac62">BoostPredef.hpp</a>
 </li>
-<li>BOOST_COMP_NVCC
-: <a class="el" href="BoostPredef_8hpp.html#a40b40ac7baba0ad030b0e97274176762">BoostPredef.hpp</a>
-</li>
-<li>BOOST_LANG_CUDA
-: <a class="el" href="BoostPredef_8hpp.html#a6ac6230a345c5b141206dcbc8011d4af">BoostPredef.hpp</a>
-</li>
 <li>BOOST_LANG_HIP
 : <a class="el" href="BoostPredef_8hpp.html#ad408333b834a21cc5c4a0c1ddc47387f">BoostPredef.hpp</a>
-</li>
-<li>BOOST_PREDEF_MAKE_10_VVRRP
-: <a class="el" href="BoostPredef_8hpp.html#a2886b3affb8084a5cffaed0d51a0698e">BoostPredef.hpp</a>
 </li>
 </ul>
 
@@ -290,7 +300,7 @@ $(document).ready(function(){initNavTree('globals_defs.html',''); initResizable(
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Feb 7 2022 14:59:02 for alpaka by
+    <li class="footer">Generated on Wed Apr 20 2022 09:50:07 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
