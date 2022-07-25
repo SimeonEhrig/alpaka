@@ -18,6 +18,9 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
       [ "AtomicOp< BlockOr >", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockOr_01_4.html", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockOr_01_4" ]
     ] ],
     [ "BoostPredef.hpp", "BoostPredef_8hpp.html", "BoostPredef_8hpp" ],
+    [ "CallbackThread.hpp", "CallbackThread_8hpp.html", [
+      [ "CallbackThread", "classalpaka_1_1core_1_1CallbackThread.html", "classalpaka_1_1core_1_1CallbackThread" ]
+    ] ],
     [ "ClipCast.hpp", "ClipCast_8hpp.html", "ClipCast_8hpp" ],
     [ "Common.hpp", "core_2Common_8hpp.html", "core_2Common_8hpp" ],
     [ "Concepts.hpp", "Concepts_8hpp.html", "Concepts_8hpp" ],
@@ -26,7 +29,10 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
     [ "CudaHipCommon.hpp", "CudaHipCommon_8hpp.html", "CudaHipCommon_8hpp" ],
     [ "Debug.hpp", "Debug_8hpp.html", "Debug_8hpp" ],
     [ "Decay.hpp", "Decay_8hpp.html", "Decay_8hpp" ],
-    [ "Fibers.hpp", "Fibers_8hpp.html", null ],
+    [ "DemangleTypeNames.hpp", "DemangleTypeNames_8hpp.html", "DemangleTypeNames_8hpp" ],
+    [ "Fibers.hpp", "Fibers_8hpp.html", [
+      [ "IsThisThread< boost::fibers::fiber >", "structalpaka_1_1trait_1_1IsThisThread_3_01boost_1_1fibers_1_1fiber_01_4.html", "structalpaka_1_1trait_1_1IsThisThread_3_01boost_1_1fibers_1_1fiber_01_4" ]
+    ] ],
     [ "Hip.hpp", "Hip_8hpp.html", null ],
     [ "Omp5.hpp", "Omp5_8hpp.html", "Omp5_8hpp" ],
     [ "OmpSchedule.hpp", "OmpSchedule_8hpp.html", "OmpSchedule_8hpp" ],
@@ -37,6 +43,7 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
     ] ],
     [ "RemoveRestrict.hpp", "RemoveRestrict_8hpp.html", "RemoveRestrict_8hpp" ],
     [ "Sycl.hpp", "Sycl_8hpp.html", null ],
+    [ "ThreadTraits.hpp", "ThreadTraits_8hpp.html", "ThreadTraits_8hpp" ],
     [ "Tuple.hpp", "Tuple_8hpp.html", "Tuple_8hpp" ],
     [ "UniformCudaHip.hpp", "UniformCudaHip_8hpp.html", "UniformCudaHip_8hpp" ],
     [ "Unreachable.hpp", "Unreachable_8hpp.html", "Unreachable_8hpp" ],

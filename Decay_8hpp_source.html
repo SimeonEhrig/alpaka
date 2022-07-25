@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('Decay_8hpp_source.html',''); initResiz
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment"></span> </div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">//! Wrapper around std::decay_t for parameter pack expansion expressions</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment"></span><span class="comment">//</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// Works around Intel compiler internal error when used in empty template pack</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">// Works around PGI compiler internal error when used in empty template pack</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// extension as discussed in #995. It seems not possible to make a workaround</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="comment">// with pure C++ tools, like an alias template, so macro it is. Note that</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">// there is no known issue outside of empty parameter pack expansions,</span></div>
@@ -113,7 +113,7 @@ $(document).ready(function(){initNavTree('Decay_8hpp_source.html',''); initResiz
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// The choice of macro over writing typename std::decay&lt;Type&gt;::type explicitly</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="comment">// in parameter pack expansion expressions is to avoid warnings from diagnostic</span></div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">// tools, and also for brevity.</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#if BOOST_COMP_INTEL || BOOST_COMP_PGI</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#if BOOST_COMP_PGI</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#    define ALPAKA_DECAY_T(Type) typename std::decay&lt;Type&gt;::type</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno"><a class="line" href="Decay_8hpp.html#afba6dfdddd358c0ee5a1c6406afd2c11">   30</a></span>&#160;<span class="preprocessor">#    define ALPAKA_DECAY_T(Type) std::decay_t&lt;Type&gt;</span></div>
@@ -122,7 +122,7 @@ $(document).ready(function(){initNavTree('Decay_8hpp_source.html',''); initResiz
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacealpaka.html">alpaka</a></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{<span class="comment"></span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">    //! Provides a decaying wrapper around std::is_same. Example: is_decayed_v&lt;volatile float, float&gt; returns true.</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"></span>    <span class="comment">/* TODO: Remove the following pragmas once support for clang 5 and 6 is removed. They are necessary because these</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment"></span>    <span class="comment">/* TODO: Remove the following pragmas once support for clang 6 is removed. They are necessary because these</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">    /  clang versions incorrectly warn about a missing &#39;extern&#39;. */</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#if BOOST_COMP_CLANG</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#    pragma clang diagnostic push</span></div>
@@ -138,13 +138,13 @@ $(document).ready(function(){initNavTree('Decay_8hpp_source.html',''); initResiz
 </div><!-- doc-content -->
 <div class="ttc" id="aBoostPredef_8hpp_html"><div class="ttname"><a href="BoostPredef_8hpp.html">BoostPredef.hpp</a></div></div>
 <div class="ttc" id="aDecay_8hpp_html_afba6dfdddd358c0ee5a1c6406afd2c11"><div class="ttname"><a href="Decay_8hpp.html#afba6dfdddd358c0ee5a1c6406afd2c11">ALPAKA_DECAY_T</a></div><div class="ttdeci">#define ALPAKA_DECAY_T(Type)</div><div class="ttdoc">Wrapper around std::decay_t for parameter pack expansion expressions.</div><div class="ttdef"><b>Definition:</b> <a href="Decay_8hpp_source.html#l00030">Decay.hpp:30</a></div></div>
-<div class="ttc" id="anamespacealpaka_html"><div class="ttname"><a href="namespacealpaka.html">alpaka</a></div><div class="ttdoc">The alpaka accelerator library.</div><div class="ttdef"><b>Definition:</b> <a href="AccCpuFibers_8hpp_source.html#l00048">AccCpuFibers.hpp:48</a></div></div>
+<div class="ttc" id="anamespacealpaka_html"><div class="ttname"><a href="namespacealpaka.html">alpaka</a></div><div class="ttdoc">The alpaka accelerator library.</div><div class="ttdef"><b>Definition:</b> <a href="AccCpuFibers_8hpp_source.html#l00049">AccCpuFibers.hpp:49</a></div></div>
 <div class="ttc" id="anamespacealpaka_html_abd223e5dfb4b62614c25046db2a1d1de"><div class="ttname"><a href="namespacealpaka.html#abd223e5dfb4b62614c25046db2a1d1de">alpaka::is_decayed_v</a></div><div class="ttdeci">constexpr auto is_decayed_v</div><div class="ttdoc">Provides a decaying wrapper around std::is_same. Example: is_decayed_v&lt;volatile float,...</div><div class="ttdef"><b>Definition:</b> <a href="Decay_8hpp_source.html#l00043">Decay.hpp:43</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f712bff28b6ff1ff870a222047d04675.html">alpaka</a></li><li class="navelem"><a class="el" href="dir_cfa240ccb1fbe815dea98e3774bff08a.html">core</a></li><li class="navelem"><a class="el" href="Decay_8hpp.html">Decay.hpp</a></li>
-    <li class="footer">Generated on Wed Apr 20 2022 10:36:49 for alpaka by
+    <li class="footer">Generated on Mon Jul 25 2022 14:26:11 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>

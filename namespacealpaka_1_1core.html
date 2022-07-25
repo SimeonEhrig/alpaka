@@ -86,7 +86,8 @@ $(document).ready(function(){initNavTree('namespacealpaka_1_1core.html',''); ini
   <div class="summary">
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">alpaka::core Namespace Reference</div>  </div>
 </div><!--header-->
@@ -108,8 +109,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1core_1_1AlignedDelete.html">AlignedDelete</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy aligned object and free aligned memory  <a href="structalpaka_1_1core_1_1AlignedDelete.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classalpaka_1_1core_1_1CallbackThread.html">CallbackThread</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structalpaka_1_1core_1_1RoundUpToPowerOfTwo.html">RoundUpToPowerOfTwo</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounds to the next higher power of two (if not already power of two).  <a href="structalpaka_1_1core_1_1RoundUpToPowerOfTwo.html#details">More...</a><br /></td></tr>
@@ -118,10 +118,9 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:aac97800a3823af1fc97594e29b6677ab"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#abecbcba04c4231d227406ebb0020330b">ALPAKA_FN_INLINE</a> <a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1core.html#aac97800a3823af1fc97594e29b6677ab">alignedAlloc</a> (size_t alignment, size_t size) -&gt; void *</td></tr>
-<tr class="memdesc:aac97800a3823af1fc97594e29b6677ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rounds to the next higher power of two (if not already power of two).  <a href="namespacealpaka_1_1core.html#aac97800a3823af1fc97594e29b6677ab">More...</a><br /></td></tr>
 <tr class="separator:aac97800a3823af1fc97594e29b6677ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ee6854f4b95a55572f293d23d1d6fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#abecbcba04c4231d227406ebb0020330b">ALPAKA_FN_INLINE</a> <a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1core.html#a37ee6854f4b95a55572f293d23d1d6fc">alignedFree</a> (void *ptr)</td></tr>
-<tr class="separator:a37ee6854f4b95a55572f293d23d1d6fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18d2c3add663581bbb1c223acd7b0973"><td class="memItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#abecbcba04c4231d227406ebb0020330b">ALPAKA_FN_INLINE</a> <a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1core.html#a18d2c3add663581bbb1c223acd7b0973">alignedFree</a> (size_t alignment, void *ptr)</td></tr>
+<tr class="separator:a18d2c3add663581bbb1c223acd7b0973"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bc48ef7c999409550fcbe1a948d6f31"><td class="memTemplParams" colspan="2">template&lt;typename TFunc , typename... TArgs&gt; </td></tr>
 <tr class="memitem:a3bc48ef7c999409550fcbe1a948d6f31"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1core.html#a3bc48ef7c999409550fcbe1a948d6f31">apply</a> (TFunc &amp;&amp;f, Tuple&lt; TArgs... &gt; t)</td></tr>
 <tr class="separator:a3bc48ef7c999409550fcbe1a948d6f31"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -130,12 +129,18 @@ Functions</h2></td></tr>
 <tr class="memdesc:acb5609c51166b4271e202d6efaca6a3f"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function asserts that the integral value TLhs is greater than TRhs.  <a href="namespacealpaka_1_1core.html#acb5609c51166b4271e202d6efaca6a3f">More...</a><br /></td></tr>
 <tr class="separator:acb5609c51166b4271e202d6efaca6a3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeb3178f2d72ab3a833e280a30c88479"><td class="memTemplParams" colspan="2">template&lt;typename TArg &gt; </td></tr>
-<tr class="memitem:abeb3178f2d72ab3a833e280a30c88479"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> constexpr <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1core.html#abeb3178f2d72ab3a833e280a30c88479">assertValueUnsigned</a> (TArg const &amp;<a class="el" href="namespacealpaka.html#a2abcda08119231662c5c3ef3f04cd707">arg</a>) -&gt; void</td></tr>
+<tr class="memitem:abeb3178f2d72ab3a833e280a30c88479"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="core_2Common_8hpp.html#aa8d02f0c4379afabdb7f4ee2e8f7954c">ALPAKA_NO_HOST_ACC_WARNING</a> constexpr <a class="el" href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a> auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1core.html#abeb3178f2d72ab3a833e280a30c88479">assertValueUnsigned</a> (TArg const &amp;<a class="el" href="namespacealpaka.html#a4687bd12b3f0fd3b5c56700a2392e573">arg</a>) -&gt; void</td></tr>
 <tr class="memdesc:abeb3178f2d72ab3a833e280a30c88479"><td class="mdescLeft">&#160;</td><td class="mdescRight">This method checks integral values if they are greater or equal zero. The implementation prevents warnings for checking this for unsigned types.  <a href="namespacealpaka_1_1core.html#abeb3178f2d72ab3a833e280a30c88479">More...</a><br /></td></tr>
 <tr class="separator:abeb3178f2d72ab3a833e280a30c88479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba50ad750855be306239699abe49ba28"><td class="memTemplParams" colspan="2">template&lt;typename T , typename V &gt; </td></tr>
 <tr class="memitem:aba50ad750855be306239699abe49ba28"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1core.html#aba50ad750855be306239699abe49ba28">clipCast</a> (V const &amp;val) -&gt; T</td></tr>
 <tr class="separator:aba50ad750855be306239699abe49ba28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a02c3471af40bf64c77e9d599f0007954"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a02c3471af40bf64c77e9d599f0007954"><td class="memTemplItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1core.html#a02c3471af40bf64c77e9d599f0007954">demangled</a> = boost::core::demangle(typeid(T).name())</td></tr>
+<tr class="separator:a02c3471af40bf64c77e9d599f0007954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="aac97800a3823af1fc97594e29b6677ab"></a>
@@ -165,14 +170,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Rounds to the next higher power of two (if not already power of two). </p>
-
-<p class="definition">Definition at line <a class="el" href="AlignedAlloc_8hpp_source.html#l00025">25</a> of file <a class="el" href="AlignedAlloc_8hpp_source.html">AlignedAlloc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlignedAlloc_8hpp_source.html#l00019">19</a> of file <a class="el" href="AlignedAlloc_8hpp_source.html">AlignedAlloc.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a37ee6854f4b95a55572f293d23d1d6fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37ee6854f4b95a55572f293d23d1d6fc">&#9670;&nbsp;</a></span>alignedFree()</h2>
+<a id="a18d2c3add663581bbb1c223acd7b0973"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18d2c3add663581bbb1c223acd7b0973">&#9670;&nbsp;</a></span>alignedFree()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,14 +183,24 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="core_2Common_8hpp.html#abecbcba04c4231d227406ebb0020330b">ALPAKA_FN_INLINE</a> <a class="el" href="core_2Common_8hpp.html#a30cf38ce8c63908b355f69eb893da575">ALPAKA_FN_HOST</a> void alpaka::core::alignedFree </td>
           <td>(</td>
-          <td class="paramtype">void *&#160;</td>
-          <td class="paramname"><em>ptr</em></td><td>)</td>
+          <td class="paramtype">size_t&#160;</td>
+          <td class="paramname"><em>alignment</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="AlignedAlloc_8hpp_source.html#l00040">40</a> of file <a class="el" href="AlignedAlloc_8hpp_source.html">AlignedAlloc.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="AlignedAlloc_8hpp_source.html#l00024">24</a> of file <a class="el" href="AlignedAlloc_8hpp_source.html">AlignedAlloc.hpp</a>.</p>
 
 </div>
 </div>
@@ -321,13 +334,40 @@ template&lt;typename T , typename V &gt; </div>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a02c3471af40bf64c77e9d599f0007954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02c3471af40bf64c77e9d599f0007954">&#9670;&nbsp;</a></span>demangled</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string alpaka::core::demangled = boost::core::demangle(typeid(T).name())</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="DemangleTypeNames_8hpp_source.html#l00024">24</a> of file <a class="el" href="DemangleTypeNames_8hpp_source.html">DemangleTypeNames.hpp</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacealpaka.html">alpaka</a></li><li class="navelem"><a class="el" href="namespacealpaka_1_1core.html">core</a></li>
-    <li class="footer">Generated on Wed Apr 20 2022 10:36:51 for alpaka by
+    <li class="footer">Generated on Mon Jul 25 2022 14:26:12 for alpaka by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.17 </li>
   </ul>
