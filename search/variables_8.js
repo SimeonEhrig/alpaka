@@ -1,13 +1,5 @@
 var searchData=
 [
-  ['limitmallocheapsize_4702',['limitMallocHeapSize',['../structalpaka_1_1ApiCudaRt.html#a53e97caaa4aed473e25616a06a812dfe',1,'alpaka::ApiCudaRt']]],
-  ['limitprintffifosize_4703',['limitPrintfFifoSize',['../structalpaka_1_1ApiCudaRt.html#a6872c94c0c6195c0c04b3fe800811ead',1,'alpaka::ApiCudaRt']]],
-  ['ln10_4704',['ln10',['../namespacealpaka_1_1math_1_1constants.html#a848369863d11a27a9c0bf9b8b29c0031',1,'alpaka::math::constants']]],
-  ['ln10_5fv_4705',['ln10_v',['../namespacealpaka_1_1math_1_1constants.html#a7b14fcb498215b4c1e32cb70f1cd9b16',1,'alpaka::math::constants']]],
-  ['ln2_4706',['ln2',['../namespacealpaka_1_1math_1_1constants.html#add06099c9dca88df3bcbb471baa84ff3',1,'alpaka::math::constants']]],
-  ['ln2_5fv_4707',['ln2_v',['../namespacealpaka_1_1math_1_1constants.html#a0404ebc7713dd7791198ea70dacee212',1,'alpaka::math::constants']]],
-  ['log10e_4708',['log10e',['../namespacealpaka_1_1math_1_1constants.html#a617db05f0367dfbb9398370b7e7f5e91',1,'alpaka::math::constants']]],
-  ['log10e_5fv_4709',['log10e_v',['../namespacealpaka_1_1math_1_1constants.html#a751c0ef97018dcee1cf7019fc0529321',1,'alpaka::math::constants']]],
-  ['log2e_4710',['log2e',['../namespacealpaka_1_1math_1_1constants.html#a92b1f2068eb397d6595d34b6c9342e56',1,'alpaka::math::constants']]],
-  ['log2e_5fv_4711',['log2e_v',['../namespacealpaka_1_1math_1_1constants.html#affdf0c731f607ef48d21f84936a64d57',1,'alpaka::math::constants']]]
+  ['key_4883',['key',['../structalpaka_1_1rand_1_1engine_1_1PhiloxStateSingle.html#aaed7d38d17a6dd55a8b25a869d93f5a4',1,'alpaka::rand::engine::PhiloxStateSingle::key()'],['../structalpaka_1_1rand_1_1engine_1_1PhiloxStateVector.html#a9e0c1f598cdeb0079e49144809716e75',1,'alpaka::rand::engine::PhiloxStateVector::key()']]],
+  ['kind_4884',['kind',['../structalpaka_1_1omp_1_1Schedule.html#a9804c454062feeb123b51e3319f6e132',1,'alpaka::omp::Schedule']]]
 ];

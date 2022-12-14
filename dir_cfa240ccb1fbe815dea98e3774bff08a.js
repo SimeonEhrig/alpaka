@@ -12,7 +12,6 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
     [ "BarrierThread.hpp", "BarrierThread_8hpp.html", [
       [ "BarrierThread", "classalpaka_1_1core_1_1threads_1_1BarrierThread.html", "classalpaka_1_1core_1_1threads_1_1BarrierThread" ],
       [ "BarrierThreadWithPredicate", "classalpaka_1_1core_1_1threads_1_1BarrierThreadWithPredicate.html", "classalpaka_1_1core_1_1threads_1_1BarrierThreadWithPredicate" ],
-      [ "AtomicOp", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp.html", null ],
       [ "AtomicOp< BlockAnd >", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockAnd_01_4.html", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockAnd_01_4" ],
       [ "AtomicOp< BlockCount >", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockCount_01_4.html", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockCount_01_4" ],
       [ "AtomicOp< BlockOr >", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockOr_01_4.html", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockOr_01_4" ]
@@ -30,9 +29,6 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
     [ "Debug.hpp", "Debug_8hpp.html", "Debug_8hpp" ],
     [ "Decay.hpp", "Decay_8hpp.html", "Decay_8hpp" ],
     [ "DemangleTypeNames.hpp", "DemangleTypeNames_8hpp.html", "DemangleTypeNames_8hpp" ],
-    [ "Fibers.hpp", "Fibers_8hpp.html", [
-      [ "IsThisThread< boost::fibers::fiber >", "structalpaka_1_1trait_1_1IsThisThread_3_01boost_1_1fibers_1_1fiber_01_4.html", "structalpaka_1_1trait_1_1IsThisThread_3_01boost_1_1fibers_1_1fiber_01_4" ]
-    ] ],
     [ "Hip.hpp", "Hip_8hpp.html", null ],
     [ "Omp5.hpp", "Omp5_8hpp.html", "Omp5_8hpp" ],
     [ "OmpSchedule.hpp", "OmpSchedule_8hpp.html", "OmpSchedule_8hpp" ],
@@ -48,6 +44,6 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
     [ "UniformCudaHip.hpp", "UniformCudaHip_8hpp.html", "UniformCudaHip_8hpp" ],
     [ "Unreachable.hpp", "Unreachable_8hpp.html", "Unreachable_8hpp" ],
     [ "Unroll.hpp", "Unroll_8hpp.html", "Unroll_8hpp" ],
-    [ "Utility.hpp", "Utility_8hpp.html", null ],
+    [ "Utility.hpp", "Utility_8hpp.html", "Utility_8hpp" ],
     [ "Vectorize.hpp", "Vectorize_8hpp.html", "Vectorize_8hpp" ]
 ];
