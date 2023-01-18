@@ -1,6 +1,5 @@
 var NAVTREEINDEX3 =
 {
-"TypeListOps_8hpp.html":[4,0,0,0,16,17],
 "TypeListOps_8hpp.html#aa022767003bdbdb48057be42318fa982":[4,0,0,0,16,17,4],
 "TypeListOps_8hpp_source.html":[4,0,0,0,16,17],
 "UniformCudaHip_8hpp.html":[4,0,0,0,3,26],
@@ -95,6 +94,7 @@ var NAVTREEINDEX3 =
 "WorkDivUniformCudaHipBuiltIn_8hpp.html":[4,0,0,0,27,4],
 "WorkDivUniformCudaHipBuiltIn_8hpp_source.html":[4,0,0,0,27,4],
 "acc_2Traits_8hpp.html":[4,0,0,0,0,17],
+"acc_2Traits_8hpp.html#a28ea3e39a125aaf90a97b1f75d91f0dd":[4,0,0,0,0,17,6],
 "acc_2Traits_8hpp.html#a3fa7ad40eda1f1fc3b26d8945ff882a0":[4,0,0,0,0,17,4],
 "acc_2Traits_8hpp.html#ac49b3c4b09c8a7455e8f88faa51484df":[4,0,0,0,0,17,5],
 "acc_2Traits_8hpp.html#ae3a0f745fcf8e6ac0125e5ba7911e11a":[4,0,0,0,0,17,3],
