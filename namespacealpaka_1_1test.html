@@ -141,7 +141,7 @@ Typedefs</h2></td></tr>
 <tr class="memdesc:ae9ab01ad1c3b482470d65373a1e90fc5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The queue type that should be used for the given device.  <a href="namespacealpaka_1_1test.html#ae9ab01ad1c3b482470d65373a1e90fc5">More...</a><br /></td></tr>
 <tr class="separator:ae9ab01ad1c3b482470d65373a1e90fc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61f6b665ee46c5d41d00ac18855df6e1"><td class="memTemplParams" colspan="2">template&lt;typename TDim , typename TIdx &gt; </td></tr>
-<tr class="memitem:a61f6b665ee46c5d41d00ac18855df6e1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1test.html#a61f6b665ee46c5d41d00ac18855df6e1">EnabledAccs</a> = typename <a class="el" href="namespacealpaka_1_1meta.html#a65e851602fef62781ed5eb23fb1d8fd6">meta::Filter</a>&lt; <a class="el" href="namespacealpaka_1_1test_1_1detail.html#aa0ddc83c2f8d6778391079d2a7ed64f2">detail::EnabledAccsElseInt</a>&lt; TDim, TIdx &gt;, std::is_class &gt;</td></tr>
+<tr class="memitem:a61f6b665ee46c5d41d00ac18855df6e1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1test.html#a61f6b665ee46c5d41d00ac18855df6e1">EnabledAccs</a> = typename <a class="el" href="namespacealpaka_1_1meta.html#a65e851602fef62781ed5eb23fb1d8fd6">meta::Filter</a>&lt; <a class="el" href="namespacealpaka_1_1test_1_1detail.html#ab57c849d67c6a52eb555586398034871">detail::EnabledAccsElseInt</a>&lt; TDim, TIdx &gt;, std::is_class &gt;</td></tr>
 <tr class="memdesc:a61f6b665ee46c5d41d00ac18855df6e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">A vector containing all available accelerators.  <a href="namespacealpaka_1_1test.html#a61f6b665ee46c5d41d00ac18855df6e1">More...</a><br /></td></tr>
 <tr class="separator:a61f6b665ee46c5d41d00ac18855df6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5751f63b161a4e0460c55f2f5c3d2a17"><td class="memTemplParams" colspan="2">template&lt;typename TDev &gt; </td></tr>
@@ -155,6 +155,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:aa839db9d57839ee169d666ff52272a13"><td class="memTemplParams" colspan="2">template&lt;typename TView &gt; </td></tr>
 <tr class="memitem:aa839db9d57839ee169d666ff52272a13"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1test.html#aa839db9d57839ee169d666ff52272a13">Iterator</a> = <a class="el" href="classalpaka_1_1test_1_1trait_1_1IteratorView.html">trait::IteratorView</a>&lt; TView &gt;</td></tr>
 <tr class="separator:aa839db9d57839ee169d666ff52272a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afac7bd7e920007cb27f7f7d2c3aa7b2a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1test.html#afac7bd7e920007cb27f7f7d2c3aa7b2a">NonZeroTestDims</a> = <a class="el" href="namespacealpaka_1_1meta.html#a65e851602fef62781ed5eb23fb1d8fd6">meta::Filter</a>&lt; <a class="el" href="namespacealpaka_1_1test.html#a5a34c17994a72cc9e63b68fdcb274870">TestDims</a>, <a class="el" href="namespacealpaka_1_1meta.html#a8cc18e1b72c5071da369d80b8f0569a7">meta::NonZero</a> &gt;</td></tr>
+<tr class="memdesc:afac7bd7e920007cb27f7f7d2c3aa7b2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">A std::tuple holding non-zero dimensions.  <a href="namespacealpaka_1_1test.html#afac7bd7e920007cb27f7f7d2c3aa7b2a">More...</a><br /></td></tr>
+<tr class="separator:afac7bd7e920007cb27f7f7d2c3aa7b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac981ce6a8a742c033eb0e664cc0de959"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacealpaka_1_1test.html#ac981ce6a8a742c033eb0e664cc0de959">TestAccs</a> = <a class="el" href="namespacealpaka_1_1meta.html#ad0cbe491078fbefb5d6c6908dd4d799e">meta::Apply</a>&lt; <a class="el" href="namespacealpaka_1_1test_1_1detail.html#ae3d5270239c3fdbcb3480c1cdb4fb996">detail::InstantiatedEnabledAccs</a>, <a class="el" href="namespacealpaka_1_1meta.html#a8ec9f76ad5048e654936626c56845f2c">meta::Concatenate</a> &gt;</td></tr>
 <tr class="memdesc:ac981ce6a8a742c033eb0e664cc0de959"><td class="mdescLeft">&#160;</td><td class="mdescRight">A std::tuple containing fully instantiated accelerators.  <a href="namespacealpaka_1_1test.html#ac981ce6a8a742c033eb0e664cc0de959">More...</a><br /></td></tr>
 <tr class="separator:ac981ce6a8a742c033eb0e664cc0de959"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,14 +235,14 @@ template&lt;typename TDev &gt; </div>
 template&lt;typename TDim , typename TIdx &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespacealpaka_1_1test.html#a61f6b665ee46c5d41d00ac18855df6e1">alpaka::test::EnabledAccs</a> = typedef typename <a class="el" href="namespacealpaka_1_1meta.html#a65e851602fef62781ed5eb23fb1d8fd6">meta::Filter</a>&lt;<a class="el" href="namespacealpaka_1_1test_1_1detail.html#aa0ddc83c2f8d6778391079d2a7ed64f2">detail::EnabledAccsElseInt</a>&lt;TDim, TIdx&gt;, std::is_class&gt;</td>
+          <td class="memname">using <a class="el" href="namespacealpaka_1_1test.html#a61f6b665ee46c5d41d00ac18855df6e1">alpaka::test::EnabledAccs</a> = typedef typename <a class="el" href="namespacealpaka_1_1meta.html#a65e851602fef62781ed5eb23fb1d8fd6">meta::Filter</a>&lt;<a class="el" href="namespacealpaka_1_1test_1_1detail.html#ab57c849d67c6a52eb555586398034871">detail::EnabledAccsElseInt</a>&lt;TDim, TIdx&gt;, std::is_class&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>A vector containing all available accelerators. </p>
 
-<p class="definition">Definition at line <a class="el" href="TestAccs_8hpp_source.html#l00127">127</a> of file <a class="el" href="TestAccs_8hpp_source.html">TestAccs.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TestAccs_8hpp_source.html#l00119">119</a> of file <a class="el" href="TestAccs_8hpp_source.html">TestAccs.hpp</a>.</p>
 
 </div>
 </div>
@@ -279,7 +282,7 @@ template&lt;typename TQueue &gt; </div>
 
 <p>The queue type that should be used for the given accelerator. </p>
 
-<p class="definition">Definition at line <a class="el" href="Queue_8hpp_source.html#l00187">187</a> of file <a class="el" href="Queue_8hpp_source.html">Queue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Queue_8hpp_source.html#l00163">163</a> of file <a class="el" href="Queue_8hpp_source.html">Queue.hpp</a>.</p>
 
 </div>
 </div>
@@ -301,6 +304,25 @@ template&lt;typename TView &gt; </div>
 
 </div>
 </div>
+<a id="afac7bd7e920007cb27f7f7d2c3aa7b2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afac7bd7e920007cb27f7f7d2c3aa7b2a">&#9670;&nbsp;</a></span>NonZeroTestDims</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacealpaka_1_1test.html#afac7bd7e920007cb27f7f7d2c3aa7b2a">alpaka::test::NonZeroTestDims</a> = typedef <a class="el" href="namespacealpaka_1_1meta.html#a65e851602fef62781ed5eb23fb1d8fd6">meta::Filter</a>&lt;<a class="el" href="namespacealpaka_1_1test.html#a5a34c17994a72cc9e63b68fdcb274870">TestDims</a>, <a class="el" href="namespacealpaka_1_1meta.html#a8cc18e1b72c5071da369d80b8f0569a7">meta::NonZero</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>A std::tuple holding non-zero dimensions. </p>
+<p>NonZeroTestDims = std::tuple&lt;Dim1, Dim2, ... DimN&gt; </p>
+
+<p class="definition">Definition at line <a class="el" href="TestDims_8hpp_source.html#l00032">32</a> of file <a class="el" href="TestDims_8hpp_source.html">TestDims.hpp</a>.</p>
+
+</div>
+</div>
 <a id="ac981ce6a8a742c033eb0e664cc0de959"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac981ce6a8a742c033eb0e664cc0de959">&#9670;&nbsp;</a></span>TestAccs</h2>
 
@@ -316,7 +338,7 @@ template&lt;typename TView &gt; </div>
 <p>A std::tuple containing fully instantiated accelerators. </p>
 <p>TestAccs = tuple&lt; Acc1&lt;Dim1,Idx1&gt;, ..., AccN&lt;Dim1,Idx1&gt;, Acc1&lt;Dim2,Idx1&gt;, ..., AccN&lt;Dim2,Idx1&gt;, ..., Acc1&lt;DimN,IdxN&gt;, ..., AccN&lt;DimN,IdxN&gt;&gt; </p>
 
-<p class="definition">Definition at line <a class="el" href="TestAccs_8hpp_source.html#l00189">189</a> of file <a class="el" href="TestAccs_8hpp_source.html">TestAccs.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TestAccs_8hpp_source.html#l00181">181</a> of file <a class="el" href="TestAccs_8hpp_source.html">TestAccs.hpp</a>.</p>
 
 </div>
 </div>
@@ -334,7 +356,7 @@ template&lt;typename TView &gt; </div>
 
 <p>A std::tuple holding dimensions. </p>
 
-<p class="definition">Definition at line <a class="el" href="TestDims_8hpp_source.html#l00015">15</a> of file <a class="el" href="TestDims_8hpp_source.html">TestDims.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TestDims_8hpp_source.html#l00017">17</a> of file <a class="el" href="TestDims_8hpp_source.html">TestDims.hpp</a>.</p>
 
 </div>
 </div>
@@ -370,7 +392,7 @@ template&lt;typename TView &gt; </div>
 
 <p>A std::tuple holding tuples of devices and corresponding queue types. </p>
 
-<p class="definition">Definition at line <a class="el" href="Queue_8hpp_source.html#l00190">190</a> of file <a class="el" href="Queue_8hpp_source.html">Queue.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Queue_8hpp_source.html#l00166">166</a> of file <a class="el" href="Queue_8hpp_source.html">Queue.hpp</a>.</p>
 
 </div>
 </div>
@@ -644,7 +666,7 @@ template&lt;typename TDim , typename TIdx &gt; </div>
 
 <p>Writes the enabled accelerators to the given stream. </p>
 
-<p class="definition">Definition at line <a class="el" href="TestAccs_8hpp_source.html#l00145">145</a> of file <a class="el" href="TestAccs_8hpp_source.html">TestAccs.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TestAccs_8hpp_source.html#l00137">137</a> of file <a class="el" href="TestAccs_8hpp_source.html">TestAccs.hpp</a>.</p>
 
 </div>
 </div>
@@ -654,7 +676,7 @@ template&lt;typename TDim , typename TIdx &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacealpaka.html">alpaka</a></li><li class="navelem"><a class="el" href="namespacealpaka_1_1test.html">test</a></li>
-    <li class="footer">Generated on Wed May 24 2023 15:38:34 for alpaka by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon Jul 24 2023 11:53:38 for alpaka by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>

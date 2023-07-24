@@ -18,7 +18,6 @@ var hierarchy =
     [ "alpaka::AtomicNoOp", "classalpaka_1_1AtomicNoOp.html", null ],
     [ "alpaka::AtomicOmpBuiltIn", "classalpaka_1_1AtomicOmpBuiltIn.html", null ],
     [ "alpaka::AtomicOr", "structalpaka_1_1AtomicOr.html", null ],
-    [ "alpaka::AtomicStdLibLock< THashTableSize >", "classalpaka_1_1AtomicStdLibLock.html", null ],
     [ "alpaka::AtomicSub", "structalpaka_1_1AtomicSub.html", null ],
     [ "alpaka::AtomicUniformCudaHipBuiltIn", "classalpaka_1_1AtomicUniformCudaHipBuiltIn.html", null ],
     [ "alpaka::AtomicXor", "structalpaka_1_1AtomicXor.html", null ],
@@ -51,13 +50,8 @@ var hierarchy =
     [ "alpaka::core::CallbackThread", "classalpaka_1_1core_1_1CallbackThread.html", null ],
     [ "alpaka::core::detail::AssertGreaterThan< TLhs, TRhs >", "structalpaka_1_1core_1_1detail_1_1AssertGreaterThan.html", null ],
     [ "alpaka::core::detail::AssertValueUnsigned< TArg >", "structalpaka_1_1core_1_1detail_1_1AssertValueUnsigned.html", null ],
-    [ "alpaka::core::detail::ConcurrentExecPoolMutexAndCond< TMutex, TCondVar >", "structalpaka_1_1core_1_1detail_1_1ConcurrentExecPoolMutexAndCond.html", null ],
-    [ "alpaka::core::detail::Empty", "structalpaka_1_1core_1_1detail_1_1Empty.html", null ],
-    [ "alpaka::core::detail::ITaskPkg", "structalpaka_1_1core_1_1detail_1_1ITaskPkg.html", [
-      [ "alpaka::core::detail::TaskPkg< TPromise, TFnObj >", "structalpaka_1_1core_1_1detail_1_1TaskPkg.html", null ]
-    ] ],
     [ "alpaka::core::detail::ScopeLogStdOut", "classalpaka_1_1core_1_1detail_1_1ScopeLogStdOut.html", null ],
-    [ "alpaka::core::detail::ThreadSafeQueue< T >", "structalpaka_1_1core_1_1detail_1_1ThreadSafeQueue.html", null ],
+    [ "alpaka::core::detail::ThreadPool", "structalpaka_1_1core_1_1detail_1_1ThreadPool.html", null ],
     [ "alpaka::core::threads::BarrierThread< TIdx >", "classalpaka_1_1core_1_1threads_1_1BarrierThread.html", null ],
     [ "alpaka::core::threads::BarrierThreadWithPredicate< TIdx >", "classalpaka_1_1core_1_1threads_1_1BarrierThreadWithPredicate.html", null ],
     [ "alpaka::core::threads::detail::AtomicOp< TOp >", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp.html", null ],
@@ -123,7 +117,7 @@ var hierarchy =
     [ "alpaka::detail::ParallelForStaticImpl< TKernel, TSchedule, HasScheduleChunkSize< TKernel > >", "structalpaka_1_1detail_1_1ParallelForStaticImpl_3_01TKernel_00_01TSchedule_00_01HasScheduleChunkSize_3_01TKernel_01_4_01_4.html", null ],
     [ "alpaka::detail::Print< TDim, TView >", "structalpaka_1_1detail_1_1Print.html", null ],
     [ "alpaka::detail::Print< DimInt< Dim< TView >::value - 1u >, TView >", "structalpaka_1_1detail_1_1Print_3_01DimInt_3_01Dim_3_01TView_01_4_1_1value_01-_011u_01_4_00_01TView_01_4.html", null ],
-    [ "alpaka::detail::QueueRegistry< TQueue >", "classalpaka_1_1detail_1_1QueueRegistry.html", null ],
+    [ "alpaka::detail::QueueRegistry< TQueue >", "structalpaka_1_1detail_1_1QueueRegistry.html", null ],
     [ "alpaka::detail::TaskCopyCpu< DimInt< 0u >, TViewDst, TViewSrc, TExtent >", "structalpaka_1_1detail_1_1TaskCopyCpu_3_01DimInt_3_010u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html", null ],
     [ "alpaka::detail::TaskCopyCpuBase< TDim, TViewDst, TViewSrc, TExtent >", "structalpaka_1_1detail_1_1TaskCopyCpuBase.html", [
       [ "alpaka::detail::TaskCopyCpu< TDim, TViewDst, TViewSrc, TExtent >", "structalpaka_1_1detail_1_1TaskCopyCpu.html", null ]
@@ -361,9 +355,6 @@ var hierarchy =
     [ "alpaka::meta::detail::MakeIntegerSequenceHelper< TisSizeNegative, TbIsBegin, T, Tbegin, TIntCon, TIntSeq >", "structalpaka_1_1meta_1_1detail_1_1MakeIntegerSequenceHelper.html", null ],
     [ "alpaka::meta::detail::MakeIntegerSequenceHelper< false, false, T, Tbegin, std::integral_constant< T, TIdx >, std::integer_sequence< T, Tvals... > >", "structalpaka_1_1meta_1_1detail_1_1MakeIntegerSequenceHelper_3_01false_00_01false_00_01T_00_01Tbe2226ebc67c6afc7587e3108b88049dfe.html", null ],
     [ "alpaka::meta::detail::MakeIntegerSequenceHelper< false, true, T, Tbegin, std::integral_constant< T, Tbegin >, std::integer_sequence< T, Tvals... > >", "structalpaka_1_1meta_1_1detail_1_1MakeIntegerSequenceHelper_3_01false_00_01true_00_01T_00_01Tbeg466ec65af3249a9f6f5c982e7153affc.html", null ],
-    [ "alpaka::meta::detail::NdLoop< TIndexSequence >", "structalpaka_1_1meta_1_1detail_1_1NdLoop.html", null ],
-    [ "alpaka::meta::detail::NdLoop< std::index_sequence< Tdim0, Tdims... > >", "structalpaka_1_1meta_1_1detail_1_1NdLoop_3_01std_1_1index__sequence_3_01Tdim0_00_01Tdims_8_8_8_01_4_01_4.html", null ],
-    [ "alpaka::meta::detail::NdLoop< std::index_sequence<> >", "structalpaka_1_1meta_1_1detail_1_1NdLoop_3_01std_1_1index__sequence_3_4_01_4.html", null ],
     [ "alpaka::meta::detail::TransformImpl< Ts, TOp >", "structalpaka_1_1meta_1_1detail_1_1TransformImpl.html", null ],
     [ "alpaka::meta::detail::TransformImpl< TList< Ts... >, TOp >", "structalpaka_1_1meta_1_1detail_1_1TransformImpl_3_01TList_3_01Ts_8_8_8_01_4_00_01TOp_01_4.html", null ],
     [ "alpaka::meta::detail::UniqueHelper< T, Ts >", "structalpaka_1_1meta_1_1detail_1_1UniqueHelper.html", null ],
@@ -467,7 +458,6 @@ var hierarchy =
     [ "alpaka::TagCpuTbbBlocks", "structalpaka_1_1TagCpuTbbBlocks.html", null ],
     [ "alpaka::TagCpuThreads", "structalpaka_1_1TagCpuThreads.html", null ],
     [ "alpaka::TagFpgaSyclIntel", "structalpaka_1_1TagFpgaSyclIntel.html", null ],
-    [ "alpaka::TagFpgaSyclXilinx", "structalpaka_1_1TagFpgaSyclXilinx.html", null ],
     [ "alpaka::TagGenericSycl", "structalpaka_1_1TagGenericSycl.html", null ],
     [ "alpaka::TagGpuCudaRt", "structalpaka_1_1TagGpuCudaRt.html", null ],
     [ "alpaka::TagGpuHipRt", "structalpaka_1_1TagGpuHipRt.html", null ],
@@ -545,7 +535,6 @@ var hierarchy =
     [ "alpaka::trait::AtomicOp< AtomicXor, AtomicOmpBuiltIn, T, THierarchy >", "structalpaka_1_1trait_1_1AtomicOp_3_01AtomicXor_00_01AtomicOmpBuiltIn_00_01T_00_01THierarchy_01_4.html", null ],
     [ "alpaka::trait::AtomicOp< TOp, AtomicNoOp, T, THierarchy >", "structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicNoOp_00_01T_00_01THierarchy_01_4.html", null ],
     [ "alpaka::trait::AtomicOp< TOp, AtomicOmpBuiltIn, T, THierarchy >", "structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicOmpBuiltIn_00_01T_00_01THierarchy_01_4.html", null ],
-    [ "alpaka::trait::AtomicOp< TOp, AtomicStdLibLock< THashTableSize >, T, THierarchy >", "structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicStdLibLock_3_01THashTableSize_01_4_00_01T_00_01THierarchy_01_4.html", null ],
     [ "alpaka::trait::AtomicOp< TOp, AtomicUniformCudaHipBuiltIn, T, THierarchy >", "structalpaka_1_1trait_1_1AtomicOp_3_01TOp_00_01AtomicUniformCudaHipBuiltIn_00_01T_00_01THierarchy_01_4.html", null ],
     [ "alpaka::trait::BlockSharedMemDynSizeBytes< TKernelFnObj, TAcc, TSfinae >", "structalpaka_1_1trait_1_1BlockSharedMemDynSizeBytes.html", null ],
     [ "alpaka::trait::BufAlloc< TElem, TDim, TIdx, TDev, TSfinae >", "structalpaka_1_1trait_1_1BufAlloc.html", null ],
@@ -721,6 +710,7 @@ var hierarchy =
     [ "alpaka::trait::Enqueue< QueueUniformCudaHipRtNonBlocking< TApi >, EventUniformCudaHipRt< TApi > >", "structalpaka_1_1trait_1_1Enqueue_3_01QueueUniformCudaHipRtNonBlocking_3_01TApi_01_4_00_01EventUnb371dda0c3fad7859625a369617cb310.html", null ],
     [ "alpaka::trait::Enqueue< QueueUniformCudaHipRtNonBlocking< TApi >, TaskKernelGpuUniformCudaHipRt< TApi, TAcc, TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1Enqueue_3_01QueueUniformCudaHipRtNonBlocking_3_01TApi_01_4_00_01TaskKercda831e3343a928a98cd81e7d01f0f88.html", null ],
     [ "alpaka::trait::Enqueue< uniform_cuda_hip::detail::QueueUniformCudaHipRt< TApi, TBlocking >, TTask >", "structalpaka_1_1trait_1_1Enqueue_3_01uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt_3_01T9dbb58e551c44567a74899d54e5680a4.html", null ],
+    [ "alpaka::trait::Enqueue< uniform_cuda_hip::detail::QueueUniformCudaHipRt< TApi, TBlocking >, TTask >::HostFuncData", "structalpaka_1_1trait_1_1Enqueue_3_01uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt_3_01Td759b6d1df26520003f1888921f03722.html", null ],
     [ "alpaka::trait::EventType< T, TSfinae >", "structalpaka_1_1trait_1_1EventType.html", null ],
     [ "alpaka::trait::EventType< QueueCpuOmp2Collective >", "structalpaka_1_1trait_1_1EventType_3_01QueueCpuOmp2Collective_01_4.html", null ],
     [ "alpaka::trait::EventType< QueueGenericThreadsBlocking< TDev > >", "structalpaka_1_1trait_1_1EventType_3_01QueueGenericThreadsBlocking_3_01TDev_01_4_01_4.html", null ],
@@ -890,8 +880,6 @@ var hierarchy =
     [ "alpaka::trait::IsComplete< EventUniformCudaHipRt< TApi > >", "structalpaka_1_1trait_1_1IsComplete_3_01EventUniformCudaHipRt_3_01TApi_01_4_01_4.html", null ],
     [ "alpaka::trait::IsComplete< test::EventHostManualTriggerCpu< TDev > >", "structalpaka_1_1trait_1_1IsComplete_3_01test_1_1EventHostManualTriggerCpu_3_01TDev_01_4_01_4.html", null ],
     [ "alpaka::trait::IsComplete< test::EventHostManualTriggerCuda >", "structalpaka_1_1trait_1_1IsComplete_3_01test_1_1EventHostManualTriggerCuda_01_4.html", null ],
-    [ "alpaka::trait::IsThisThread< TThread, TSfinae >", "structalpaka_1_1trait_1_1IsThisThread.html", null ],
-    [ "alpaka::trait::IsThisThread< std::thread >", "structalpaka_1_1trait_1_1IsThisThread_3_01std_1_1thread_01_4.html", null ],
     [ "alpaka::trait::Malloc< T, TAlloc, TSfinae >", "structalpaka_1_1trait_1_1Malloc.html", null ],
     [ "alpaka::trait::Malloc< T, AllocCpuAligned< TAlignment > >", "structalpaka_1_1trait_1_1Malloc_3_01T_00_01AllocCpuAligned_3_01TAlignment_01_4_01_4.html", null ],
     [ "alpaka::trait::Malloc< T, AllocCpuNew >", "structalpaka_1_1trait_1_1Malloc_3_01T_00_01AllocCpuNew_01_4.html", null ],
@@ -1682,15 +1670,14 @@ var hierarchy =
     [ "RangeBuilder::type", null, [
       [ "utility::tuple::IndexRange< MIN, MAX >", "structutility_1_1tuple_1_1IndexRange.html", null ]
     ] ],
+    [ "std::bool_constant", null, [
+      [ "alpaka::meta::detail::NonZeroImpl< std::integral_constant< T, TValue > >", "structalpaka_1_1meta_1_1detail_1_1NonZeroImpl_3_01std_1_1integral__constant_3_01T_00_01TValue_01_4_01_4.html", null ]
+    ] ],
     [ "std::bool_constant< std::is_same_v< TApi, ApiCudaRt > &&TApi::version > BOOST_VERSION_NUMBER", null, [
       [ "alpaka::trait::HasAsyncBufSupport< TDim, DevUniformCudaHipRt< TApi > >", "structalpaka_1_1trait_1_1HasAsyncBufSupport_3_01TDim_00_01DevUniformCudaHipRt_3_01TApi_01_4_01_4.html", null ]
     ] ],
     [ "std::conditional_t", null, [
-      [ "alpaka::core::detail::ConcurrentExecPool< TIdx, TConcurrentExec, TPromise, TYield, TMutex, TCondVar, TisYielding >", "structalpaka_1_1core_1_1detail_1_1ConcurrentExecPool.html", null ],
       [ "alpaka::meta::detail::UniqueHelper< TList< Ts... >, U, Us... >", "structalpaka_1_1meta_1_1detail_1_1UniqueHelper_3_01TList_3_01Ts_8_8_8_01_4_00_01U_00_01Us_8_8_8_01_4.html", null ]
-    ] ],
-    [ "std::enable_shared_from_this", null, [
-      [ "alpaka::trait::Enqueue< uniform_cuda_hip::detail::QueueUniformCudaHipRt< TApi, TBlocking >, TTask >::CallbackSynchronizationData", "structalpaka_1_1trait_1_1Enqueue_3_01uniform__cuda__hip_1_1detail_1_1QueueUniformCudaHipRt_3_01Ta7b72ee3ef27528fd85d493efb492f69.html", null ]
     ] ],
     [ "std::false_type", null, [
       [ "alpaka::experimental::internal::IsAccessor< T >", "structalpaka_1_1experimental_1_1internal_1_1IsAccessor.html", null ],
@@ -1698,6 +1685,7 @@ var hierarchy =
       [ "alpaka::meta::Contains< List, Value >", "structalpaka_1_1meta_1_1Contains.html", null ],
       [ "alpaka::meta::DependentFalseType< T >", "structalpaka_1_1meta_1_1DependentFalseType.html", null ],
       [ "alpaka::meta::IsArrayOrVector< T >", "structalpaka_1_1meta_1_1IsArrayOrVector.html", null ],
+      [ "alpaka::meta::detail::NonZeroImpl< T >", "structalpaka_1_1meta_1_1detail_1_1NonZeroImpl.html", null ],
       [ "alpaka::trait::HasAsyncBufSupport< TDim, TDev >", "structalpaka_1_1trait_1_1HasAsyncBufSupport.html", null ],
       [ "alpaka::trait::HasMappedBufSupport< TPltf >", "structalpaka_1_1trait_1_1HasMappedBufSupport.html", null ],
       [ "alpakaGlobal::AlpakaBuiltInAtomic< TOp, T, THierarchy, TSfinae >", "structalpakaGlobal_1_1AlpakaBuiltInAtomic.html", null ]
@@ -1768,7 +1756,6 @@ var hierarchy =
     [ "TDim::value", null, [
       [ "alpaka::trait::HasAsyncBufSupport< TDim, DevUniformCudaHipRt< TApi > >", "structalpaka_1_1trait_1_1HasAsyncBufSupport_3_01TDim_00_01DevUniformCudaHipRt_3_01TApi_01_4_01_4.html", null ]
     ] ],
-    [ "alpaka::core::detail::ThreadSafeQueue< std::shared_ptr< alpaka::core::detail::ITaskPkg > >", "structalpaka_1_1core_1_1detail_1_1ThreadSafeQueue.html", null ],
     [ "TINYMT32_T", "structTINYMT32__T.html", null ],
     [ "utility::tuple::Tuple< Ts... >", "structutility_1_1tuple_1_1Tuple.html", null ],
     [ "utility::tuple::concat_tuple< typename, typename >", "structutility_1_1tuple_1_1concat__tuple.html", null ],

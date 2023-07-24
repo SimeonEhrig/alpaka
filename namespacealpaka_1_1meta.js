@@ -41,11 +41,12 @@ var namespacealpaka_1_1meta =
     [ "LowerMax", "namespacealpaka_1_1meta.html#a0f3c6777dcdb44614e8c23dfe07c99d0", null ],
     [ "LowerMin", "namespacealpaka_1_1meta.html#af9bb8645940302e4f6477058666856fa", null ],
     [ "MakeIntegerSequenceOffset", "namespacealpaka_1_1meta.html#a8e231c413f4066784715ce6383c1762b", null ],
+    [ "NonZero", "namespacealpaka_1_1meta.html#a8cc18e1b72c5071da369d80b8f0569a7", null ],
     [ "Transform", "namespacealpaka_1_1meta.html#a4d6e5b453ca068f43742cf89a32593dd", null ],
     [ "Unique", "namespacealpaka_1_1meta.html#a49d048c65329b66f46dca6575c3f524c", null ],
     [ "foldr", "namespacealpaka_1_1meta.html#a0cef95a955740a85417c93cee0a99d0e", null ],
     [ "foldr", "namespacealpaka_1_1meta.html#acbbc58bde0ebd68f42808ae663e6047d", null ],
     [ "forEachType", "namespacealpaka_1_1meta.html#a84fa9b71d57092b3d9da78ee5eea68b4", null ],
-    [ "ndLoop", "namespacealpaka_1_1meta.html#a045597af75fc88f57bf8c02e3ecc4444", null ],
+    [ "ndLoop", "namespacealpaka_1_1meta.html#a7261a133bf3b52a94cc2e289f0c73497", null ],
     [ "ndLoopIncIdx", "namespacealpaka_1_1meta.html#a85354683c329835d1fa3e4da7de4c750", null ]
 ];
