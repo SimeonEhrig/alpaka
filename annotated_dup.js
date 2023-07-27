@@ -1117,7 +1117,8 @@ var annotated_dup =
         [ "WaiterWaitFor< QueueGenericThreadsNonBlocking< TDev >, EventGenericThreads< TDev > >", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueGenericThreadsNonBlocking_3_01TDev_01_4_00_01Eve1997da4d547a82a9d47dff51beb12816.html", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueGenericThreadsNonBlocking_3_01TDev_01_4_00_01Eve1997da4d547a82a9d47dff51beb12816" ],
         [ "WaiterWaitFor< QueueUniformCudaHipRtBlocking< TApi >, EventUniformCudaHipRt< TApi > >", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtBlocking_3_01TApi_01_4_00_01Even9bd2d2c09c98f9f04aeae65df74fb19f.html", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtBlocking_3_01TApi_01_4_00_01Even9bd2d2c09c98f9f04aeae65df74fb19f" ],
         [ "WaiterWaitFor< QueueUniformCudaHipRtNonBlocking< TApi >, EventUniformCudaHipRt< TApi > >", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtNonBlocking_3_01TApi_01_4_00_01E19bd7448850749104fd5d2cb2291b691.html", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueUniformCudaHipRtNonBlocking_3_01TApi_01_4_00_01E19bd7448850749104fd5d2cb2291b691" ],
-        [ "WaiterWaitFor< TDev, EventGenericThreads< TDev > >", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01TDev_00_01EventGenericThreads_3_01TDev_01_4_01_4.html", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01TDev_00_01EventGenericThreads_3_01TDev_01_4_01_4" ]
+        [ "WaiterWaitFor< TDev, EventGenericThreads< TDev > >", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01TDev_00_01EventGenericThreads_3_01TDev_01_4_01_4.html", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01TDev_00_01EventGenericThreads_3_01TDev_01_4_01_4" ],
+        [ "WarpSize", "structalpaka_1_1trait_1_1WarpSize.html", null ]
       ] ],
       [ "uniform_cuda_hip", "namespacealpaka_1_1uniform__cuda__hip.html", [
         [ "detail", "namespacealpaka_1_1uniform__cuda__hip_1_1detail.html", [
@@ -1219,8 +1220,8 @@ var annotated_dup =
       [ "MemFenceOmp2Threads", "classalpaka_1_1MemFenceOmp2Threads.html", null ],
       [ "MemFenceUniformCudaHipBuiltIn", "classalpaka_1_1MemFenceUniformCudaHipBuiltIn.html", null ],
       [ "MemSetKernel", "classalpaka_1_1MemSetKernel.html", "classalpaka_1_1MemSetKernel" ],
-      [ "PltfCpu", "classalpaka_1_1PltfCpu.html", "classalpaka_1_1PltfCpu" ],
-      [ "PltfUniformCudaHipRt", "classalpaka_1_1PltfUniformCudaHipRt.html", "classalpaka_1_1PltfUniformCudaHipRt" ],
+      [ "PltfCpu", "structalpaka_1_1PltfCpu.html", null ],
+      [ "PltfUniformCudaHipRt", "structalpaka_1_1PltfUniformCudaHipRt.html", null ],
       [ "QueueCpuOmp2Collective", "classalpaka_1_1QueueCpuOmp2Collective.html", "classalpaka_1_1QueueCpuOmp2Collective" ],
       [ "QueueGenericThreadsBlocking", "classalpaka_1_1QueueGenericThreadsBlocking.html", "classalpaka_1_1QueueGenericThreadsBlocking" ],
       [ "QueueGenericThreadsNonBlocking", "classalpaka_1_1QueueGenericThreadsNonBlocking.html", "classalpaka_1_1QueueGenericThreadsNonBlocking" ],
@@ -1229,7 +1230,7 @@ var annotated_dup =
       [ "TagCpuOmp2Blocks", "structalpaka_1_1TagCpuOmp2Blocks.html", "structalpaka_1_1TagCpuOmp2Blocks" ],
       [ "TagCpuOmp2Threads", "structalpaka_1_1TagCpuOmp2Threads.html", "structalpaka_1_1TagCpuOmp2Threads" ],
       [ "TagCpuSerial", "structalpaka_1_1TagCpuSerial.html", "structalpaka_1_1TagCpuSerial" ],
-      [ "TagCpuSyclIntel", "structalpaka_1_1TagCpuSyclIntel.html", "structalpaka_1_1TagCpuSyclIntel" ],
+      [ "TagCpuSycl", "structalpaka_1_1TagCpuSycl.html", "structalpaka_1_1TagCpuSycl" ],
       [ "TagCpuTbbBlocks", "structalpaka_1_1TagCpuTbbBlocks.html", "structalpaka_1_1TagCpuTbbBlocks" ],
       [ "TagCpuThreads", "structalpaka_1_1TagCpuThreads.html", "structalpaka_1_1TagCpuThreads" ],
       [ "TagFpgaSyclIntel", "structalpaka_1_1TagFpgaSyclIntel.html", "structalpaka_1_1TagFpgaSyclIntel" ],
