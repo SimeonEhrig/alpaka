@@ -98,30 +98,30 @@ $(document).ready(function(){initNavTree('RandGenericSycl_8hpp_source.html','');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="DevGenericSycl_8hpp.html">alpaka/dev/DevGenericSycl.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="rand_2Traits_8hpp.html">alpaka/rand/Traits.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifdef ALPAKA_ACC_SYCL_ENABLED</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#ifndef ALPAKA_DISABLE_VENDOR_RNG</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// Backend specific imports.</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#    include &lt;sycl/sycl.hpp&gt;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#    if BOOST_COMP_CLANG</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#        pragma clang diagnostic push</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wcast-align&quot;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wcast-qual&quot;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wextra-semi&quot;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wfloat-equal&quot;</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wold-style-cast&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wreserved-identifier&quot;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wreserved-macro-identifier&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wsign-compare&quot;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#        pragma clang diagnostic ignored &quot;-Wundef&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#    endif</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#    include &lt;oneapi/mkl/rng.hpp&gt;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160; </div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#    include &lt;oneapi/dpl/random&gt;</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#    if BOOST_COMP_CLANG</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#        pragma clang diagnostic pop</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#    endif</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#    ifdef ALPAKA_ACC_SYCL_ENABLED</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">// Backend specific imports.</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#        include &lt;sycl/sycl.hpp&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#        if BOOST_COMP_CLANG</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#            pragma clang diagnostic push</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wcast-align&quot;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wcast-qual&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wextra-semi&quot;</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wfloat-equal&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wold-style-cast&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wreserved-identifier&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wreserved-macro-identifier&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wsign-compare&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#            pragma clang diagnostic ignored &quot;-Wundef&quot;</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#        endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#        include &lt;oneapi/dpl/random&gt;</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#        if BOOST_COMP_CLANG</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#            pragma clang diagnostic pop</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#        endif</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#    include &lt;type_traits&gt;</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#        include &lt;type_traits&gt;</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160; </div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">namespace </span><a class="code" href="namespacealpaka_1_1rand.html">alpaka::rand</a></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{<span class="comment"></span></div>
@@ -136,7 +136,7 @@ $(document).ready(function(){initNavTree('RandGenericSycl_8hpp_source.html','');
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        sycl::nd_item&lt;TDim::value&gt; m_item_rand;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    };</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#    if !defined(ALPAKA_HOST_ONLY)</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#        if !defined(ALPAKA_HOST_ONLY)</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keyword">namespace </span>distribution::sycl_rand</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {<span class="comment"></span></div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">        //! The SYCL random number floating point normal distribution.</span></div>
@@ -281,16 +281,18 @@ $(document).ready(function(){initNavTree('RandGenericSycl_8hpp_source.html','');
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            }</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        };</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    } <span class="comment">// namespace engine::trait</span></div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="preprocessor">#    endif</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;<span class="preprocessor">#        endif</span></div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;} <span class="comment">// namespace alpaka::rand</span></div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160; </div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor">#    endif</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160; </div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="aBoostPredef_8hpp_html"><div class="ttname"><a href="BoostPredef_8hpp.html">BoostPredef.hpp</a></div></div>
 <div class="ttc" id="aConcepts_8hpp_html"><div class="ttname"><a href="Concepts_8hpp.html">Concepts.hpp</a></div></div>
 <div class="ttc" id="aDevGenericSycl_8hpp_html"><div class="ttname"><a href="DevGenericSycl_8hpp.html">DevGenericSycl.hpp</a></div></div>
 <div class="ttc" id="acore_2Common_8hpp_html_a4a195bd41eac945cee512865b6ef73f3"><div class="ttname"><a href="core_2Common_8hpp.html#a4a195bd41eac945cee512865b6ef73f3">ALPAKA_FN_HOST_ACC</a></div><div class="ttdeci">#define ALPAKA_FN_HOST_ACC</div><div class="ttdef"><b>Definition:</b> <a href="core_2Common_8hpp_source.html#l00031">Common.hpp:31</a></div></div>
-<div class="ttc" id="anamespacealpaka_1_1math_html_a1c8270a0ce32a1ee8f28e9184988e57a"><div class="ttname"><a href="namespacealpaka_1_1math.html#a1c8270a0ce32a1ee8f28e9184988e57a">alpaka::math::max</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC auto max(T const &amp;max_ctx, Tx const &amp;x, Ty const &amp;y)</div><div class="ttdoc">Returns the larger of two arguments. NaNs are treated as missing data (between a NaN and a numeric va...</div><div class="ttdef"><b>Definition:</b> <a href="math_2Traits_8hpp_source.html#l01121">Traits.hpp:1121</a></div></div>
-<div class="ttc" id="anamespacealpaka_1_1math_html_ad1a3c72853dc08a5e54e532f25a08988"><div class="ttname"><a href="namespacealpaka_1_1math.html#ad1a3c72853dc08a5e54e532f25a08988">alpaka::math::min</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC auto min(T const &amp;min_ctx, Tx const &amp;x, Ty const &amp;y)</div><div class="ttdoc">Returns the smaller of two arguments. NaNs are treated as missing data (between a NaN and a numeric v...</div><div class="ttdef"><b>Definition:</b> <a href="math_2Traits_8hpp_source.html#l01138">Traits.hpp:1138</a></div></div>
+<div class="ttc" id="anamespacealpaka_1_1math_html_a1c8270a0ce32a1ee8f28e9184988e57a"><div class="ttname"><a href="namespacealpaka_1_1math.html#a1c8270a0ce32a1ee8f28e9184988e57a">alpaka::math::max</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC auto max(T const &amp;max_ctx, Tx const &amp;x, Ty const &amp;y)</div><div class="ttdoc">Returns the larger of two arguments. NaNs are treated as missing data (between a NaN and a numeric va...</div><div class="ttdef"><b>Definition:</b> <a href="math_2Traits_8hpp_source.html#l01227">Traits.hpp:1227</a></div></div>
+<div class="ttc" id="anamespacealpaka_1_1math_html_ad1a3c72853dc08a5e54e532f25a08988"><div class="ttname"><a href="namespacealpaka_1_1math.html#ad1a3c72853dc08a5e54e532f25a08988">alpaka::math::min</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC auto min(T const &amp;min_ctx, Tx const &amp;x, Ty const &amp;y)</div><div class="ttdoc">Returns the smaller of two arguments. NaNs are treated as missing data (between a NaN and a numeric v...</div><div class="ttdef"><b>Definition:</b> <a href="math_2Traits_8hpp_source.html#l01244">Traits.hpp:1244</a></div></div>
 <div class="ttc" id="anamespacealpaka_1_1rand_1_1distribution_html_a3d2a8e74bda83320942609c09c227f46"><div class="ttname"><a href="namespacealpaka_1_1rand_1_1distribution.html#a3d2a8e74bda83320942609c09c227f46">alpaka::rand::distribution::createNormalReal</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC auto createNormalReal(TRand const &amp;rand)</div><div class="ttdef"><b>Definition:</b> <a href="rand_2Traits_8hpp_source.html#l00041">Traits.hpp:41</a></div></div>
 <div class="ttc" id="anamespacealpaka_1_1rand_1_1distribution_html_a8cef848378b79fc7f8f522531198723f"><div class="ttname"><a href="namespacealpaka_1_1rand_1_1distribution.html#a8cef848378b79fc7f8f522531198723f">alpaka::rand::distribution::createUniformUint</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC auto createUniformUint(TRand const &amp;rand)</div><div class="ttdef"><b>Definition:</b> <a href="rand_2Traits_8hpp_source.html#l00061">Traits.hpp:61</a></div></div>
 <div class="ttc" id="anamespacealpaka_1_1rand_1_1distribution_html_af6fb809c7467ff1d92f3983e7f621991"><div class="ttname"><a href="namespacealpaka_1_1rand_1_1distribution.html#af6fb809c7467ff1d92f3983e7f621991">alpaka::rand::distribution::createUniformReal</a></div><div class="ttdeci">ALPAKA_NO_HOST_ACC_WARNING ALPAKA_FN_HOST_ACC auto createUniformReal(TRand const &amp;rand)</div><div class="ttdef"><b>Definition:</b> <a href="rand_2Traits_8hpp_source.html#l00051">Traits.hpp:51</a></div></div>
@@ -303,7 +305,7 @@ $(document).ready(function(){initNavTree('RandGenericSycl_8hpp_source.html','');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_f712bff28b6ff1ff870a222047d04675.html">alpaka</a></li><li class="navelem"><a class="el" href="dir_192cbe7214f78dcbefe56af07355e2bc.html">rand</a></li><li class="navelem"><a class="el" href="RandGenericSycl_8hpp.html">RandGenericSycl.hpp</a></li>
-    <li class="footer">Generated on Thu Jul 27 2023 09:30:13 for alpaka by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Wed Aug 2 2023 13:05:52 for alpaka by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
