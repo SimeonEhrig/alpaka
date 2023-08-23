@@ -8,6 +8,10 @@
 
   .. image:: ../logo/alpaka.pdf
 
+.. CAUTION::
+   
+   This is a test version for the alpaka readthedocs documentation. The correct documentation can found here: https://alpaka.readthedocs.io/en/latest/index.html
+
 *alpaka - An Abstraction Library for Parallel Kernel Acceleration*
 
 The alpaka library is a header-only C++14 abstraction library for accelerator development. Its aim is to provide performance portability across accelerators through the abstraction (not hiding!) of the underlying levels of parallelism.
