@@ -78,18 +78,6 @@ var hierarchy =
     [ "alpaka::detail::BufCpuImpl< TElem, TDim, TIdx >", "classalpaka_1_1detail_1_1BufCpuImpl.html", null ],
     [ "alpaka::detail::CheckFnReturnType< TAcc, TSfinae >", "structalpaka_1_1detail_1_1CheckFnReturnType.html", null ],
     [ "alpaka::detail::CheckFnReturnType< AccGpuUniformCudaHipRt< TApi, TDim, TIdx > >", "structalpaka_1_1detail_1_1CheckFnReturnType_3_01AccGpuUniformCudaHipRt_3_01TApi_00_01TDim_00_01TIdx_01_4_01_4.html", null ],
-    [ "alpaka::detail::MapIdx< TidxDimOut, TidxDimIn, TSfinae >", "structalpaka_1_1detail_1_1MapIdx.html", null ],
-    [ "alpaka::detail::MapIdx< 0u, TidxDimIn >", "structalpaka_1_1detail_1_1MapIdx_3_010u_00_01TidxDimIn_01_4.html", null ],
-    [ "alpaka::detail::MapIdx< 1u, TidxDimIn, std::enable_if_t<(TidxDimIn > 1u)> >", "structalpaka_1_1detail_1_1MapIdx_3_011u_00_01TidxDimIn_00_01std_1_1enable__if__t_3_07TidxDimIn_01_4_011u_08_4_01_4.html", null ],
-    [ "alpaka::detail::MapIdx< TidxDim, TidxDim >", "structalpaka_1_1detail_1_1MapIdx_3_01TidxDim_00_01TidxDim_01_4.html", null ],
-    [ "alpaka::detail::MapIdx< TidxDimOut, 0u >", "structalpaka_1_1detail_1_1MapIdx_3_01TidxDimOut_00_010u_01_4.html", null ],
-    [ "alpaka::detail::MapIdx< TidxDimOut, 1u, std::enable_if_t<(TidxDimOut > 1u)> >", "structalpaka_1_1detail_1_1MapIdx_3_01TidxDimOut_00_011u_00_01std_1_1enable__if__t_3_07TidxDimOut_01_4_011u_08_4_01_4.html", null ],
-    [ "alpaka::detail::MapIdxPitchBytes< TidxDimOut, TidxDimIn, TSfinae >", "structalpaka_1_1detail_1_1MapIdxPitchBytes.html", null ],
-    [ "alpaka::detail::MapIdxPitchBytes< 0u, TidxDimIn >", "structalpaka_1_1detail_1_1MapIdxPitchBytes_3_010u_00_01TidxDimIn_01_4.html", null ],
-    [ "alpaka::detail::MapIdxPitchBytes< 1u, TidxDimIn, std::enable_if_t<(TidxDimIn > 1u)> >", "structalpaka_1_1detail_1_1MapIdxPitchBytes_3_011u_00_01TidxDimIn_00_01std_1_1enable__if__t_3_07TidxDimIn_01_4_011u_08_4_01_4.html", null ],
-    [ "alpaka::detail::MapIdxPitchBytes< TidxDim, TidxDim >", "structalpaka_1_1detail_1_1MapIdxPitchBytes_3_01TidxDim_00_01TidxDim_01_4.html", null ],
-    [ "alpaka::detail::MapIdxPitchBytes< TidxDimOut, 0u >", "structalpaka_1_1detail_1_1MapIdxPitchBytes_3_01TidxDimOut_00_010u_01_4.html", null ],
-    [ "alpaka::detail::MapIdxPitchBytes< TidxDimOut, 1u, std::enable_if_t<(TidxDimOut > 1u)> >", "structalpaka_1_1detail_1_1MapIdxPitchBytes_3_01TidxDimOut_00_011u_00_01std_1_1enable__if__t_3_07TidxDimOut_01_4_011u_08_4_01_4.html", null ],
     [ "alpaka::detail::ParallelFor< TKernel, TSchedule, TSfinae >", "structalpaka_1_1detail_1_1ParallelFor.html", null ],
     [ "alpaka::detail::ParallelFor< TKernel, omp::Schedule >", "structalpaka_1_1detail_1_1ParallelFor_3_01TKernel_00_01omp_1_1Schedule_01_4.html", null ],
     [ "alpaka::detail::ParallelFor< TKernel, TSchedule, UseScheduleKind< TKernel, TSchedule > >", "structalpaka_1_1detail_1_1ParallelFor_3_01TKernel_00_01TSchedule_00_01UseScheduleKind_3_01TKernel_00_01TSchedule_01_4_01_4.html", null ],
@@ -1684,6 +1672,7 @@ var hierarchy =
     [ "alpaka::rand::engine::PhiloxStateSingle< Counter, Key >", "structalpaka_1_1rand_1_1engine_1_1PhiloxStateSingle.html", null ],
     [ "alpaka::rand::engine::PhiloxStateVector< Counter, Key >", "structalpaka_1_1rand_1_1engine_1_1PhiloxStateVector.html", null ],
     [ "std::bool_constant", null, [
+      [ "alpaka::IsKernelArgumentTriviallyCopyable< T, typename >", "structalpaka_1_1IsKernelArgumentTriviallyCopyable.html", null ],
       [ "alpaka::meta::detail::NonZeroImpl< std::integral_constant< T, TValue > >", "structalpaka_1_1meta_1_1detail_1_1NonZeroImpl_3_01std_1_1integral__constant_3_01T_00_01TValue_01_4_01_4.html", null ]
     ] ],
     [ "std::bool_constant< std::is_same_v< TApi, ApiCudaRt > &&TApi::version > BOOST_VERSION_NUMBER", null, [

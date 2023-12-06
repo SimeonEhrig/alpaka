@@ -1,6 +1,6 @@
 var MultiplyAndSplit64to32_8hpp =
 [
-    [ "high32Bits", "MultiplyAndSplit64to32_8hpp.html#a49e7ac2f6ba3fb99df75a808146f1dab", null ],
-    [ "low32Bits", "MultiplyAndSplit64to32_8hpp.html#a27924e14b2e5aa8a3213f77c3bd70ef8", null ],
-    [ "multiplyAndSplit64to32", "MultiplyAndSplit64to32_8hpp.html#a78260ac74587972ea7408fa1305054c9", null ]
+    [ "high32Bits", "MultiplyAndSplit64to32_8hpp.html#a66ceaea1b604b015a8398938bea1268b", null ],
+    [ "low32Bits", "MultiplyAndSplit64to32_8hpp.html#aa4ff2b4b6d2fa337d88f656408e136d8", null ],
+    [ "multiplyAndSplit64to32", "MultiplyAndSplit64to32_8hpp.html#a0eb1ae99725265b1fdd38048e3a69666", null ]
 ];
