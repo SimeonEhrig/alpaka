@@ -521,7 +521,6 @@ var hierarchy =
     [ "alpaka::trait::BufAlloc< TElem, TDim, TIdx, DevCpu >", "structalpaka_1_1trait_1_1BufAlloc_3_01TElem_00_01TDim_00_01TIdx_00_01DevCpu_01_4.html", null ],
     [ "alpaka::trait::BufAllocMapped< TPlatform, TElem, TDim, TIdx >", "structalpaka_1_1trait_1_1BufAllocMapped.html", null ],
     [ "alpaka::trait::BufAllocMapped< PlatformCpu, TElem, TDim, TIdx >", "structalpaka_1_1trait_1_1BufAllocMapped_3_01PlatformCpu_00_01TElem_00_01TDim_00_01TIdx_01_4.html", null ],
-    [ "alpaka::trait::BufAllocMapped< PlatformUniformCudaHipRt< TApi >, TElem, TDim, TIdx >", "structalpaka_1_1trait_1_1BufAllocMapped_3_01PlatformUniformCudaHipRt_3_01TApi_01_4_00_01TElem_00_01TDim_00_01TIdx_01_4.html", null ],
     [ "alpaka::trait::BufType< TDev, TElem, TDim, TIdx, TSfinae >", "structalpaka_1_1trait_1_1BufType.html", null ],
     [ "alpaka::trait::BufType< DevCpu, TElem, TDim, TIdx >", "structalpaka_1_1trait_1_1BufType_3_01DevCpu_00_01TElem_00_01TDim_00_01TIdx_01_4.html", null ],
     [ "alpaka::trait::BufType< DevUniformCudaHipRt< TApi >, TElem, TDim, TIdx >", "structalpaka_1_1trait_1_1BufType_3_01DevUniformCudaHipRt_3_01TApi_01_4_00_01TElem_00_01TDim_00_01TIdx_01_4.html", null ],
@@ -960,6 +959,15 @@ var hierarchy =
     [ "alpaka::warp::trait::Shfl< TWarp, TSfinae >", "structalpaka_1_1warp_1_1trait_1_1Shfl.html", null ],
     [ "alpaka::warp::trait::Shfl< WarpSingleThread >", "structalpaka_1_1warp_1_1trait_1_1Shfl_3_01WarpSingleThread_01_4.html", null ],
     [ "alpaka::warp::trait::Shfl< WarpUniformCudaHipBuiltIn >", "structalpaka_1_1warp_1_1trait_1_1Shfl_3_01WarpUniformCudaHipBuiltIn_01_4.html", null ],
+    [ "alpaka::warp::trait::ShflDown< TWarp, TSfinae >", "structalpaka_1_1warp_1_1trait_1_1ShflDown.html", null ],
+    [ "alpaka::warp::trait::ShflDown< WarpSingleThread >", "structalpaka_1_1warp_1_1trait_1_1ShflDown_3_01WarpSingleThread_01_4.html", null ],
+    [ "alpaka::warp::trait::ShflDown< WarpUniformCudaHipBuiltIn >", "structalpaka_1_1warp_1_1trait_1_1ShflDown_3_01WarpUniformCudaHipBuiltIn_01_4.html", null ],
+    [ "alpaka::warp::trait::ShflUp< TWarp, TSfinae >", "structalpaka_1_1warp_1_1trait_1_1ShflUp.html", null ],
+    [ "alpaka::warp::trait::ShflUp< WarpSingleThread >", "structalpaka_1_1warp_1_1trait_1_1ShflUp_3_01WarpSingleThread_01_4.html", null ],
+    [ "alpaka::warp::trait::ShflUp< WarpUniformCudaHipBuiltIn >", "structalpaka_1_1warp_1_1trait_1_1ShflUp_3_01WarpUniformCudaHipBuiltIn_01_4.html", null ],
+    [ "alpaka::warp::trait::ShflXor< TWarp, TSfinae >", "structalpaka_1_1warp_1_1trait_1_1ShflXor.html", null ],
+    [ "alpaka::warp::trait::ShflXor< WarpSingleThread >", "structalpaka_1_1warp_1_1trait_1_1ShflXor_3_01WarpSingleThread_01_4.html", null ],
+    [ "alpaka::warp::trait::ShflXor< WarpUniformCudaHipBuiltIn >", "structalpaka_1_1warp_1_1trait_1_1ShflXor_3_01WarpUniformCudaHipBuiltIn_01_4.html", null ],
     [ "alpaka::detail::BlockSharedMemStMemberImpl< core::vectorization::defaultAlignment >", "classalpaka_1_1detail_1_1BlockSharedMemStMemberImpl.html", [
       [ "alpaka::BlockSharedMemStMember< TDataAlignBytes >", "classalpaka_1_1BlockSharedMemStMember.html", [
         [ "alpaka::AccCpuOmp2Blocks< TDim, TIdx >", "classalpaka_1_1AccCpuOmp2Blocks.html", null ],
@@ -1675,7 +1683,7 @@ var hierarchy =
       [ "alpaka::IsKernelArgumentTriviallyCopyable< T, typename >", "structalpaka_1_1IsKernelArgumentTriviallyCopyable.html", null ],
       [ "alpaka::meta::detail::NonZeroImpl< std::integral_constant< T, TValue > >", "structalpaka_1_1meta_1_1detail_1_1NonZeroImpl_3_01std_1_1integral__constant_3_01T_00_01TValue_01_4_01_4.html", null ]
     ] ],
-    [ "std::bool_constant< std::is_same_v< TApi, ApiCudaRt > &&TApi::version > BOOST_VERSION_NUMBER", null, [
+    [ "std::bool_constant< TDim::value<=1 &&(std::is_same_v< TApi, ApiCudaRt > &&TApi::version >=BOOST_VERSION_NUMBER(11, 2, 0))> { };template< TApi, TElem, TDim, TIdx > struct BufAllocMapped< PlatformUniformCudaHipRt< TApi >, TElem, TDim, TIdx > { template< TExtent > ALPAKA_FN_HOST static auto allocMappedBuf(DevCpu const &host, PlatformUniformCudaHipRt< TApi > const &, TExtent const &extent) -> BufCpu", null, [
       [ "alpaka::trait::HasAsyncBufSupport< TDim, DevUniformCudaHipRt< TApi > >", "structalpaka_1_1trait_1_1HasAsyncBufSupport_3_01TDim_00_01DevUniformCudaHipRt_3_01TApi_01_4_01_4.html", null ]
     ] ],
     [ "std::conditional_t", null, [
@@ -1752,9 +1760,6 @@ var hierarchy =
     ] ],
     [ "TBackend", null, [
       [ "alpaka::rand::engine::PhiloxBaseCommon< TBackend, TParams, TImpl >", "classalpaka_1_1rand_1_1engine_1_1PhiloxBaseCommon.html", null ]
-    ] ],
-    [ "TDim::value", null, [
-      [ "alpaka::trait::HasAsyncBufSupport< TDim, DevUniformCudaHipRt< TApi > >", "structalpaka_1_1trait_1_1HasAsyncBufSupport_3_01TDim_00_01DevUniformCudaHipRt_3_01TApi_01_4_01_4.html", null ]
     ] ],
     [ "TINYMT32_T", "structTINYMT32__T.html", null ],
     [ "alpaka::Vec< Dim, Idx >", "classalpaka_1_1Vec.html", null ],
