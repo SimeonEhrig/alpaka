@@ -115,7 +115,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">CUDA   </td><td class="markdownTableBodyNone">CUDA 9.0+   </td><td class="markdownTableBodyNone">NVIDIA GPUs   </td><td class="markdownTableBodyNone">parallel (undefined)   </td><td class="markdownTableBodyNone">parallel (lock-step within warps)    </td></tr>
 <tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone">HIP(clang)   </td><td class="markdownTableBodyNone"><a href="https://github.com/ROCm-Developer-Tools/HIP">HIP 5.0+</a>   </td><td class="markdownTableBodyNone">AMD GPUs   </td><td class="markdownTableBodyNone">parallel (undefined)   </td><td class="markdownTableBodyNone">parallel (lock-step within warps)   </td></tr>
+<td class="markdownTableBodyNone">HIP(clang)   </td><td class="markdownTableBodyNone"><a href="https://github.com/ROCm-Developer-Tools/HIP">HIP 5.1+</a>   </td><td class="markdownTableBodyNone">AMD GPUs   </td><td class="markdownTableBodyNone">parallel (undefined)   </td><td class="markdownTableBodyNone">parallel (lock-step within warps)   </td></tr>
 </table>
 <h1>Supported Compilers </h1>
 <p>This library uses C++17 (or newer when available).</p>
@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
  (Linux)   </th><th class="markdownTableHeadNone">clang 15 <br  />
  (Linux)   </th><th class="markdownTableHeadNone">clang 16 <br  />
  (Linux)   </th><th class="markdownTableHeadNone">clang 17 <br  />
- (Linux)   </th><th class="markdownTableHeadNone">icpx 2023.1.0 / 2023.2.0 (Linux)   </th><th class="markdownTableHeadNone">Xcode 13.2.1 / 14.2 / 14.3.1 <br  />
+ (Linux)   </th><th class="markdownTableHeadNone">icpx 2024.0 (Linux)   </th><th class="markdownTableHeadNone">Xcode 13.2.1 / 14.2 / 14.3.1 <br  />
  (macOS)   </th><th class="markdownTableHeadNone">Visual Studio 2022 <br  />
  (Windows)    </th></tr>
 <tr class="markdownTableRowOdd">
@@ -148,19 +148,20 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <td class="markdownTableBodyNone">TBB   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:   </td><td class="markdownTableBodyNone">:white_check_mark:    </td></tr>
 <tr class="markdownTableRowEven">
 <td class="markdownTableBodyNone">CUDA (nvcc)   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
- (CUDA 11.0 - 12.2)[^2]   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
+ (CUDA 11.0 - 12.3)[^2]   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
  (CUDA 11.4 - 12.0)[^2]   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
- (CUDA 12.0 - 12.2)   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
+ (CUDA 12.0 - 12.3)   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
  (CUDA 11.0-11.2; 11.6 - 12.0)[^2]   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
  (CUDA 11.2, 11.6 - 12.0)[^2]   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
  (CUDA 11.6 - 12.0)[^2]   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
  (CUDA 11.7 - 12.0)   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
  (CUDA 11.8 - 12.0)   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
- (CUDA 12.2)   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:    </td></tr>
+ (CUDA 12.2)   </td><td class="markdownTableBodyNone">:white_check_mark: <br  />
+ (CUDA 12.3)   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">CUDA (clang)   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:white_check_mark: (CUDA 11.0 - 11.5)   </td><td class="markdownTableBodyNone">:white_check_mark: (CUDA 11.0 - 11.5)[^1]   </td><td class="markdownTableBodyNone">:white_check_mark: (CUDA 11.0 - 11.5)[^1]   </td><td class="markdownTableBodyNone">:white_check_mark: (CUDA 11.0 - 11.8)[^1]   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-    </td></tr>
 <tr class="markdownTableRowEven">
-<td class="markdownTableBodyNone"><a href="https://alpaka.readthedocs.io/en/latest/install/HIP.html">HIP</a> (clang)   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:white_check_mark: (HIP 5.0 - 5.2)   </td><td class="markdownTableBodyNone">:white_check_mark: (HIP 5.3 - 5.4)   </td><td class="markdownTableBodyNone">:white_check_mark: (HIP 5.5 - 5.6)   </td><td class="markdownTableBodyNone">:white_check_mark: (HIP 5.7 - 6.0)   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-    </td></tr>
+<td class="markdownTableBodyNone"><a href="https://alpaka.readthedocs.io/en/latest/install/HIP.html">HIP</a> (clang)   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:white_check_mark: (HIP 5.1 - 5.2)   </td><td class="markdownTableBodyNone">:white_check_mark: (HIP 5.3 - 5.4)   </td><td class="markdownTableBodyNone">:white_check_mark: (HIP 5.5 - 5.6)   </td><td class="markdownTableBodyNone">:white_check_mark: (HIP 5.7 - 6.0)   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">-   </td><td class="markdownTableBodyNone">-    </td></tr>
 <tr class="markdownTableRowOdd">
 <td class="markdownTableBodyNone">SYCL   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:white_check_mark:[^4]   </td><td class="markdownTableBodyNone">:x:   </td><td class="markdownTableBodyNone">:x:   </td></tr>
 </table>
@@ -249,55 +250,15 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 <div class="line">  url    = {http://dx.doi.org/10.5281/zenodo.49768}</div>
 <div class="line">}</div>
 </div><!-- fragment --><h1>Contributing </h1>
-<p>Rules for contributions can be found in CONTRIBUTING.md</p>
-<h1>Authors </h1>
-<h2>Maintainers* and Core Developers</h2>
-<ul>
-<li>Benjamin Worpitz* (original author)</li>
-<li>Dr. Sergei Bastrakov*</li>
-<li>Kseniia Bastrakova</li>
-<li>Dr. Andrea Bocci*</li>
-<li>Dr. Antonio Di Pilato</li>
-<li>Simeon Ehrig</li>
-<li>Luca Ferragina</li>
-<li>Bernhard Manfred Gruber*</li>
-<li>Christian Kaever</li>
-<li>Dr. Jeffrey Kelling</li>
-<li>Dr. Stewart Martin-Haugh</li>
-<li>Aurora Perego</li>
-<li>Jan Stephan*</li>
-<li>René Widera*</li>
-<li>Dr. Jeffrey Young</li>
-</ul>
-<h2>Former Members, Contributions and Thanks</h2>
-<ul>
-<li>Dr. Michael Bussmann</li>
-<li>Mat Colgrove</li>
-<li>Valentin Gehrke</li>
-<li>Dr. Axel Hübl</li>
-<li>Maximilian Knespel</li>
-<li>Jakob Krude</li>
-<li>Alexander Matthes</li>
-<li>Hauke Mewes</li>
-<li>Phil Nash</li>
-<li>Dr. Felice Pantaleo</li>
-<li>Dr. David M. Rogers</li>
-<li>Mutsuo Saito</li>
-<li>Jonas Schenke</li>
-<li>Daniel Vollmer</li>
-<li>Dr. Jiří Vyskočil</li>
-<li>Matthias Werner</li>
-<li>Bert Wesarg</li>
-<li>Malte Zacharias</li>
-<li>Erik Zenker </li>
-</ul>
+<p>Rules for contributions can be found in CONTRIBUTING.md. Any pull request will be reviewed by a <a href="https://github.com/orgs/alpaka-group/teams/alpaka-maintainers">maintainer</a>.</p>
+<p>Thanks to all <a href=".zenodo.json">active and former contributors</a>. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 3 2024 12:05:10 for alpaka by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
+    <li class="footer">Generated on Mon May 13 2024 15:13:22 for alpaka by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>
 </body>
