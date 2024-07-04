@@ -43,7 +43,7 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ],
+        [ "Variables", "functions_vars.html", "functions_vars" ],
         [ "Typedefs", "functions_type.html", "functions_type" ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
@@ -65,23 +65,23 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "",
-"DependentFalseType_8hpp.html",
-"QueueCpuBlocking_8hpp.html",
-"acc_2Traits_8hpp_source.html",
-"classalpaka_1_1core_1_1threads_1_1BarrierThread.html",
-"classalpaka_1_1rand_1_1engine_1_1cpu_1_1RandomDevice.html#abe344ebd18c7bc930be8db54aacc1758",
-"functions_t.html",
-"namespacealpaka.html#a6039fd484be080c6a83c76514823ae98",
-"namespacealpaka_1_1math_1_1constants.html#a75ff4dc70ac01e917ba009145ab6899f",
-"structalpakaGlobal_1_1AlpakaBuiltInAtomic_3_01alpaka_1_1AtomicDec_00_01T_00_01alpaka_1_1hierarche1c7bdba35bffa9a0b66f70390e13e35.html",
-"structalpaka_1_1TagFpgaSyclIntel.html",
-"structalpaka_1_1detail_1_1TaskSetUniformCudaHip_3_01TApi_00_01DimInt_3_013u_01_4_00_01TView_00_01TExtent_01_4.html#ab896587ca8ce59d658226dfa1b18fc62",
-"structalpaka_1_1math_1_1trait_1_1Sinh_3_01SinhUniformCudaHipBuiltIn_00_01TArg_00_01std_1_1enablef0370496006151f9b54cf18e585e9534.html#abd8468ecd3d73df1304886e757eef7da",
-"structalpaka_1_1test_1_1trait_1_1IsBlockingQueue.html",
-"structalpaka_1_1trait_1_1DimType_3_01T_00_01std_1_1enable__if__t_3_01meta_1_1Contains_3_01alpakad249dd440810fe4c0e5b9a5e9ded990b.html#a9d46859358d33de933b5542b325d9933",
-"structalpaka_1_1trait_1_1GetExtent.html#ab17f894cd4aaf52f32dc73e6e2b842b2",
-"structalpaka_1_1trait_1_1Malloc_3_01T_00_01AllocCpuNew_01_4.html#ac05bd6f973a3e5b55c9c0133173310f9",
-"tinymt32_8h.html#ad7a4b73a72fafba00138f2491676c498"
+"DependentFalseType_8hpp_source.html",
+"PlatformHipRt_8hpp_source.html",
+"WorkDivHelpers_8hpp.html#ae27dd1d17e2324e71dc1677f5f4a49fa",
+"classalpaka_1_1bt_1_1IdxBtLinear.html#ae95a0d6b4c50921d041e6f39807ed1e8",
+"classalpaka_1_1rand_1_1engine_1_1PhiloxVector.html#a2c0361690aebc1a4a7f9a46f56520b20",
+"functions_func_s.html",
+"namespacealpaka.html#a2a811570d2074f237f89c9910b82b44c",
+"namespacealpaka_1_1math.html",
+"platform_2Traits_8hpp.html#a87d64705ec25ad0c9a25a218118c0ad4",
+"structalpaka_1_1AtomicMin.html#a155ad724edc391891a1bed0d8ef435b8",
+"structalpaka_1_1detail_1_1TaskCopyUniformCudaHip.html",
+"structalpaka_1_1math_1_1trait_1_1Log_3_01LogUniformCudaHipBuiltIn_00_01Complex_3_01T_01_4_01_4.html",
+"structalpaka_1_1rand_1_1engine_1_1PhiloxStateSingle.html#aaed7d38d17a6dd55a8b25a869d93f5a4",
+"structalpaka_1_1trait_1_1DevType_3_01AccCpuOmp2Threads_3_01TDim_00_01TIdx_01_4_01_4.html",
+"structalpaka_1_1trait_1_1Free_3_01T_00_01AllocCpuNew_01_4.html#a4fdd3212b86c37f264f82ed382993589",
+"structalpaka_1_1trait_1_1HasAsyncBufSupport_3_01TDim_00_01DevCpu_01_4.html",
+"structalpaka_1_1trait_1_1detail_1_1AtomicOp_3_01BlockCount_01_4.html#ad3db1a72e1bbc6dfba09d031f3329f1b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

@@ -1,6 +1,5 @@
 var NAVTREEINDEX1 =
 {
-"DependentFalseType_8hpp.html":[4,0,0,0,15,3],
 "DependentFalseType_8hpp_source.html":[4,0,0,0,15,3],
 "DevCpuSycl_8hpp.html":[4,0,0,0,4,3],
 "DevCpuSycl_8hpp_source.html":[4,0,0,0,4,3],
@@ -75,6 +74,9 @@ var NAVTREEINDEX1 =
 "ExampleDefaultAcc_8hpp.html":[4,0,0,0,8,0],
 "ExampleDefaultAcc_8hpp.html#a8aec9660f2a0dd2e01db1edd34e4cafa":[4,0,0,0,8,0,0],
 "ExampleDefaultAcc_8hpp_source.html":[4,0,0,0,8,0],
+"ExecuteForEachAccTag_8hpp.html":[4,0,0,0,8,1],
+"ExecuteForEachAccTag_8hpp.html#a002efd6d4f2a7baea419305201ca77b6":[4,0,0,0,8,1,0],
+"ExecuteForEachAccTag_8hpp_source.html":[4,0,0,0,8,1],
 "Extent_8hpp.html":[4,0,0,0,21,8],
 "Extent_8hpp.html#aa4fb1480c3db6660b29bb8025b067e92":[4,0,0,0,21,8,0],
 "Extent_8hpp.html#ab3a43d26dbc8c59dcad7569f56f9e425":[4,0,0,0,21,8,1],
@@ -169,8 +171,13 @@ var NAVTREEINDEX1 =
 "Iterator_8hpp.html#aa839db9d57839ee169d666ff52272a13":[4,0,0,0,21,4,0,0,3],
 "Iterator_8hpp.html#adbab173d7dd9ddda3603e4c57679c6b4":[4,0,0,0,21,4,0,0,5],
 "Iterator_8hpp_source.html":[4,0,0,0,21,4,0,0],
+"KernelBundle_8hpp.html":[4,0,0,0,12,0],
+"KernelBundle_8hpp.html#a5d8b59145bf3945a2b499d77b09d052b":[4,0,0,0,12,0,1],
+"KernelBundle_8hpp_source.html":[4,0,0,0,12,0],
 "KernelExecutionFixture_8hpp.html":[4,0,0,0,21,9],
 "KernelExecutionFixture_8hpp_source.html":[4,0,0,0,21,9],
+"KernelFunctionAttributes_8hpp.html":[4,0,0,0,12,1],
+"KernelFunctionAttributes_8hpp_source.html":[4,0,0,0,12,1],
 "MapIdx_8hpp.html":[4,0,0,0,10,3],
 "MapIdx_8hpp.html#a675e9f010dd8e9d3389dd17475efc804":[4,0,0,0,10,3,0],
 "MapIdx_8hpp.html#a8020a38667511010d65ab4e322100b5d":[4,0,0,0,10,3,1],
@@ -242,12 +249,5 @@ var NAVTREEINDEX1 =
 "PlatformGenericSycl_8hpp_source.html":[4,0,0,0,17,4],
 "PlatformGpuSyclIntel_8hpp.html":[4,0,0,0,17,5],
 "PlatformGpuSyclIntel_8hpp_source.html":[4,0,0,0,17,5],
-"PlatformHipRt_8hpp.html":[4,0,0,0,17,6],
-"PlatformHipRt_8hpp_source.html":[4,0,0,0,17,6],
-"PlatformUniformCudaHipRt_8hpp.html":[4,0,0,0,17,7],
-"PlatformUniformCudaHipRt_8hpp_source.html":[4,0,0,0,17,7],
-"Positioning_8hpp.html":[4,0,0,0,3,18],
-"Positioning_8hpp_source.html":[4,0,0,0,3,18],
-"Properties_8hpp.html":[4,0,0,0,18,3],
-"Properties_8hpp_source.html":[4,0,0,0,18,3]
+"PlatformHipRt_8hpp.html":[4,0,0,0,17,6]
 };
