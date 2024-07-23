@@ -141,6 +141,7 @@ var annotated_dup =
         [ "Threads", "structalpaka_1_1hierarchy_1_1Threads.html", null ]
       ] ],
       [ "internal", "namespacealpaka_1_1internal.html", [
+        [ "Complex", "classalpaka_1_1internal_1_1Complex.html", "classalpaka_1_1internal_1_1Complex" ],
         [ "ViewAccessOps", "structalpaka_1_1internal_1_1ViewAccessOps.html", "structalpaka_1_1internal_1_1ViewAccessOps" ]
       ] ],
       [ "math", "namespacealpaka_1_1math.html", [
@@ -1157,7 +1158,6 @@ var annotated_dup =
       [ "BlockSyncUniformCudaHipBuiltIn", "classalpaka_1_1BlockSyncUniformCudaHipBuiltIn.html", null ],
       [ "BufCpu", "classalpaka_1_1BufCpu.html", "classalpaka_1_1BufCpu" ],
       [ "BufUniformCudaHipRt", "structalpaka_1_1BufUniformCudaHipRt.html", "structalpaka_1_1BufUniformCudaHipRt" ],
-      [ "Complex", "classalpaka_1_1Complex.html", "classalpaka_1_1Complex" ],
       [ "ConceptAcc", "structalpaka_1_1ConceptAcc.html", null ],
       [ "ConceptAtomicBlocks", "structalpaka_1_1ConceptAtomicBlocks.html", null ],
       [ "ConceptAtomicGrids", "structalpaka_1_1ConceptAtomicGrids.html", null ],
@@ -1182,6 +1182,7 @@ var annotated_dup =
       [ "IntrinsicFallback", "classalpaka_1_1IntrinsicFallback.html", null ],
       [ "IntrinsicUniformCudaHipBuiltIn", "classalpaka_1_1IntrinsicUniformCudaHipBuiltIn.html", null ],
       [ "IsKernelArgumentTriviallyCopyable", "structalpaka_1_1IsKernelArgumentTriviallyCopyable.html", null ],
+      [ "IsKernelTriviallyCopyable", "structalpaka_1_1IsKernelTriviallyCopyable.html", null ],
       [ "KernelBundle", "classalpaka_1_1KernelBundle.html", "classalpaka_1_1KernelBundle" ],
       [ "KernelFunctionAttributes", "structalpaka_1_1KernelFunctionAttributes.html", "structalpaka_1_1KernelFunctionAttributes" ],
       [ "MemFenceCpu", "classalpaka_1_1MemFenceCpu.html", null ],

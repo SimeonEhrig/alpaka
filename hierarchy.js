@@ -21,7 +21,6 @@ var hierarchy =
     [ "alpaka::BlockAnd", "structalpaka_1_1BlockAnd.html", null ],
     [ "alpaka::BlockCount", "structalpaka_1_1BlockCount.html", null ],
     [ "alpaka::BlockOr", "structalpaka_1_1BlockOr.html", null ],
-    [ "alpaka::Complex< T >", "classalpaka_1_1Complex.html", null ],
     [ "alpaka::ConceptAcc", "structalpaka_1_1ConceptAcc.html", null ],
     [ "alpaka::ConceptAtomicBlocks", "structalpaka_1_1ConceptAtomicBlocks.html", null ],
     [ "alpaka::ConceptAtomicGrids", "structalpaka_1_1ConceptAtomicGrids.html", null ],
@@ -139,6 +138,7 @@ var hierarchy =
       [ "alpaka::generic::detail::QueueGenericThreadsBlockingImpl< TDev >", "classalpaka_1_1generic_1_1detail_1_1QueueGenericThreadsBlockingImpl.html", null ],
       [ "alpaka::generic::detail::QueueGenericThreadsNonBlockingImpl< TDev >", "classalpaka_1_1generic_1_1detail_1_1QueueGenericThreadsNonBlockingImpl.html", null ]
     ] ],
+    [ "alpaka::internal::Complex< T >", "classalpaka_1_1internal_1_1Complex.html", null ],
     [ "alpaka::internal::ViewAccessOps< TView >", "structalpaka_1_1internal_1_1ViewAccessOps.html", [
       [ "alpaka::ViewPlainPtr< Dev, TElem, TDim, TIdx >", "structalpaka_1_1ViewPlainPtr.html", null ]
     ] ],
@@ -1698,6 +1698,9 @@ var hierarchy =
       [ "alpaka::core::detail::RoundUpToPowerOfTwoHelper< N, false >", "structalpaka_1_1core_1_1detail_1_1RoundUpToPowerOfTwoHelper_3_01N_00_01false_01_4.html", null ],
       [ "alpaka::trait::WarpSize< TKernelFnObj, TAcc, TSfinae >", "structalpaka_1_1trait_1_1WarpSize.html", null ],
       [ "std::tuple_size< alpaka::Vec< TDim, TVal > >", "structstd_1_1tuple__size_3_01alpaka_1_1Vec_3_01TDim_00_01TVal_01_4_01_4.html", null ]
+    ] ],
+    [ "std::is_trivially_copyable", null, [
+      [ "alpaka::IsKernelTriviallyCopyable< T, typename >", "structalpaka_1_1IsKernelTriviallyCopyable.html", null ]
     ] ],
     [ "std::true_type", null, [
       [ "alpaka::AccIsEnabled< TTag, std::void_t< TagToAcc< TTag, alpaka::DimInt< 1 >, int > > >", "structalpaka_1_1AccIsEnabled_3_01TTag_00_01std_1_1void__t_3_01TagToAcc_3_01TTag_00_01alpaka_1_1D473bae86b2996702d97c9b5b18a64298.html", null ],
