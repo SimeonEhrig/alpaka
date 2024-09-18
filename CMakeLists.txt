@@ -50,6 +50,8 @@ include(CMakeDependentOption)
 cmake_dependent_option(alpaka_CHECK_HEADERS "Check all alpaka headers as part of the tests whether they can be compiled standalone." OFF BUILD_TESTING OFF)
 cmake_dependent_option(alpaka_USE_INTERNAL_CATCH2 "Use internally shipped Catch2" ON BUILD_TESTING OFF)
 
+option(alpaka_VIKUNJA "Enable vikunja primitiv library" OFF)
+
 ################################################################################
 # Internal variables.
 
@@ -157,6 +159,8 @@ endif()
 if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME AND BUILD_TESTING)
     add_subdirectory("test/")
 endif()
+
+add_subdirectory(projects)
 
 ################################################################################
 # Installation.
