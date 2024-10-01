@@ -60,4 +60,10 @@ namespace vikunja
 
         alpaka::exec<TAcc>(queue, workDiv, kernel, mdBufDevIn, mdBufDevOut, std::forward<TFunc>(func));
     }
+
+    template<typename TExecutor, typename TBuf, typename TFunc>
+    requires isExecutor<TExecutor> void transform(TExecutor& executor, TBuf& buf_in, TBuf& buf_out, TFunc&& func)
+    {
+        transform<typename TExecutor::Acc>(executor.get_default_queue(), buf_in, buf_out, std::forward<TFunc>(func));
+    }
 } // namespace vikunja
