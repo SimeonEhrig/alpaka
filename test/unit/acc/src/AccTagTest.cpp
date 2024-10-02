@@ -275,3 +275,31 @@ TEST_CASE("test EnabledAccTags", "[acc][tag]")
     using AllAccs = alpaka::test::EnabledAccs<alpaka::DimInt<1>, int>;
     STATIC_REQUIRE(std::tuple_size<AllAccs>::value == std::tuple_size<alpaka::EnabledAccTags>::value);
 }
+
+struct NoTag1
+{
+    static std::string get_name()
+    {
+        return "foo";
+    }
+};
+
+struct NoTag2 : public alpaka::concepts::Implements<alpaka::ConceptTag, NoTag2>
+{
+};
+
+template<alpaka::Tag>
+consteval bool specialize_tag()
+{
+    return true;
+}
+
+TEMPLATE_LIST_TEST_CASE("test concept tag", "[tag][concept]", TagList)
+{
+    using TagToTest = TestType;
+    STATIC_REQUIRE(alpaka::Tag<TagToTest>);
+    STATIC_REQUIRE_FALSE(alpaka::Tag<NoTag1>);
+    STATIC_REQUIRE_FALSE(alpaka::Tag<NoTag2>);
+
+    STATIC_REQUIRE(specialize_tag<TagToTest>());
+}
