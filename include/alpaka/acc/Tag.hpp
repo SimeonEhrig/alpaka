@@ -5,18 +5,18 @@
 #pragma once
 
 #include "alpaka/core/BoostPredef.hpp"
-#include "alpaka/core/Concepts.hpp"
+#include "alpaka/core/Interface.hpp"
 
 #include <iostream>
 #include <type_traits>
 
 namespace alpaka
 {
-    struct ConceptTag;
+    struct InterfaceTag;
 } // namespace alpaka
 
 #define CREATE_ACC_TAG(tag_name)                                                                                      \
-    struct tag_name : public concepts::Implements<alpaka::ConceptTag, tag_name>                                       \
+    struct tag_name : public interface::Implements<alpaka::InterfaceTag, tag_name>                                    \
     {                                                                                                                 \
         static std::string get_name()                                                                                 \
         {                                                                                                             \
@@ -26,7 +26,7 @@ namespace alpaka
 
 namespace alpaka
 {
-    struct ConceptTag;
+    struct InterfaceTag;
 
     CREATE_ACC_TAG(TagCpuOmp2Blocks);
     CREATE_ACC_TAG(TagCpuOmp2Threads);
@@ -40,20 +40,23 @@ namespace alpaka
     CREATE_ACC_TAG(TagGpuHipRt);
     CREATE_ACC_TAG(TagGpuSyclIntel);
 
-    template<typename T>
-    concept Tag = requires {
-        {
-            T::get_name()
-        } -> std::same_as<std::string>;
-        requires alpaka::concepts::isImplementsConcept<alpaka::ConceptTag, T>;
-    };
+    namespace concepts
+    {
+        template<typename T>
+        concept Tag = requires {
+            {
+                T::get_name()
+            } -> std::same_as<std::string>;
+            requires alpaka::concepts::ImplementsInterface<alpaka::InterfaceTag, T>;
+        };
+    } // namespace concepts
 
     namespace trait
     {
         template<typename TAcc>
         struct AccToTag;
 
-        template<alpaka::Tag TTag, typename TDim, typename TIdx>
+        template<alpaka::concepts::Tag TTag, typename TDim, typename TIdx>
         struct TagToAcc;
     } // namespace trait
 
@@ -66,10 +69,10 @@ namespace alpaka
     //! \tparam TTag alpaka tag type
     //! \tparam TDim dimension of the mapped acc type
     //! \tparam TIdx index type of the mapped acc type
-    template<alpaka::Tag TTag, typename TDim, typename TIdx>
+    template<alpaka::concepts::Tag TTag, typename TDim, typename TIdx>
     using TagToAcc = typename trait::TagToAcc<TTag, TDim, TIdx>::type;
 
-    template<typename TAcc, alpaka::Tag... TTag>
+    template<typename TAcc, alpaka::concepts::Tag... TTag>
     inline constexpr bool accMatchesTags = (std::is_same_v<alpaka::AccToTag<TAcc>, TTag> || ...);
 
     //! list of all available tags

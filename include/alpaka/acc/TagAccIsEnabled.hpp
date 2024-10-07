@@ -21,12 +21,12 @@ namespace alpaka
 {
     //! \brief check if the accelerator is enabled for a given tag
     //! \tparam TTag alpaka tag type
-    template<alpaka::Tag TTag, typename = void>
+    template<alpaka::concepts::Tag TTag, typename = void>
     struct AccIsEnabled : std::false_type
     {
     };
 
-    template<alpaka::Tag TTag>
+    template<alpaka::concepts::Tag TTag>
     struct AccIsEnabled<TTag, std::void_t<TagToAcc<TTag, alpaka::DimInt<1>, int>>> : std::true_type
     {
     };

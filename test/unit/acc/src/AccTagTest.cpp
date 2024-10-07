@@ -14,7 +14,6 @@
 
 #include <string>
 
-
 using Dim = alpaka::DimInt<1>;
 using Idx = int;
 using TestAccs = alpaka::test::EnabledAccs<Dim, Idx>;
@@ -284,11 +283,11 @@ struct NoTag1
     }
 };
 
-struct NoTag2 : public alpaka::concepts::Implements<alpaka::ConceptTag, NoTag2>
+struct NoTag2 : public alpaka::interface::Implements<alpaka::InterfaceTag, NoTag2>
 {
 };
 
-template<alpaka::Tag>
+template<alpaka::concepts::Tag>
 consteval bool specialize_tag()
 {
     return true;
@@ -297,9 +296,9 @@ consteval bool specialize_tag()
 TEMPLATE_LIST_TEST_CASE("test concept tag", "[tag][concept]", TagList)
 {
     using TagToTest = TestType;
-    STATIC_REQUIRE(alpaka::Tag<TagToTest>);
-    STATIC_REQUIRE_FALSE(alpaka::Tag<NoTag1>);
-    STATIC_REQUIRE_FALSE(alpaka::Tag<NoTag2>);
+    STATIC_REQUIRE(alpaka::concepts::Tag<TagToTest>);
+    STATIC_REQUIRE_FALSE(alpaka::concepts::Tag<NoTag1>);
+    STATIC_REQUIRE_FALSE(alpaka::concepts::Tag<NoTag2>);
 
     STATIC_REQUIRE(specialize_tag<TagToTest>());
 }

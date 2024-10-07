@@ -13,7 +13,7 @@ namespace alpaka
 
     namespace detail
     {
-        template<alpaka::Tag TTag, typename T>
+        template<alpaka::concepts::Tag TTag, typename T>
         struct DevGlobalImplGeneric
         {
             // does not make use of TTag
@@ -31,7 +31,7 @@ namespace alpaka
             }
         };
 
-        template<alpaka::Tag TTag, typename T>
+        template<alpaka::concepts::Tag TTag, typename T>
         struct DevGlobalTrait
         {
             static constexpr bool const IsImplementedFor = alpaka::meta::DependentFalseType<TTag>::value;
