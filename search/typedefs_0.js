@@ -18,6 +18,6 @@ var searchData=
   ['applyenabledaccs_4694',['ApplyEnabledAccs',['../namespacealpaka_1_1test_1_1detail.html#a500c90b7587f9c4bc775f8bffde773ba',1,'alpaka::test::detail']]],
   ['atomic_5fref_4695',['atomic_ref',['../namespacealpaka_1_1detail.html#a9ee62c9b6003cde99028340666f38685',1,'alpaka::detail']]],
   ['atomiccpu_4696',['AtomicCpu',['../namespacealpaka.html#a179c2203b0e2bdf8a153a5593eac78ee',1,'alpaka']]],
-  ['atomichierarchy_4697',['AtomicHierarchy',['../namespacealpaka.html#abe27c0dad6ddd453657dee8f0bb343ff',1,'alpaka']]],
+  ['atomichierarchy_4697',['AtomicHierarchy',['../namespacealpaka.html#adb82b7a03913308a2fe6546627aa56d6',1,'alpaka']]],
   ['atomichierarchyconcept_4698',['AtomicHierarchyConcept',['../namespacealpaka.html#a802e615af70018a5f2a5d4972bc11a52',1,'alpaka']]]
 ];

@@ -64,25 +64,25 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"",
-"DependentFalseType_8hpp_source.html",
-"PhiloxVector_8hpp_source.html",
-"ViewStdVector_8hpp.html",
-"classalpaka_1_1WorkDivMembers.html#ad6c260bb1d8458e268599bf2d6add333",
-"classalpaka_1_1math_1_1MinStdLib.html",
-"dev_2Traits_8hpp.html#a41ac82cec34e8e887aaa4d8e4e064943",
-"math_2Traits_8hpp.html#aab46c7252772bedb6798b33155240936",
+"AccCpuOmp2Blocks_8hpp.html",
+"DevCpu_8hpp.html#a32307243b945c51f1a00dc17d96ea261",
+"PlatformCpuSycl_8hpp.html",
+"ViewStdArray_8hpp.html",
+"classalpaka_1_1WorkDivMembers.html#abecc96ddc3cabbabf9b0aa60cedea10f",
+"classalpaka_1_1math_1_1MaxStdLib.html",
+"dev_2Traits_8hpp.html#a32355d5c313b0846505aeaf5d42484be",
+"math_2Traits_8hpp.html#aa5c27246c5cd910f35c5584c2091bdb6",
 "namespacealpaka.html#ad3079297a886e6434a3ab3750585d033",
-"namespacealpaka_1_1rand_1_1distribution.html",
-"structalpakaGlobal_1_1AlpakaBuiltInAtomic_3_01alpaka_1_1AtomicXor_00_01T_00_01THierarchy_00_01ty56da9bc4788a1b57fe11bafcb671bd71.html",
-"structalpaka_1_1core_1_1detail_1_1AssertGreaterThan.html#aef04edfcc394cb33753d692b1c4aba82",
-"structalpaka_1_1math_1_1ConceptMathExp.html",
-"structalpaka_1_1meta_1_1IntegerSequenceValuesUnique_3_01std_1_1integer__sequence_3_01T_00_01Tvals_8_8_8_01_4_01_4.html",
-"structalpaka_1_1trait_1_1AccToTag_3_01alpaka_1_1AccGpuCudaRt_3_01TDim_00_01TIdx_01_4_01_4.html",
-"structalpaka_1_1trait_1_1DimType_3_01bt_1_1IdxBtLinear_3_01TDim_00_01TIdx_01_4_01_4.html",
-"structalpaka_1_1trait_1_1GetExtents_3_01ViewPlainPtr_3_01TDev_00_01TElem_00_01TDim_00_01TIdx_01_4_01_4.html",
-"structalpaka_1_1trait_1_1MemFence_3_01MemFenceCpuSerial_00_01TMemScope_01_4.html",
-"tinymt32_8h.html#ae3691626ade6db3de17c3be3b1be9556"
+"namespacealpaka_1_1rand.html#a93da771a5926ecbf71428adf07417ac8",
+"structalpakaGlobal_1_1AlpakaBuiltInAtomic_3_01alpaka_1_1AtomicSub_00_01T_00_01alpaka_1_1hierarch7a984d3f71dc137150cb8c421d9d638f.html#a7787725da9b0dcb20e5ce1e6d85c02e1",
+"structalpaka_1_1core_1_1detail_1_1ThreadPool.html#a9b86df90395fee792bedb478fcf9b09d",
+"structalpaka_1_1math_1_1ConceptMathCosh.html",
+"structalpaka_1_1meta_1_1IntegerSequenceValuesInRange_3_01std_1_1integer__sequence_3_01T_00_01Tva6fcbf8e2bf818be858aa347bee2107be.html#a2ac817ce7793e9f788fd2e0b01a285b4",
+"structalpaka_1_1trait_1_1AccToTag_3_01alpaka_1_1AccCpuThreads_3_01TDim_00_01TIdx_01_4_01_4.html",
+"structalpaka_1_1trait_1_1DimType_3_01WorkDivUniformCudaHipBuiltIn_3_01TDim_00_01TIdx_01_4_01_4.html",
+"structalpaka_1_1trait_1_1GetExtents_3_01ViewConst_3_01TView_01_4_01_4.html",
+"structalpaka_1_1trait_1_1Malloc_3_01T_00_01AllocCpuNew_01_4.html#ac05bd6f973a3e5b55c9c0133173310f9",
+"tinymt32_8h.html#ad7a4b73a72fafba00138f2491676c498"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

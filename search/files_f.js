@@ -7,5 +7,6 @@ var searchData=
   ['randstdlib_2ehpp_3964',['RandStdLib.hpp',['../RandStdLib_8hpp.html',1,'']]],
   ['randuniformcudahiprand_2ehpp_3965',['RandUniformCudaHipRand.hpp',['../RandUniformCudaHipRand_8hpp.html',1,'']]],
   ['readme_2emd_3966',['README.md',['../README_8md.html',1,'']]],
-  ['removerestrict_2ehpp_3967',['RemoveRestrict.hpp',['../RemoveRestrict_8hpp.html',1,'']]]
+  ['removerestrict_2ehpp_3967',['RemoveRestrict.hpp',['../RemoveRestrict_8hpp.html',1,'']]],
+  ['runtimemacros_2ehpp_3968',['RuntimeMacros.hpp',['../RuntimeMacros_8hpp.html',1,'']]]
 ];

@@ -21,13 +21,13 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
     ] ],
     [ "ClipCast.hpp", "ClipCast_8hpp.html", "ClipCast_8hpp" ],
     [ "Common.hpp", "core_2Common_8hpp.html", "core_2Common_8hpp" ],
-    [ "Concepts.hpp", "Concepts_8hpp.html", "Concepts_8hpp" ],
     [ "Cuda.hpp", "Cuda_8hpp.html", "Cuda_8hpp" ],
     [ "CudaHipCommon.hpp", "CudaHipCommon_8hpp.html", "CudaHipCommon_8hpp" ],
     [ "Debug.hpp", "Debug_8hpp.html", "Debug_8hpp" ],
     [ "Decay.hpp", "Decay_8hpp.html", "Decay_8hpp" ],
     [ "DemangleTypeNames.hpp", "DemangleTypeNames_8hpp.html", "DemangleTypeNames_8hpp" ],
     [ "Hip.hpp", "Hip_8hpp.html", null ],
+    [ "Interface.hpp", "Interface_8hpp.html", "Interface_8hpp" ],
     [ "OmpSchedule.hpp", "OmpSchedule_8hpp.html", "OmpSchedule_8hpp" ],
     [ "Positioning.hpp", "Positioning_8hpp.html", [
       [ "Blocks", "structalpaka_1_1hierarchy_1_1Blocks.html", null ],
@@ -35,6 +35,7 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
       [ "Threads", "structalpaka_1_1hierarchy_1_1Threads.html", null ]
     ] ],
     [ "RemoveRestrict.hpp", "RemoveRestrict_8hpp.html", "RemoveRestrict_8hpp" ],
+    [ "RuntimeMacros.hpp", "RuntimeMacros_8hpp.html", "RuntimeMacros_8hpp" ],
     [ "Sycl.hpp", "Sycl_8hpp.html", null ],
     [ "ThreadPool.hpp", "ThreadPool_8hpp.html", "ThreadPool_8hpp" ],
     [ "UniformCudaHip.hpp", "UniformCudaHip_8hpp.html", "UniformCudaHip_8hpp" ],
