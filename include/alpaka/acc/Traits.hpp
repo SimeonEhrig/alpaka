@@ -5,6 +5,7 @@
 #pragma once
 
 #include "alpaka/acc/AccDevProps.hpp"
+#include "alpaka/acc/Tag.hpp"
 #include "alpaka/core/Common.hpp"
 #include "alpaka/core/DemangleTypeNames.hpp"
 #include "alpaka/core/Interface.hpp"
@@ -111,5 +112,25 @@ namespace alpaka
         };
 
     } // namespace trait
+
+    namespace concepts
+    {
+        template<typename T>
+        concept Acc = requires {
+            requires alpaka::concepts::ImplementsInterface<alpaka::ConceptAcc, T>;
+            {
+                alpaka::getAccName<T>()
+            } -> std::same_as<std::string>;
+            {
+                alpaka::isSingleThreadAcc<T>
+            };
+            {
+                alpaka::isMultiThreadAcc<T>
+            };
+            // ether it is single or multi thread acc
+            requires alpaka::isSingleThreadAcc<T> != alpaka::isMultiThreadAcc<T>;
+            typename alpaka::AccToTag<T>;
+        };
+    } // namespace concepts
 
 } // namespace alpaka
