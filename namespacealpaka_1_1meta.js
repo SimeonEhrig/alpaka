@@ -45,10 +45,10 @@ var namespacealpaka_1_1meta =
     [ "ToTuple", "namespacealpaka_1_1meta.html#a26fd28a38cfe469c090015c6aaf79a98", null ],
     [ "Transform", "namespacealpaka_1_1meta.html#a4d6e5b453ca068f43742cf89a32593dd", null ],
     [ "Unique", "namespacealpaka_1_1meta.html#a49d048c65329b66f46dca6575c3f524c", null ],
-    [ "foldr", "namespacealpaka_1_1meta.html#a0cef95a955740a85417c93cee0a99d0e", null ],
-    [ "foldr", "namespacealpaka_1_1meta.html#acbbc58bde0ebd68f42808ae663e6047d", null ],
+    [ "foldr", "namespacealpaka_1_1meta.html#a8cf6f3fc516b02c12af4c57b8ae0558c", null ],
+    [ "foldr", "namespacealpaka_1_1meta.html#ab8085de62677768d08f084d5ce3c3dbb", null ],
     [ "forEachType", "namespacealpaka_1_1meta.html#a84fa9b71d57092b3d9da78ee5eea68b4", null ],
-    [ "ndLoop", "namespacealpaka_1_1meta.html#a7261a133bf3b52a94cc2e289f0c73497", null ],
+    [ "ndLoop", "namespacealpaka_1_1meta.html#af93dde2eb55b218b7cd582e35791524f", null ],
     [ "ndLoopIncIdx", "namespacealpaka_1_1meta.html#a85354683c329835d1fa3e4da7de4c750", null ],
     [ "isList", "namespacealpaka_1_1meta.html#a45dfe9bab48635f934c589c347768ffd", null ]
 ];

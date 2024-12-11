@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['_3cstrong_3ealpaka_3c_2fstrong_3e_20_2d_20abstraction_20library_20for_20parallel_20kernel_20acceleration_4908',['&lt;strong&gt;alpaka&lt;/strong&gt; - Abstraction Library for Parallel Kernel Acceleration',['../index.html',1,'']]]
+  ['abstraction_20library_20for_20parallel_20kernel_20acceleration_0',['&lt;strong&gt;alpaka&lt;/strong&gt; - Abstraction Library for Parallel Kernel Acceleration',['../index.html',1,'']]],
+  ['acceleration_1',['&lt;strong&gt;alpaka&lt;/strong&gt; - Abstraction Library for Parallel Kernel Acceleration',['../index.html',1,'']]],
+  ['alpaka_20strong_20abstraction_20library_20for_20parallel_20kernel_20acceleration_2',['&lt;strong&gt;alpaka&lt;/strong&gt; - Abstraction Library for Parallel Kernel Acceleration',['../index.html',1,'']]]
 ];

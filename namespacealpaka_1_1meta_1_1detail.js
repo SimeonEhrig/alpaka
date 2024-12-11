@@ -45,6 +45,6 @@ var namespacealpaka_1_1meta_1_1detail =
     [ "UniqueHelper< TList< Ts... >, U, Us... >", "structalpaka_1_1meta_1_1detail_1_1UniqueHelper_3_01TList_3_01Ts_8_8_8_01_4_00_01U_00_01Us_8_8_8_01_4.html", null ],
     [ "UniqueImpl", "structalpaka_1_1meta_1_1detail_1_1UniqueImpl.html", null ],
     [ "UniqueImpl< TList< Ts... > >", "structalpaka_1_1meta_1_1detail_1_1UniqueImpl_3_01TList_3_01Ts_8_8_8_01_4_01_4.html", "structalpaka_1_1meta_1_1detail_1_1UniqueImpl_3_01TList_3_01Ts_8_8_8_01_4_01_4" ],
-    [ "ndLoopImpl", "namespacealpaka_1_1meta_1_1detail.html#ad8abf25478ffee4131ff37b40b632c61", null ],
-    [ "ndLoopImpl", "namespacealpaka_1_1meta_1_1detail.html#a506c39189d46d44efa87e74169f88c22", null ]
+    [ "ndLoopImpl", "namespacealpaka_1_1meta_1_1detail.html#a2c9980a3cc3d576399e0bf663c8c1b83", null ],
+    [ "ndLoopImpl", "namespacealpaka_1_1meta_1_1detail.html#afafd8b3554fadd53f3dc6f9f7370e53d", null ]
 ];

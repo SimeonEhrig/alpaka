@@ -1,7 +1,7 @@
 var mem_2buf_2Traits_8hpp =
 [
-    [ "HasAsyncBufSupport", "structalpaka_1_1trait_1_1HasAsyncBufSupport.html", null ],
-    [ "HasMappedBufSupport", "structalpaka_1_1trait_1_1HasMappedBufSupport.html", null ],
+    [ "alpaka::trait::HasAsyncBufSupport< TDim, TDev >", "structalpaka_1_1trait_1_1HasAsyncBufSupport.html", null ],
+    [ "alpaka::trait::HasMappedBufSupport< TPlatform >", "structalpaka_1_1trait_1_1HasMappedBufSupport.html", null ],
     [ "Buf", "mem_2buf_2Traits_8hpp.html#ac9381e9159626b8969f257249c4c9386", null ],
     [ "allocAsyncBuf", "mem_2buf_2Traits_8hpp.html#ad3079297a886e6434a3ab3750585d033", null ],
     [ "allocAsyncBufIfSupported", "mem_2buf_2Traits_8hpp.html#a21d637e29eec7421a73c4500aa8a16f1", null ],

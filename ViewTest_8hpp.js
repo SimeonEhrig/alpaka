@@ -1,7 +1,7 @@
 var ViewTest_8hpp =
 [
-    [ "VerifyBytesSetKernel", "structalpaka_1_1test_1_1VerifyBytesSetKernel.html", "structalpaka_1_1test_1_1VerifyBytesSetKernel" ],
-    [ "VerifyViewsEqualKernel", "structalpaka_1_1test_1_1VerifyViewsEqualKernel.html", "structalpaka_1_1test_1_1VerifyViewsEqualKernel" ],
+    [ "alpaka::test::VerifyBytesSetKernel", "structalpaka_1_1test_1_1VerifyBytesSetKernel.html", "structalpaka_1_1test_1_1VerifyBytesSetKernel" ],
+    [ "alpaka::test::VerifyViewsEqualKernel", "structalpaka_1_1test_1_1VerifyViewsEqualKernel.html", "structalpaka_1_1test_1_1VerifyViewsEqualKernel" ],
     [ "iotaFillView", "ViewTest_8hpp.html#a2f2aac1d04ce746a78be008faa0266a7", null ],
     [ "testViewImmutable", "ViewTest_8hpp.html#a72adf94ec41fe458ea2ee43a3b70483c", null ],
     [ "testViewMutable", "ViewTest_8hpp.html#a4113677614d29718ffb0ce7c82d5d851", null ],

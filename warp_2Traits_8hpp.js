@@ -1,7 +1,7 @@
 var warp_2Traits_8hpp =
 [
-    [ "ConceptWarp", "structalpaka_1_1warp_1_1ConceptWarp.html", null ],
-    [ "activemask", "warp_2Traits_8hpp.html#aa4058d090f6686a4ce1c536f18f29521", null ],
+    [ "alpaka::warp::ConceptWarp", "structalpaka_1_1warp_1_1ConceptWarp.html", null ],
+    [ "activemask", "warp_2Traits_8hpp.html#a389ffa8507cd2bca42dff72f5d2c967d", null ],
     [ "all", "warp_2Traits_8hpp.html#a0b2d83334bcd2540baca4256ab378672", null ],
     [ "any", "warp_2Traits_8hpp.html#a5388b6f43f46df541ea8a2eb72ccee70", null ],
     [ "ballot", "warp_2Traits_8hpp.html#a0d88e1c2faaf38a4e14ea0d763402d32", null ],

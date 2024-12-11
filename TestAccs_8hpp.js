@@ -1,6 +1,6 @@
 var TestAccs_8hpp =
 [
-    [ "StreamOutAccName", "structalpaka_1_1test_1_1detail_1_1StreamOutAccName.html", "structalpaka_1_1test_1_1detail_1_1StreamOutAccName" ],
+    [ "alpaka::test::detail::StreamOutAccName", "structalpaka_1_1test_1_1detail_1_1StreamOutAccName.html", "structalpaka_1_1test_1_1detail_1_1StreamOutAccName" ],
     [ "AccCpuOmp2BlocksIfAvailableElseInt", "TestAccs_8hpp.html#a7b225e7486ad769712f62e0b6954eef8", null ],
     [ "AccCpuOmp2ThreadsIfAvailableElseInt", "TestAccs_8hpp.html#a7d67bfce90d9a2ab277bf358e13a86c0", null ],
     [ "AccCpuSerialIfAvailableElseInt", "TestAccs_8hpp.html#aa770229d63fe70864e122b54ccf7425f", null ],

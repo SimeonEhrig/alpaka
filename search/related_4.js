@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['getdevbyidx_3c_20platformcpu_20_3e_4843',['GetDevByIdx&lt; PlatformCpu &gt;',['../classalpaka_1_1DevCpu.html#a218c7564030c2ed614e64c184cd1281f',1,'alpaka::DevCpu']]],
-  ['getdevbyidx_3c_20platformuniformcudahiprt_3c_20tapi_20_3e_20_3e_4844',['GetDevByIdx&lt; PlatformUniformCudaHipRt&lt; TApi &gt; &gt;',['../classalpaka_1_1DevUniformCudaHipRt.html#a9aeac2f33c4c8d9869f29bb43268e542',1,'alpaka::DevUniformCudaHipRt']]]
+  ['uniformelementsalong_0',['UniformElementsAlong',['../classalpaka_1_1detail_1_1UniformElementsAlong_1_1const__iterator.html#aab8cf0efbb43399ed1ada85a970649e7',1,'alpaka::detail::UniformElementsAlong::const_iterator']]],
+  ['uniformelementsnd_1',['UniformElementsND',['../classalpaka_1_1detail_1_1UniformElementsND_1_1const__iterator.html#a47670eb8f49f8edb90fcbc5e3f9c89a1',1,'alpaka::detail::UniformElementsND::const_iterator']]],
+  ['uniformgroupelementsalong_2',['UniformGroupElementsAlong',['../classalpaka_1_1detail_1_1UniformGroupElementsAlong_1_1const__iterator.html#acd84d1dc7b921364cfa17c151c0bb0b5',1,'alpaka::detail::UniformGroupElementsAlong::const_iterator']]],
+  ['uniformgroupsalong_3',['UniformGroupsAlong',['../classalpaka_1_1detail_1_1UniformGroupsAlong_1_1const__iterator.html#a0538d372dd29f82cb64ad73bea69fe8d',1,'alpaka::detail::UniformGroupsAlong::const_iterator']]]
 ];

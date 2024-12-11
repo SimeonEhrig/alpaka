@@ -2,7 +2,7 @@ var namespacealpaka_1_1rand_1_1engine =
 [
     [ "cpu", "namespacealpaka_1_1rand_1_1engine_1_1cpu.html", "namespacealpaka_1_1rand_1_1engine_1_1cpu" ],
     [ "trait", "namespacealpaka_1_1rand_1_1engine_1_1trait.html", "namespacealpaka_1_1rand_1_1engine_1_1trait" ],
-    [ "uniform_cuda_hip", "namespacealpaka_1_1rand_1_1engine_1_1uniform__cuda__hip.html", "namespacealpaka_1_1rand_1_1engine_1_1uniform__cuda__hip" ],
+    [ "uniform_cuda_hip", "namespacealpaka_1_1rand_1_1engine_1_1uniform__cuda__hip.html", null ],
     [ "PhiloxBaseCommon", "classalpaka_1_1rand_1_1engine_1_1PhiloxBaseCommon.html", "classalpaka_1_1rand_1_1engine_1_1PhiloxBaseCommon" ],
     [ "PhiloxConstants", "classalpaka_1_1rand_1_1engine_1_1PhiloxConstants.html", "classalpaka_1_1rand_1_1engine_1_1PhiloxConstants" ],
     [ "PhiloxParams", "structalpaka_1_1rand_1_1engine_1_1PhiloxParams.html", "structalpaka_1_1rand_1_1engine_1_1PhiloxParams" ],

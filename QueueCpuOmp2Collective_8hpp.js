@@ -1,0 +1,18 @@
+var QueueCpuOmp2Collective_8hpp =
+[
+    [ "alpaka::cpu::detail::QueueCpuOmp2CollectiveImpl", "structalpaka_1_1cpu_1_1detail_1_1QueueCpuOmp2CollectiveImpl.html", "structalpaka_1_1cpu_1_1detail_1_1QueueCpuOmp2CollectiveImpl" ],
+    [ "alpaka::QueueCpuOmp2Collective", "structalpaka_1_1QueueCpuOmp2Collective.html", "structalpaka_1_1QueueCpuOmp2Collective" ],
+    [ "alpaka::test::trait::IsBlockingQueue< QueueCpuOmp2Collective >", "structalpaka_1_1test_1_1trait_1_1IsBlockingQueue_3_01QueueCpuOmp2Collective_01_4.html", null ],
+    [ "alpaka::trait::CurrentThreadWaitFor< QueueCpuOmp2Collective >", "structalpaka_1_1trait_1_1CurrentThreadWaitFor_3_01QueueCpuOmp2Collective_01_4.html", "structalpaka_1_1trait_1_1CurrentThreadWaitFor_3_01QueueCpuOmp2Collective_01_4" ],
+    [ "alpaka::trait::DevType< QueueCpuOmp2Collective >", "structalpaka_1_1trait_1_1DevType_3_01QueueCpuOmp2Collective_01_4.html", "structalpaka_1_1trait_1_1DevType_3_01QueueCpuOmp2Collective_01_4" ],
+    [ "alpaka::trait::Empty< QueueCpuOmp2Collective >", "structalpaka_1_1trait_1_1Empty_3_01QueueCpuOmp2Collective_01_4.html", "structalpaka_1_1trait_1_1Empty_3_01QueueCpuOmp2Collective_01_4" ],
+    [ "alpaka::trait::Enqueue< cpu::detail::QueueCpuOmp2CollectiveImpl, EventCpu >", "structalpaka_1_1trait_1_1Enqueue_3_01cpu_1_1detail_1_1QueueCpuOmp2CollectiveImpl_00_01EventCpu_01_4.html", "structalpaka_1_1trait_1_1Enqueue_3_01cpu_1_1detail_1_1QueueCpuOmp2CollectiveImpl_00_01EventCpu_01_4" ],
+    [ "alpaka::trait::Enqueue< QueueCpuOmp2Collective, EventCpu >", "structalpaka_1_1trait_1_1Enqueue_3_01QueueCpuOmp2Collective_00_01EventCpu_01_4.html", "structalpaka_1_1trait_1_1Enqueue_3_01QueueCpuOmp2Collective_00_01EventCpu_01_4" ],
+    [ "alpaka::trait::Enqueue< QueueCpuOmp2Collective, TaskKernelCpuOmp2Blocks< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1Enqueue_3_01QueueCpuOmp2Collective_00_01TaskKernelCpuOmp2Blocks_3_01TDib7d3e60108325bb157adab4b9faace85.html", "structalpaka_1_1trait_1_1Enqueue_3_01QueueCpuOmp2Collective_00_01TaskKernelCpuOmp2Blocks_3_01TDib7d3e60108325bb157adab4b9faace85" ],
+    [ "alpaka::trait::Enqueue< QueueCpuOmp2Collective, test::EventHostManualTriggerCpu<> >", "structalpaka_1_1trait_1_1Enqueue_3_01QueueCpuOmp2Collective_00_01test_1_1EventHostManualTriggerCpu_3_4_01_4.html", "structalpaka_1_1trait_1_1Enqueue_3_01QueueCpuOmp2Collective_00_01test_1_1EventHostManualTriggerCpu_3_4_01_4" ],
+    [ "alpaka::trait::Enqueue< QueueCpuOmp2Collective, TTask >", "structalpaka_1_1trait_1_1Enqueue_3_01QueueCpuOmp2Collective_00_01TTask_01_4.html", "structalpaka_1_1trait_1_1Enqueue_3_01QueueCpuOmp2Collective_00_01TTask_01_4" ],
+    [ "alpaka::trait::EventType< QueueCpuOmp2Collective >", "structalpaka_1_1trait_1_1EventType_3_01QueueCpuOmp2Collective_01_4.html", "structalpaka_1_1trait_1_1EventType_3_01QueueCpuOmp2Collective_01_4" ],
+    [ "alpaka::trait::GetDev< QueueCpuOmp2Collective >", "structalpaka_1_1trait_1_1GetDev_3_01QueueCpuOmp2Collective_01_4.html", "structalpaka_1_1trait_1_1GetDev_3_01QueueCpuOmp2Collective_01_4" ],
+    [ "alpaka::trait::WaiterWaitFor< cpu::detail::QueueCpuOmp2CollectiveImpl, EventCpu >", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01cpu_1_1detail_1_1QueueCpuOmp2CollectiveImpl_00_01EventCpu_01_4.html", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01cpu_1_1detail_1_1QueueCpuOmp2CollectiveImpl_00_01EventCpu_01_4" ],
+    [ "alpaka::trait::WaiterWaitFor< QueueCpuOmp2Collective, EventCpu >", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueCpuOmp2Collective_00_01EventCpu_01_4.html", "structalpaka_1_1trait_1_1WaiterWaitFor_3_01QueueCpuOmp2Collective_00_01EventCpu_01_4" ]
+];

@@ -1,39 +1,13 @@
 var dir_ddf4b6b668da48004ea34c8205023599 =
 [
-    [ "KernelFunctionAttributes.hpp", "KernelFunctionAttributes_8hpp.html", [
-      [ "KernelFunctionAttributes", "structalpaka_1_1KernelFunctionAttributes.html", "structalpaka_1_1KernelFunctionAttributes" ]
-    ] ],
+    [ "KernelFunctionAttributes.hpp", "KernelFunctionAttributes_8hpp.html", "KernelFunctionAttributes_8hpp" ],
     [ "SyclSubgroupSize.hpp", "SyclSubgroupSize_8hpp.html", null ],
     [ "TaskKernelCpuOmp2Blocks.hpp", "TaskKernelCpuOmp2Blocks_8hpp.html", "TaskKernelCpuOmp2Blocks_8hpp" ],
-    [ "TaskKernelCpuOmp2Threads.hpp", "TaskKernelCpuOmp2Threads_8hpp.html", [
-      [ "TaskKernelCpuOmp2Threads", "classalpaka_1_1TaskKernelCpuOmp2Threads.html", "classalpaka_1_1TaskKernelCpuOmp2Threads" ],
-      [ "AccType< TaskKernelCpuOmp2Threads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1AccType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1AccType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "DevType< TaskKernelCpuOmp2Threads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1DevType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1DevType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "DimType< TaskKernelCpuOmp2Threads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1DimType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1DimType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "FunctionAttributes< AccCpuOmp2Threads< TDim, TIdx >, TDev, TKernelFn, TArgs... >", "structalpaka_1_1trait_1_1FunctionAttributes_3_01AccCpuOmp2Threads_3_01TDim_00_01TIdx_01_4_00_01Te70d0d1d64a7daa427d1883e12442313.html", "structalpaka_1_1trait_1_1FunctionAttributes_3_01AccCpuOmp2Threads_3_01TDim_00_01TIdx_01_4_00_01Te70d0d1d64a7daa427d1883e12442313" ],
-      [ "IdxType< TaskKernelCpuOmp2Threads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1IdxType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1IdxType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "PlatformType< TaskKernelCpuOmp2Threads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1PlatformType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernffd8f26cbb10a968e4de2bde8850e97c.html", "structalpaka_1_1trait_1_1PlatformType_3_01TaskKernelCpuOmp2Threads_3_01TDim_00_01TIdx_00_01TKernffd8f26cbb10a968e4de2bde8850e97c" ]
-    ] ],
-    [ "TaskKernelCpuSerial.hpp", "TaskKernelCpuSerial_8hpp.html", [
-      [ "TaskKernelCpuSerial", "classalpaka_1_1TaskKernelCpuSerial.html", "classalpaka_1_1TaskKernelCpuSerial" ],
-      [ "AccType< TaskKernelCpuSerial< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1AccType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1AccType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "DevType< TaskKernelCpuSerial< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1DevType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1DevType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "DimType< TaskKernelCpuSerial< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1DimType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1DimType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "FunctionAttributes< AccCpuSerial< TDim, TIdx >, TDev, TKernelFn, TArgs... >", "structalpaka_1_1trait_1_1FunctionAttributes_3_01AccCpuSerial_3_01TDim_00_01TIdx_01_4_00_01TDev_081c302336323e7b8e71c52abaacea2da.html", "structalpaka_1_1trait_1_1FunctionAttributes_3_01AccCpuSerial_3_01TDim_00_01TIdx_01_4_00_01TDev_081c302336323e7b8e71c52abaacea2da" ],
-      [ "IdxType< TaskKernelCpuSerial< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1IdxType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1IdxType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "PlatformType< TaskKernelCpuSerial< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1PlatformType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1PlatformType_3_01TaskKernelCpuSerial_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ]
-    ] ],
+    [ "TaskKernelCpuOmp2Threads.hpp", "TaskKernelCpuOmp2Threads_8hpp.html", "TaskKernelCpuOmp2Threads_8hpp" ],
+    [ "TaskKernelCpuSerial.hpp", "TaskKernelCpuSerial_8hpp.html", "TaskKernelCpuSerial_8hpp" ],
     [ "TaskKernelCpuSycl.hpp", "TaskKernelCpuSycl_8hpp.html", null ],
     [ "TaskKernelCpuTbbBlocks.hpp", "TaskKernelCpuTbbBlocks_8hpp.html", null ],
-    [ "TaskKernelCpuThreads.hpp", "TaskKernelCpuThreads_8hpp.html", [
-      [ "TaskKernelCpuThreads", "classalpaka_1_1TaskKernelCpuThreads.html", "classalpaka_1_1TaskKernelCpuThreads" ],
-      [ "AccType< TaskKernelCpuThreads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1AccType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1AccType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "DevType< TaskKernelCpuThreads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1DevType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1DevType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "DimType< TaskKernelCpuThreads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1DimType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1DimType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "FunctionAttributes< AccCpuThreads< TDim, TIdx >, TDev, TKernelFn, TArgs... >", "structalpaka_1_1trait_1_1FunctionAttributes_3_01AccCpuThreads_3_01TDim_00_01TIdx_01_4_00_01TDev_6ec7eaadea4de4c95a6a1aa5aeaf6f79.html", "structalpaka_1_1trait_1_1FunctionAttributes_3_01AccCpuThreads_3_01TDim_00_01TIdx_01_4_00_01TDev_6ec7eaadea4de4c95a6a1aa5aeaf6f79" ],
-      [ "IdxType< TaskKernelCpuThreads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1IdxType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1IdxType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ],
-      [ "PlatformType< TaskKernelCpuThreads< TDim, TIdx, TKernelFnObj, TArgs... > >", "structalpaka_1_1trait_1_1PlatformType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4.html", "structalpaka_1_1trait_1_1PlatformType_3_01TaskKernelCpuThreads_3_01TDim_00_01TIdx_00_01TKernelFnObj_00_01TArgs_8_8_8_01_4_01_4" ]
-    ] ],
+    [ "TaskKernelCpuThreads.hpp", "TaskKernelCpuThreads_8hpp.html", "TaskKernelCpuThreads_8hpp" ],
     [ "TaskKernelFpgaSyclIntel.hpp", "TaskKernelFpgaSyclIntel_8hpp.html", null ],
     [ "TaskKernelGenericSycl.hpp", "TaskKernelGenericSycl_8hpp.html", null ],
     [ "TaskKernelGpuCudaRt.hpp", "TaskKernelGpuCudaRt_8hpp.html", "TaskKernelGpuCudaRt_8hpp" ],

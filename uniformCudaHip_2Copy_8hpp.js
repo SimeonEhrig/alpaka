@@ -1,0 +1,7 @@
+var uniformCudaHip_2Copy_8hpp =
+[
+    [ "alpaka::detail::TaskCopyUniformCudaHip< TApi, DimInt< 0u >, TViewDst, TViewSrc, TExtent >", "structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_010u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html", "structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_010u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4" ],
+    [ "alpaka::detail::TaskCopyUniformCudaHip< TApi, DimInt< 1u >, TViewDst, TViewSrc, TExtent >", "structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_011u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html", "structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_011u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4" ],
+    [ "alpaka::detail::TaskCopyUniformCudaHip< TApi, DimInt< 2u >, TViewDst, TViewSrc, TExtent >", "structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_012u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html", "structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_012u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4" ],
+    [ "alpaka::detail::TaskCopyUniformCudaHip< TApi, DimInt< 3u >, TViewDst, TViewSrc, TExtent >", "structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_013u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4.html", "structalpaka_1_1detail_1_1TaskCopyUniformCudaHip_3_01TApi_00_01DimInt_3_013u_01_4_00_01TViewDst_00_01TViewSrc_00_01TExtent_01_4" ]
+];

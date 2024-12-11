@@ -2,23 +2,12 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
 [
     [ "Align.hpp", "Align_8hpp.html", "Align_8hpp" ],
     [ "AlignedAlloc.hpp", "AlignedAlloc_8hpp.html", "AlignedAlloc_8hpp" ],
-    [ "ApiCudaRt.hpp", "ApiCudaRt_8hpp.html", [
-      [ "ApiCudaRt", "structalpaka_1_1ApiCudaRt.html", "structalpaka_1_1ApiCudaRt" ],
-      [ "HostFnAdaptor", "structalpaka_1_1ApiCudaRt_1_1HostFnAdaptor.html", "structalpaka_1_1ApiCudaRt_1_1HostFnAdaptor" ]
-    ] ],
+    [ "ApiCudaRt.hpp", "ApiCudaRt_8hpp.html", "ApiCudaRt_8hpp" ],
     [ "ApiHipRt.hpp", "ApiHipRt_8hpp.html", null ],
     [ "Assert.hpp", "Assert_8hpp.html", "Assert_8hpp" ],
-    [ "BarrierThread.hpp", "BarrierThread_8hpp.html", [
-      [ "BarrierThread", "classalpaka_1_1core_1_1threads_1_1BarrierThread.html", "classalpaka_1_1core_1_1threads_1_1BarrierThread" ],
-      [ "BarrierThreadWithPredicate", "classalpaka_1_1core_1_1threads_1_1BarrierThreadWithPredicate.html", "classalpaka_1_1core_1_1threads_1_1BarrierThreadWithPredicate" ],
-      [ "AtomicOp< BlockAnd >", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockAnd_01_4.html", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockAnd_01_4" ],
-      [ "AtomicOp< BlockCount >", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockCount_01_4.html", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockCount_01_4" ],
-      [ "AtomicOp< BlockOr >", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockOr_01_4.html", "structalpaka_1_1core_1_1threads_1_1detail_1_1AtomicOp_3_01BlockOr_01_4" ]
-    ] ],
+    [ "BarrierThread.hpp", "BarrierThread_8hpp.html", "BarrierThread_8hpp" ],
     [ "BoostPredef.hpp", "BoostPredef_8hpp.html", "BoostPredef_8hpp" ],
-    [ "CallbackThread.hpp", "CallbackThread_8hpp.html", [
-      [ "CallbackThread", "classalpaka_1_1core_1_1CallbackThread.html", "classalpaka_1_1core_1_1CallbackThread" ]
-    ] ],
+    [ "CallbackThread.hpp", "CallbackThread_8hpp.html", "CallbackThread_8hpp" ],
     [ "ClipCast.hpp", "ClipCast_8hpp.html", "ClipCast_8hpp" ],
     [ "Common.hpp", "core_2Common_8hpp.html", "core_2Common_8hpp" ],
     [ "Cuda.hpp", "Cuda_8hpp.html", "Cuda_8hpp" ],
@@ -29,11 +18,7 @@ var dir_cfa240ccb1fbe815dea98e3774bff08a =
     [ "Hip.hpp", "Hip_8hpp.html", null ],
     [ "Interface.hpp", "Interface_8hpp.html", "Interface_8hpp" ],
     [ "OmpSchedule.hpp", "OmpSchedule_8hpp.html", "OmpSchedule_8hpp" ],
-    [ "Positioning.hpp", "Positioning_8hpp.html", [
-      [ "Blocks", "structalpaka_1_1hierarchy_1_1Blocks.html", null ],
-      [ "Grids", "structalpaka_1_1hierarchy_1_1Grids.html", null ],
-      [ "Threads", "structalpaka_1_1hierarchy_1_1Threads.html", null ]
-    ] ],
+    [ "Positioning.hpp", "Positioning_8hpp.html", "Positioning_8hpp" ],
     [ "RemoveRestrict.hpp", "RemoveRestrict_8hpp.html", "RemoveRestrict_8hpp" ],
     [ "RuntimeMacros.hpp", "RuntimeMacros_8hpp.html", "RuntimeMacros_8hpp" ],
     [ "Sycl.hpp", "Sycl_8hpp.html", null ],

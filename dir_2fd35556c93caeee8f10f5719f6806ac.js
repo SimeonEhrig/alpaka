@@ -6,13 +6,9 @@ var dir_2fd35556c93caeee8f10f5719f6806ac =
     [ "idx", "dir_bcbca66e58b540e9262b43d4981a33a7.html", "dir_bcbca66e58b540e9262b43d4981a33a7" ],
     [ "mem", "dir_3c205fa56fa7dd5c5c65492fc2472d1d.html", "dir_3c205fa56fa7dd5c5c65492fc2472d1d" ],
     [ "queue", "dir_2c339e2f1fcd53762aa618f43207b31b.html", "dir_2c339e2f1fcd53762aa618f43207b31b" ],
-    [ "Array.hpp", "Array_8hpp.html", [
-      [ "Array", "structalpaka_1_1test_1_1Array.html", "structalpaka_1_1test_1_1Array" ]
-    ] ],
+    [ "Array.hpp", "Array_8hpp.html", "Array_8hpp" ],
     [ "Check.hpp", "Check_8hpp.html", "Check_8hpp" ],
     [ "Extent.hpp", "Extent_8hpp.html", "Extent_8hpp" ],
-    [ "KernelExecutionFixture.hpp", "KernelExecutionFixture_8hpp.html", [
-      [ "KernelExecutionFixture", "classalpaka_1_1test_1_1KernelExecutionFixture.html", "classalpaka_1_1test_1_1KernelExecutionFixture" ]
-    ] ],
+    [ "KernelExecutionFixture.hpp", "KernelExecutionFixture_8hpp.html", "KernelExecutionFixture_8hpp" ],
     [ "MeasureKernelRunTime.hpp", "MeasureKernelRunTime_8hpp.html", "MeasureKernelRunTime_8hpp" ]
 ];

@@ -1,7 +1,7 @@
 var classalpaka_1_1DevCpu =
 [
     [ "DevCpu", "classalpaka_1_1DevCpu.html#acd010da121738074cde3aab4b726b11d", null ],
-    [ "getAllQueues", "classalpaka_1_1DevCpu.html#ab324b087702441f8c017c75282f2c87c", null ],
+    [ "getAllQueues", "classalpaka_1_1DevCpu.html#a44dde2414c399cb59b9ee55e69e95e45", null ],
     [ "getNativeHandle", "classalpaka_1_1DevCpu.html#a2da988a706d5cad069288fd114016482", null ],
     [ "operator!=", "classalpaka_1_1DevCpu.html#a05a024d2bb357066a6557066c281996e", null ],
     [ "operator==", "classalpaka_1_1DevCpu.html#a3492d59ae31f40221aae144c0d0a945e", null ],

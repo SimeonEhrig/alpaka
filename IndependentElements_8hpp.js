@@ -1,9 +1,8 @@
 var IndependentElements_8hpp =
 [
-    [ "IndependentGroupElementsAlong", "classalpaka_1_1detail_1_1IndependentGroupElementsAlong.html", "classalpaka_1_1detail_1_1IndependentGroupElementsAlong" ],
-    [ "const_iterator", "classalpaka_1_1detail_1_1IndependentGroupElementsAlong_1_1const__iterator.html", "classalpaka_1_1detail_1_1IndependentGroupElementsAlong_1_1const__iterator" ],
-    [ "IndependentGroupsAlong", "classalpaka_1_1detail_1_1IndependentGroupsAlong.html", "classalpaka_1_1detail_1_1IndependentGroupsAlong" ],
-    [ "const_iterator", "classalpaka_1_1detail_1_1IndependentGroupsAlong_1_1const__iterator.html", "classalpaka_1_1detail_1_1IndependentGroupsAlong_1_1const__iterator" ],
+    [ "alpaka::detail::IndependentGroupElementsAlong< TAcc, Dim, typename >::const_iterator", "classalpaka_1_1detail_1_1IndependentGroupElementsAlong_1_1const__iterator.html", "classalpaka_1_1detail_1_1IndependentGroupElementsAlong_1_1const__iterator" ],
+    [ "alpaka::detail::IndependentGroupsAlong< TAcc, Dim, typename >", "classalpaka_1_1detail_1_1IndependentGroupsAlong.html", "classalpaka_1_1detail_1_1IndependentGroupsAlong" ],
+    [ "alpaka::detail::IndependentGroupsAlong< TAcc, Dim, typename >::const_iterator", "classalpaka_1_1detail_1_1IndependentGroupsAlong_1_1const__iterator.html", "classalpaka_1_1detail_1_1IndependentGroupsAlong_1_1const__iterator" ],
     [ "independentGroupElements", "IndependentElements_8hpp.html#a65e7ebae161feac957b9d25d66aa18fd", null ],
     [ "independentGroupElementsAlong", "IndependentElements_8hpp.html#a91e27d603a38edfbdccb5fd77ca9fe0e", null ],
     [ "independentGroupElementsAlongX", "IndependentElements_8hpp.html#a89bc92cf484d95fd7495e2b63c5c2ec2", null ],

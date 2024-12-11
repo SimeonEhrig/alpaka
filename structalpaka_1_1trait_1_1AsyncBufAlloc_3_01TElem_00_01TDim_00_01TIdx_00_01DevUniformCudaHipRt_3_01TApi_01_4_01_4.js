@@ -1,4 +1,4 @@
 var structalpaka_1_1trait_1_1AsyncBufAlloc_3_01TElem_00_01TDim_00_01TIdx_00_01DevUniformCudaHipRt_3_01TApi_01_4_01_4 =
 [
-    [ "allocAsyncBuf", "structalpaka_1_1trait_1_1AsyncBufAlloc_3_01TElem_00_01TDim_00_01TIdx_00_01DevUniformCudaHipRt_3_01TApi_01_4_01_4.html#af1a4d5765c49296b8dca709f12e046c1", null ]
+    [ "allocAsyncBuf", "structalpaka_1_1trait_1_1AsyncBufAlloc_3_01TElem_00_01TDim_00_01TIdx_00_01DevUniformCudaHipRt_3_01TApi_01_4_01_4.html#a2b5cef57f1a7fa83ffd01717353e7c60", null ]
 ];
