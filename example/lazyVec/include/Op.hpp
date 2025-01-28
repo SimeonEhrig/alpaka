@@ -54,11 +54,11 @@ namespace LinMath
         TData* m_view;
 
     public:
-        VecAccess(TData* const view, TIdx const size) : m_view(view), UnaryOp<TData, TIdx>(size)
+        VecAccess(TData* view, TIdx const size) : m_view(view), UnaryOp<TData, TIdx>(size)
         {
         }
 
-        ALPAKA_FN_INLINE ALPAKA_FN_ACC constexpr TData operator[](TIdx const i) const
+        ALPAKA_FN_INLINE ALPAKA_FN_ACC constexpr TData& operator[](TIdx const i) const
         {
             return m_view[i];
         }
@@ -69,7 +69,7 @@ namespace LinMath
     {
     public:
         template<concepts::ExprConstructable TLExpr, concepts::ExprConstructable TRExpr>
-        VectorAdd(TLExpr& l, TRExpr& r)
+        VectorAdd(TLExpr l, TRExpr r)
             : BinaryOp<
                 decltype(std::declval<typename TLExpr::Data>() + std::declval<typename TRExpr::Data>()),
                 decltype(l.size()),
@@ -91,7 +91,7 @@ namespace LinMath
     }; // namespace
 
     template<concepts::ExprConstructable TLExpr, concepts::ExprConstructable TRExpr>
-    VectorAdd(TLExpr& l, TRExpr& r) -> VectorAdd<
+    VectorAdd(TLExpr l, TRExpr r) -> VectorAdd<
         decltype(std::declval<typename TLExpr::Data>() + std::declval<typename TRExpr::Data>()),
         decltype(l.size()),
         decltype(l.op()),

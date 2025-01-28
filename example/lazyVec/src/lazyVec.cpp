@@ -37,11 +37,11 @@ void example(TTag)
                   LinMath::Expr<int, std::size_t, LinMath::VectorAdd<int, std::size_t, int*, int*>>>);
 
     LinMath::Expr e1 = vs1 + vs2;
-    LinMath::Expr e2 = e1;
+    LinMath::Expr e2 = e1 + vs3;
 
     LinMath::Vec r = eval<Acc>(queue, e2);
 
-    std::vector<int> result = vs2.getHostVector(queue);
+    std::vector<int> result = r.getHostVector(queue);
     for(auto i = 0; i < 10; ++i)
     {
         std::cout << result[i] << " ";
