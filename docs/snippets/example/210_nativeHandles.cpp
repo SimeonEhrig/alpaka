@@ -23,6 +23,64 @@
 using namespace alpaka;
 
 #if ALPAKA_LANG_CUDA
+
+TEST_CASE("generic native device and queue, use cuda", "[docs]")
+{
+    auto sel = onHost::makeDeviceSelector(api::cuda, deviceKind::nvidiaGpu);
+    if(!sel.isAvailable())
+        return;
+
+    uint32_t const nativeDevice = 0;
+    REQUIRE(cudaSetDevice(static_cast<int>(nativeDevice)) == cudaSuccess);
+
+    cudaStream_t nativeQueue{};
+    REQUIRE(cudaStreamCreateWithFlags(&nativeQueue, cudaStreamNonBlocking) == cudaSuccess);
+
+    {
+        // BEGIN-TUTORIAL-generic-device-handle
+        /* The type of the native device handle is depending on the API
+        For example, CUDA and HIP uses uint32_t */
+        uint32_t const nativeDevice = 0;
+
+        auto selector = onHost::makeDeviceSelector(api::cuda, deviceKind::nvidiaGpu);
+        onHost::Device device = selector.linkDevice(nativeDevice, true);
+        // END-TUTORIAL-generic-device-handle
+
+        // BEGIN-TUTORIAL-generic-queue-handle
+        // queueKind::nonBlocking and queueKind::Blocking are supported
+        onHost::Queue queue = device.linkQueue(queueKind::nonBlocking, nativeQueue, false);
+        // END-TUTORIAL-generic-queue-handle
+    }
+
+    // BEGIN-TUTORIAL-queue-raii-linked
+    {
+        auto selector = onHost::makeDeviceSelector(api::cuda, deviceKind::nvidiaGpu);
+        onHost::Device device = selector.linkDevice(nativeDevice, true);
+
+        onHost::Queue queue = device.linkQueue(queueKind::nonBlocking, nativeQueue, false);
+        /* The alpaka::Device and alpaka::Queue are going out of scope.
+         * There for the destructors call device and queue synchronize.
+         * The native device and stream are still valid. */
+    }
+    // END-TUTORIAL-queue-raii-linked
+
+    // BEGIN-TUTORIAL-queue-raii-unlink
+    {
+        auto selector = onHost::makeDeviceSelector(api::cuda, deviceKind::nvidiaGpu);
+        onHost::Device device = selector.linkDevice(nativeDevice, true);
+
+        onHost::Queue queue = device.linkQueue(queueKind::nonBlocking, nativeQueue, false);
+        device.unlinkQueue(nativeQueue);
+        selector.unlinkDevice(nativeDevice);
+        /* The alpaka::Device and alpaka::Queue are going out of scope.
+         * Because the device and queue are not linked to the native types anymore,
+         * the destructor will not synchronize the native device or queue. */
+    }
+    // END-TUTORIAL-queue-raii-unlink
+
+    REQUIRE(cudaStreamDestroy(nativeQueue) == cudaSuccess);
+}
+
 TEST_CASE("native handle link - cuda", "[docs]")
 {
     // BEGIN-TUTORIAL-nativeCuda
